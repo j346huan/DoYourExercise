@@ -1,0 +1,17 @@
+{
+  "id": "Geometry26",
+  "title": "A First Notebook in Geometry",
+  "shortTitle": "Geometry notebook",
+  "authors": "Do Your Exercise",
+  "year": 2026,
+  "description": "An original companion example to demonstrate references between books. This notebook has chapters without sections.",
+  "kind": "sample",
+  "cover": "covers/geometry-notebook.png",
+  "coverCredit": "Original cover created for Do Your Exercise",
+  "chapters": [
+    {
+      "id": "1",
+      "title": "Measuring paths"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "Hartshorne77",
+  "title": "Algebraic Geometry",
+  "shortTitle": "Hartshorne",
+  "authors": "Robin Hartshorne",
+  "year": 1977,
+  "description": "A future collection, following commutative algebra. No textbook statements or solutions have been added yet.",
+  "kind": "planned",
+  "cover": "covers/hartshorne.jpg",
+  "coverCredit": "Springer Nature",
+  "coverSource": "https://link.springer.com/book/10.1007/978-1-4757-3849-0",
+  "chapters": []
+}

@@ -1,0 +1,19 @@
+{
+  "tag": "1.2.1",
+  "chapter": "1",
+  "section": "2",
+  "number": "1",
+  "title": "Moving the parentheses",
+  "tags": [
+    "natural-numbers",
+    "associativity"
+  ],
+  "status": "solved",
+  "sample": true,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": {
+    "module": "LeanExercises.Notebook26.Ex_1_2_1",
+    "verified": false
+  }
+}

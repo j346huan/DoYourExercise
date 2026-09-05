@@ -1,0 +1,16 @@
+{
+  "tag": "2.1.1",
+  "chapter": "2",
+  "section": "1",
+  "number": "1",
+  "title": "Cancelling a common tail",
+  "tags": [
+    "natural-numbers",
+    "cancellation"
+  ],
+  "status": "unsolved",
+  "sample": true,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null
+}

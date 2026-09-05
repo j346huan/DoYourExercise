@@ -1,0 +1,16 @@
+{
+  "tag": "2.2.1",
+  "chapter": "2",
+  "section": "2",
+  "number": "1",
+  "title": "A sum cannot shrink its first term",
+  "tags": [
+    "natural-numbers",
+    "inequalities"
+  ],
+  "status": "unsolved",
+  "sample": true,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null
+}

@@ -1,0 +1,296 @@
+{
+  "books": [
+    {
+      "id": "Notebook26",
+      "title": "A First Notebook in Algebra",
+      "shortTitle": "Algebra notebook",
+      "authors": "Do Your Exercise",
+      "year": 2026,
+      "description": "Original exercises for exploring this notebook. These are demonstrations, not exercises from a published textbook.",
+      "kind": "sample",
+      "cover": "covers/algebra-notebook.png",
+      "coverCredit": "Original cover created for Do Your Exercise",
+      "chapters": [
+        {
+          "id": "1",
+          "title": "Working with sums",
+          "sections": [
+            {
+              "id": "1",
+              "title": "Adding zero"
+            },
+            {
+              "id": "2",
+              "title": "Grouping terms"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Equations and inequalities",
+          "sections": [
+            {
+              "id": "1",
+              "title": "Cancellation"
+            },
+            {
+              "id": "2",
+              "title": "Comparing sums"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Atiyah69",
+      "title": "Introduction to Commutative Algebra",
+      "shortTitle": "Atiyah–Macdonald",
+      "authors": "M. F. Atiyah · I. G. Macdonald",
+      "year": 1969,
+      "description": "The first planned textbook collection. No textbook statements or solutions have been added yet.",
+      "kind": "planned",
+      "cover": "covers/atiyah-macdonald.jpg",
+      "coverCredit": "CRC Press / Taylor & Francis",
+      "coverSource": "https://www.routledge.com/Introduction-To-Commutative-Algebra/Atiyah-MacDonald/p/book/9780367091286",
+      "chapters": []
+    },
+    {
+      "id": "Hartshorne77",
+      "title": "Algebraic Geometry",
+      "shortTitle": "Hartshorne",
+      "authors": "Robin Hartshorne",
+      "year": 1977,
+      "description": "A future collection, following commutative algebra. No textbook statements or solutions have been added yet.",
+      "kind": "planned",
+      "cover": "covers/hartshorne.jpg",
+      "coverCredit": "Springer Nature",
+      "coverSource": "https://link.springer.com/book/10.1007/978-1-4757-3849-0",
+      "chapters": []
+    },
+    {
+      "id": "Geometry26",
+      "title": "A First Notebook in Geometry",
+      "shortTitle": "Geometry notebook",
+      "authors": "Do Your Exercise",
+      "year": 2026,
+      "description": "An original companion example to demonstrate references between books. This notebook has chapters without sections.",
+      "kind": "sample",
+      "cover": "covers/geometry-notebook.png",
+      "coverCredit": "Original cover created for Do Your Exercise",
+      "chapters": [
+        {
+          "id": "1",
+          "title": "Measuring paths"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "tag": "1.1",
+      "chapter": "1",
+      "section": null,
+      "number": "1",
+      "title": "Measuring three consecutive segments",
+      "tags": [
+        "length",
+        "associativity"
+      ],
+      "status": "solved",
+      "sample": true,
+      "updated": "2026-09-05",
+      "dependencies": [
+        "Notebook26,1.2.1"
+      ],
+      "lean": {
+        "module": "LeanExercises.Geometry26.Ex_1_1",
+        "verified": false
+      },
+      "id": "Geometry26,1.1",
+      "slug": "Geometry26-1-1",
+      "book": "Geometry26",
+      "bookTitle": "A First Notebook in Geometry",
+      "chapterTitle": "Measuring paths",
+      "sectionTitle": null,
+      "statement": "A broken line consists of three consecutive segments of lengths $a,b,c$, measured in whole units.\n\nShow that grouping the first two lengths or the last two lengths gives the same total:\n\\[\n(a+b)+c=a+(b+c).\n\\]\n",
+      "files": [
+        "statement.tex",
+        "proof.tex",
+        "proof.lean",
+        "translation.tex"
+      ],
+      "sourcePath": "content/Geometry26/Geometry26-1-1"
+    },
+    {
+      "tag": "1.1.1",
+      "chapter": "1",
+      "section": "1",
+      "number": "1",
+      "title": "Zero on the right",
+      "tags": [
+        "natural-numbers",
+        "identities"
+      ],
+      "status": "solved",
+      "sample": true,
+      "updated": "2026-09-05",
+      "dependencies": [],
+      "lean": {
+        "module": "LeanExercises.Notebook26.Ex_1_1_1",
+        "verified": false
+      },
+      "id": "Notebook26,1.1.1",
+      "slug": "Notebook26-1-1-1",
+      "book": "Notebook26",
+      "bookTitle": "A First Notebook in Algebra",
+      "chapterTitle": "Working with sums",
+      "sectionTitle": "Adding zero",
+      "statement": "Let $n$ be a natural number. Prove that\n\\[\nn+0=n.\n\\]\n",
+      "files": [
+        "statement.tex",
+        "proof.tex",
+        "proof.lean",
+        "translation.tex"
+      ],
+      "sourcePath": "content/Notebook26/Notebook26-1-1-1"
+    },
+    {
+      "tag": "1.1.2",
+      "chapter": "1",
+      "section": "1",
+      "number": "2",
+      "title": "Removing a silent term",
+      "tags": [
+        "natural-numbers",
+        "rewriting"
+      ],
+      "status": "solved",
+      "sample": true,
+      "updated": "2026-09-05",
+      "dependencies": [
+        "Notebook26,1.1.1"
+      ],
+      "lean": {
+        "module": "LeanExercises.Notebook26.Ex_1_1_2",
+        "verified": false
+      },
+      "id": "Notebook26,1.1.2",
+      "slug": "Notebook26-1-1-2",
+      "book": "Notebook26",
+      "bookTitle": "A First Notebook in Algebra",
+      "chapterTitle": "Working with sums",
+      "sectionTitle": "Adding zero",
+      "statement": "Let $n,m$ be natural numbers. Prove that\n\\[\n(n+0)+m=n+m.\n\\]\n",
+      "files": [
+        "statement.tex",
+        "proof.tex",
+        "proof.lean",
+        "translation.tex"
+      ],
+      "sourcePath": "content/Notebook26/Notebook26-1-1-2"
+    },
+    {
+      "tag": "1.2.1",
+      "chapter": "1",
+      "section": "2",
+      "number": "1",
+      "title": "Moving the parentheses",
+      "tags": [
+        "natural-numbers",
+        "associativity"
+      ],
+      "status": "solved",
+      "sample": true,
+      "updated": "2026-09-05",
+      "dependencies": [],
+      "lean": {
+        "module": "LeanExercises.Notebook26.Ex_1_2_1",
+        "verified": false
+      },
+      "id": "Notebook26,1.2.1",
+      "slug": "Notebook26-1-2-1",
+      "book": "Notebook26",
+      "bookTitle": "A First Notebook in Algebra",
+      "chapterTitle": "Working with sums",
+      "sectionTitle": "Grouping terms",
+      "statement": "Let $a,b,c$ be natural numbers. Show that\n\\[\na+(b+c)=(a+b)+c.\n\\]\n",
+      "files": [
+        "statement.tex",
+        "proof.tex",
+        "proof.lean",
+        "translation.tex"
+      ],
+      "sourcePath": "content/Notebook26/Notebook26-1-2-1"
+    },
+    {
+      "tag": "2.1.1",
+      "chapter": "2",
+      "section": "1",
+      "number": "1",
+      "title": "Cancelling a common tail",
+      "tags": [
+        "natural-numbers",
+        "cancellation"
+      ],
+      "status": "unsolved",
+      "sample": true,
+      "updated": "2026-09-05",
+      "dependencies": [],
+      "lean": null,
+      "id": "Notebook26,2.1.1",
+      "slug": "Notebook26-2-1-1",
+      "book": "Notebook26",
+      "bookTitle": "A First Notebook in Algebra",
+      "chapterTitle": "Equations and inequalities",
+      "sectionTitle": "Cancellation",
+      "statement": "Let $n,m,k$ be natural numbers. Suppose that $n+k=m+k$. Prove that $n=m$.\n",
+      "files": [
+        "statement.tex"
+      ],
+      "sourcePath": "content/Notebook26/Notebook26-2-1-1"
+    },
+    {
+      "tag": "2.2.1",
+      "chapter": "2",
+      "section": "2",
+      "number": "1",
+      "title": "A sum cannot shrink its first term",
+      "tags": [
+        "natural-numbers",
+        "inequalities"
+      ],
+      "status": "unsolved",
+      "sample": true,
+      "updated": "2026-09-05",
+      "dependencies": [],
+      "lean": null,
+      "id": "Notebook26,2.2.1",
+      "slug": "Notebook26-2-2-1",
+      "book": "Notebook26",
+      "bookTitle": "A First Notebook in Algebra",
+      "chapterTitle": "Equations and inequalities",
+      "sectionTitle": "Comparing sums",
+      "statement": "Let $n,m$ be natural numbers. Prove that $n\\leq n+m$.\n",
+      "files": [
+        "statement.tex"
+      ],
+      "sourcePath": "content/Notebook26/Notebook26-2-2-1"
+    }
+  ],
+  "tex": [
+    "A broken line consists of three consecutive segments of lengths $a,b,c$, measured in whole units.\n\nShow that grouping the first two lengths or the last two lengths gives the same total:\n\\[\n(a+b)+c=a+(b+c).\n\\]\n",
+    "Exercise \\exref{Notebook26,1.2.1} gives $a+(b+c)=(a+b)+c$. Reverse that equality. Thus both groupings give the same length.\n",
+    "Apply \\texttt{DoYourExercise.Notebook26.ex_1_2_1} to $a,b,c$. The theorem from \\exref{Notebook26,1.2.1} gives $a+(b+c)=(a+b)+c$.\n\nReverse this equality with \\texttt{.symm} to obtain the goal.\n",
+    "Let $n$ be a natural number. Prove that\n\\[\nn+0=n.\n\\]\n",
+    "Adding zero leaves a natural number unchanged. Therefore $n+0=n$.\n",
+    "Let $n$ be a natural number. The goal is $n+0=n$.\n\nApply the library theorem \\texttt{Nat.add_zero} to $n$. It gives exactly this equality, so the goal is closed.\n",
+    "Let $n,m$ be natural numbers. Prove that\n\\[\n(n+0)+m=n+m.\n\\]\n",
+    "By \\exref{1.1.1}, we have $n+0=n$. Substituting this equality into the left-hand side gives\n\\[\n(n+0)+m=n+m,\n\\]\nas required.\n",
+    "Let $n,m$ be natural numbers. Rewrite $n+0$ to $n$ using the previously proved theorem \\texttt{ex_1_1_1} from \\exref{1.1.1}.\n\nBoth sides now read $n+m$. The rewrite closes the equality goal by reflexivity.\n",
+    "Let $a,b,c$ be natural numbers. Show that\n\\[\na+(b+c)=(a+b)+c.\n\\]\n",
+    "Addition of natural numbers is associative, so $(a+b)+c=a+(b+c)$. Reverse this equality to obtain the required statement.\n",
+    "Apply \\texttt{Nat.add_assoc} to $a,b,c$. It gives $(a+b)+c=a+(b+c)$.\n\nReverse the equality using \\texttt{.symm}. The result has exactly the type of the goal.\n",
+    "Let $n,m,k$ be natural numbers. Suppose that $n+k=m+k$. Prove that $n=m$.\n",
+    "Let $n,m$ be natural numbers. Prove that $n\\leq n+m$.\n"
+  ]
+}
