@@ -6,10 +6,8 @@
       "shortTitle": "Algebra notebook",
       "authors": "Do Your Exercise",
       "year": 2026,
-      "description": "Original exercises for exploring this notebook. These are demonstrations, not exercises from a published textbook.",
       "kind": "sample",
       "cover": "covers/algebra-notebook.png",
-      "coverCredit": "Original cover created for Do Your Exercise",
       "chapters": [
         {
           "id": "1",
@@ -47,7 +45,6 @@
       "shortTitle": "Atiyah–Macdonald",
       "authors": "M. F. Atiyah · I. G. Macdonald",
       "year": 1969,
-      "description": "The first planned textbook collection. No textbook statements or solutions have been added yet.",
       "kind": "planned",
       "cover": "covers/atiyah-macdonald.jpg",
       "coverCredit": "CRC Press / Taylor & Francis",
@@ -60,7 +57,6 @@
       "shortTitle": "Hartshorne",
       "authors": "Robin Hartshorne",
       "year": 1977,
-      "description": "A future collection, following commutative algebra. No textbook statements or solutions have been added yet.",
       "kind": "planned",
       "cover": "covers/hartshorne.jpg",
       "coverCredit": "Springer Nature",
@@ -73,10 +69,8 @@
       "shortTitle": "Geometry notebook",
       "authors": "Do Your Exercise",
       "year": 2026,
-      "description": "An original companion example to demonstrate references between books. This notebook has chapters without sections.",
       "kind": "sample",
       "cover": "covers/geometry-notebook.png",
-      "coverCredit": "Original cover created for Do Your Exercise",
       "chapters": [
         {
           "id": "1",

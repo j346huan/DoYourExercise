@@ -16,7 +16,7 @@ npm ci
 npm run dev
 ```
 
-On this computer, `./Start-Notebook.ps1` selects a compatible installed runtime.
+On Windows, you can also start the site with `./Start-Notebook.ps1`.
 
 Edit canonical files in `content/`, then refresh the page. Do not edit generated files in `public/content/`, `public/catalog.json`, or `LeanExercises/`.
 
