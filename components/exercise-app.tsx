@@ -99,7 +99,7 @@ function useSource(problem: Problem | null, file: string | null) {
   useEffect(() => {
     if (!key) return;
     const controller = new AbortController();
-    fetch(asset(key), { signal: controller.signal })
+    fetch(asset(key), { signal: controller.signal, cache: 'no-store' })
       .then((r) => {
         if (!r.ok) throw Error(`Source unavailable (${r.status}).`);
         return r.text();
@@ -138,7 +138,10 @@ export default function ExerciseApp() {
   const scrolls = useRef<Record<string, number>>({});
   useEffect(() => {
     const controller = new AbortController();
-    fetch(asset('catalog.json'), { signal: controller.signal })
+    fetch(asset('catalog.json'), {
+      signal: controller.signal,
+      cache: 'no-store',
+    })
       .then((r) => {
         if (!r.ok) throw Error('The exercise catalog could not be loaded.');
         return r.json();
