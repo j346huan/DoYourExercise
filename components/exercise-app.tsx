@@ -816,14 +816,44 @@ export default function ExerciseApp() {
                 possible.
               </p>
               <h3>Sources</h3>
-              <pre className="bibliography">
-                <code>
-                  {catalog?.books
-                    .map((b) => b.bibtex)
-                    .filter(Boolean)
-                    .join('\n\n')}
-                </code>
-              </pre>
+              <dl className="bibliography">
+                {catalog?.books.map((book) => (
+                  <div className="reference-entry" key={book.id}>
+                    <dt className="reference-label">[{book.id}]</dt>
+                    <dd>
+                      {book.authors.replaceAll(' · ', ' and ')}.{' '}
+                      <cite>{book.title}</cite>.{' '}
+                      {book.publication.series && (
+                        <>
+                          {book.publication.series}
+                          {book.publication.volume
+                            ? `, vol. ${book.publication.volume}`
+                            : ''}
+                          .{' '}
+                        </>
+                      )}
+                      {book.publication.publisher}
+                      {book.publication.address
+                        ? `, ${book.publication.address}`
+                        : ''}
+                      , {book.year}.
+                      {book.publication.doi && (
+                        <>
+                          {' '}
+                          <a
+                            href={`https://doi.org/${book.publication.doi}`}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            doi:{book.publication.doi}
+                          </a>
+                          .
+                        </>
+                      )}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
             </div>
           )}
         </DialogContent>

@@ -2620,12 +2620,35 @@ h1 {
   min-width: 0;
 }
 .bibliography {
-  white-space: pre-wrap;
-  overflow-wrap: anywhere;
-  font:
-    13px/1.7 Consolas,
-    monospace;
   margin: 14px 0 0;
+  display: grid;
+  gap: 18px;
+  font:
+    14px/1.7 Arial,
+    Helvetica,
+    sans-serif;
+}
+.reference-entry {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 12px;
+  align-items: baseline;
+}
+.reference-label {
+  color: var(--primary);
+}
+.reference-entry dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.reference-entry cite {
+  font-style: italic;
+}
+.reference-entry a {
+  color: var(--primary);
+}
+.reference-entry a:hover {
+  text-decoration: underline;
 }
 .about-content {
   padding-top: 0;
@@ -2716,8 +2739,9 @@ h1 {
     gap: 6px;
     font-size: 12px;
   }
-  .bibliography {
-    font-size: 12px;
+  .reference-entry {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
   }
 }
 .about-dialog [data-slot='dialog-header'] {

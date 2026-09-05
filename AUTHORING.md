@@ -2,7 +2,7 @@
 
 ## Textbooks
 
-Each textbook has a folder such as `content/Atiyah69/`, with `book.json` containing its ID, title, authors, year, cover path, BibTeX entry, and chapters. The BibTeX entry key must match the book ID. Omit a chapter's `sections` field if the book numbers exercises directly within chapters.
+Each textbook has a folder such as `content/Atiyah69/`, with `book.json` containing its ID, title, authors, year, cover path, publication details, and chapters. The About page formats references from these fields and uses the book ID as the citation label. The `publication` object contains `publisher` and optional `address`, `series`, `volume`, and `doi` fields. Omit a chapter's `sections` field if the book numbers exercises directly within chapters.
 
 ## Exercise files
 

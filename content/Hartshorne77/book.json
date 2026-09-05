@@ -8,5 +8,11 @@
   "coverCredit": "Springer Nature",
   "coverSource": "https://link.springer.com/book/10.1007/978-1-4757-3849-0",
   "chapters": [],
-  "bibtex": "@book{Hartshorne77,\n  author    = {Hartshorne, Robin},\n  title     = {Algebraic Geometry},\n  series    = {Graduate Texts in Mathematics},\n  volume    = {52},\n  publisher = {Springer-Verlag},\n  address   = {New York},\n  year      = {1977},\n  isbn      = {9780387902449},\n  doi       = {10.1007/978-1-4757-3849-0}\n}"
+  "publication": {
+    "publisher": "Springer-Verlag",
+    "address": "New York",
+    "series": "Graduate Texts in Mathematics",
+    "volume": "52",
+    "doi": "10.1007/978-1-4757-3849-0"
+  }
 }

@@ -5,7 +5,13 @@ export interface Book {
   shortTitle: string;
   authors: string;
   year: number;
-  bibtex: string;
+  publication: {
+    publisher: string;
+    address?: string;
+    series?: string;
+    volume?: string;
+    doi?: string;
+  };
   cover: string | null;
   coverCredit: string | null;
   coverSource?: string;

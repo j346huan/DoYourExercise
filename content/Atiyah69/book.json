@@ -13,5 +13,8 @@
       "title": "Rings and Ideals"
     }
   ],
-  "bibtex": "@book{Atiyah69,\n  author    = {Atiyah, M. F. and Macdonald, I. G.},\n  title     = {Introduction to Commutative Algebra},\n  publisher = {Addison-Wesley},\n  address   = {Reading, Massachusetts},\n  year      = {1969},\n  isbn      = {9780201003611}\n}"
+  "publication": {
+    "publisher": "Addison-Wesley",
+    "address": "Reading, Massachusetts"
+  }
 }
