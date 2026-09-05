@@ -1,7 +1,7 @@
-\textbf{(i)} If $\overline Y$ were a union of two closed proper subsets, then $Y$ is a union of the corresponding closed subsets, and they are proper since closure of each of them can not be all of $\overline Y$.
+\textbf{(i)} Any two nonempty relatively open subsets of $\overline Y$ meet $Y$. If $Y$ is irreducible, their intersections with $Y$ meet, so $\overline Y$ is irreducible.
 
-\textbf{(ii)} Follows from Zorn's lemma, union of a chain of irreducible subspaces is irreducible (check non-empty open sets must intersect).
+\textbf{(ii)} The union of a chain of irreducible subspaces is irreducible: two open sets meeting the union both meet one member of the chain and therefore intersect there. Zorn's lemma gives a maximal irreducible subspace containing any given one.
 
-\textbf{(iii)} Singletons are irreducible, so extend them to maximal irreducible subspaces and get a cover. For Hausdorff spaces, if the space has more than $1$ point, then we can split it into two proper closed subsets, making it reducible, so irreducible components are singletons.
+\textbf{(iii)} By (i), a maximal irreducible subspace is closed. Singletons are irreducible, so these maximal subspaces cover the space. In a Hausdorff space, two distinct points have disjoint neighborhoods, so an irreducible subspace contains at most one point. The components are therefore singletons.
 
-\textbf{(iv)} By (i) irreducible components must be closed, since maximal closed subspace correspond to minimal prime ideals, and that $V(\mathfrak p)=\operatorname{Spec}X/\mathfrak p$ where $X/\mathfrak p$ is integral domain, so nilradical is $0$ and prime, meaning $V(\mathfrak p)$ is irreducible, we know the irreducible components are extactly $V(\mathfrak p)$ where $\mathfrak p$ minimal prime.
+\textbf{(iv)} A closed subset $V(\mathfrak a)$ is homeomorphic to $\operatorname{Spec}(A/\mathfrak a)$, hence is irreducible iff $\sqrt{\mathfrak a}$ is prime by \exref{1.19}. Since inclusion reverses under $V$, the maximal irreducible closed subsets are precisely $V(\mathfrak p)$ for minimal primes $\mathfrak p$.

@@ -1,0 +1,5 @@
+The union of a chain of non-finitely-generated ideals is not finitely generated: otherwise its finitely many generators would lie in one member of the chain, making that member equal to the union. Hence Zorn's lemma gives a maximal non-finitely-generated ideal $\mathfrak{a}$.
+
+Suppose $xy\in\mathfrak{a}$ but $x,y\notin\mathfrak{a}$. Since $\mathfrak{a}+(x)$ is finitely generated, there is a finitely generated ideal $\mathfrak{a}_0\subseteq\mathfrak{a}$ with $\mathfrak{a}_0+(x)=\mathfrak{a}+(x)$: take the $\mathfrak{a}$-parts of finitely many generators. Then
+\[\mathfrak{a}=\mathfrak{a}_0+x(\mathfrak{a}:x).\]
+Indeed, an element of $\mathfrak{a}$ has the form $a_0+cx$, and $cx\in\mathfrak{a}$ precisely when $c\in(\mathfrak{a}:x)$. Since $y\in(\mathfrak{a}:x)\setminus\mathfrak{a}$, this colon ideal is finitely generated. The displayed equality makes $\mathfrak{a}$ finitely generated, a contradiction. Thus $\mathfrak{a}$ is prime, and the final assertion follows by contraposition.

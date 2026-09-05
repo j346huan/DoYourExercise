@@ -8,11 +8,5 @@
   "updated": "2026-09-05",
   "dependencies": [],
   "lean": null,
-  "coverage": "empty",
-  "source": {
-    "url": "https://j346huan.github.io/download/A.pdf",
-    "pages": [9],
-    "label": "Original solution PDF",
-    "statement": "missing"
-  }
+  "coverage": "empty"
 }

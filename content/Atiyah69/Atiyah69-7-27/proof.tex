@@ -1,0 +1,10 @@
+\textbf{(i)} The tensor product of finitely generated flat modules is finitely generated and flat. Tensoring an exact sequence with a flat module preserves exactness, so $\gamma_1(M)\gamma_1(N)=\gamma_1(M\otimes_A N)$ respects the defining relations in both variables. The standard symmetry, associativity and unit isomorphisms for tensor products give a commutative ring with identity $\gamma_1(A)$.
+
+\textbf{(ii)} Define $\gamma_1(P)\gamma_A(M)=\gamma_A(P\otimes_A M)$. Flatness of $P$ makes this additive in $M$. If $0\to P'\to P\to P''\to0$ is a short exact sequence of flat modules, then $\operatorname{Tor}_1^A(P'',M)=0$, so tensoring with $M$ is exact as well. Thus the action respects the relations in $K_1(A)$. Associativity and the identity follow from tensor product isomorphisms.
+
+\textbf{(iii)} By \exref{7.15}, every finitely generated flat module over a Noetherian local ring is finite free. Its class is therefore $n\gamma_1(A)$ for its rank $n$. Short exact sequences of finite free modules split, so rank is additive and induces an inverse to $\mathbb{Z}\to K_1(A)$, $n\mapsto n\gamma_1(A)$. Ranks multiply under tensor product, so this is a ring isomorphism.
+
+\textbf{(iv)} Extension of scalars sends finitely generated flat modules to finitely generated flat modules. For a short exact sequence of such modules, flatness of the quotient gives $\operatorname{Tor}_1^A(B,P'')=0$, so extension also preserves the sequence. Hence it induces $f^!$ with $f^!(\gamma_1(P))=\gamma_1(B\otimes_A P)$. The isomorphism $(B\otimes_A P)\otimes_B(B\otimes_A Q)\cong B\otimes_A(P\otimes_A Q)$ and $B\otimes_A A\cong B$ show that it is a ring homomorphism. The isomorphism $C\otimes_B(B\otimes_A P)\cong C\otimes_A P$ proves the composition formula.
+
+\textbf{(v)} By additivity, take $x=\gamma_1(P)$ and $y=\gamma_B(M)$. After restriction to $A$, the natural isomorphism $(B\otimes_A P)\otimes_B M\cong P\otimes_A M$ gives
+\[f_!(f^!(x)y)=\gamma_A(P\otimes_A M)=xf_!(y).\]

@@ -1,0 +1,11 @@
+Put $S=v(A\setminus\mathfrak{p})$. It contains zero and is closed under addition. If $0\leq\beta\leq\alpha\in S$, choose $x\notin\mathfrak{p}$ and $y\in A$ with $v(x)=\alpha$, $v(y)=\beta$. Then $x/y\in A$, so $y$ cannot lie in $\mathfrak{p}$. Hence $\beta\in S$.
+
+The subgroup $\Delta=S-S$ satisfies $\Delta\cap\Gamma_{\geq0}=S$: if $s-t\geq0$ with $s,t\in S$, then $0\leq s-t\leq s$, so $s-t\in S$. It follows that $\Delta$ is isolated. Moreover,
+\[\mathfrak{p}=\{0\}\cup\{a\in A\setminus\{0\}:v(a)\notin\Delta\}.\]
+Thus $\Delta$ determines $\mathfrak{p}$.
+
+Conversely, for an isolated subgroup $\Delta$, define $\mathfrak{p}$ by this formula. The nonnegative values outside $\Delta$ are upward closed: a larger value in $\Delta$ would force the smaller one into $\Delta$. The valuation inequality and $v(ab)=v(a)+v(b)$ therefore show that $\mathfrak{p}$ is an ideal. Its complement is multiplicatively closed because $\Delta$ is a subgroup, and $1\notin\mathfrak{p}$, so it is prime. Surjectivity of $v$ gives $v(A\setminus\mathfrak{p})=\Delta\cap\Gamma_{\geq0}$, proving the bijection.
+
+The isolated subgroup gives the natural order on $\Gamma/\Delta$. The composite valuation $K^*\to\Gamma/\Delta$ has valuation ring $A_{\mathfrak{p}}$: indeed, $x\in A_{\mathfrak{p}}$ exactly when $v(x)+\delta\geq0$ for some $\delta\in\Delta\cap\Gamma_{\geq0}$. Its value group is therefore $\Gamma/\Delta$.
+
+For $a\notin\mathfrak{p}$ and $0\neq r\in\mathfrak{p}$, isolation gives $v(r)>v(a)$, hence $v(a+r)=v(a)$. Here equality follows from the valuation inequality applied both to $a+r$ and to $a=(a+r)-r$. Thus $\overline v(\overline a)=v(a)$ is well-defined on the nonzero elements of $A/\mathfrak{p}$. It extends to its fraction field by $\overline v(\overline a/\overline b)=v(a)-v(b)$, with image $S-S=\Delta$; multiplicativity makes the value independent of the fraction representation. If this value is nonnegative, then $a/b\in A$, so the fraction belongs to $A/\mathfrak{p}$; the converse is immediate. Hence its valuation ring is $A/\mathfrak{p}$ and its value group is $\Delta$.

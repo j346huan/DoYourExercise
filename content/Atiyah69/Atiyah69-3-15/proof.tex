@@ -1,0 +1,5 @@
+Given generators $x_1,\ldots,x_n$, define $\varphi:A^n\to A^n$ by $e_i\mapsto x_i$. It is surjective. It suffices to check injectivity after localization at each maximal ideal, so assume $A$ is local with residue field $k$ and maximal ideal $\mathfrak m$.
+
+The surjection $\varphi$ splits because $A^n$ is free. Thus $\ker\varphi$ is finitely generated, and tensoring with $k$ gives an exact sequence $0\to k\otimes_A\ker\varphi\to k^n\to k^n\to0$. The last map is a surjection of finite-dimensional vector spaces, hence an isomorphism. Therefore $\ker\varphi/\mathfrak m\ker\varphi=0$, and Nakayama gives $\ker\varphi=0$.
+
+If $A\ne0$, choose a maximal ideal and reduce any generating set modulo it. The resulting set generates the $n$-dimensional vector space $k^n$, so it has at least $n$ elements.

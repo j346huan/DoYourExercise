@@ -1,0 +1,9 @@
+More generally, let $N$ be a submodule of a finitely generated module over a Noetherian ring. In any irredundant irreducible decomposition of $N$, the number of components having each radical $\mathfrak{p}$ depends only on $M/N$.
+
+Pass to $M/N$ and write $0=\bigcap_iQ_i$. By \exref{7.17}, each $Q_i$ is primary; put $\mathfrak{p}_i=r_M(Q_i)$. Fix a prime $\mathfrak{p}$ and let $T_i=(M/Q_i)_{\mathfrak{p}}$. If $\mathfrak{p}_i\not\subseteq\mathfrak{p}$, then $T_i=0$. Otherwise zero is irreducible in $T_i$: an intersection decomposition contracts to one of $Q_i$, and extension recovers it. Thus any two nonzero submodules of $T_i$ intersect nontrivially.
+
+Write $\operatorname{Soc}(T)=\{t\in T:\mathfrak{p}A_{\mathfrak{p}}t=0\}$ for an $A_{\mathfrak{p}}$-module. If $\mathfrak{p}_i\subsetneq\mathfrak{p}$, an element of $\mathfrak{p}\setminus\mathfrak{p}_i$ acts injectively on $T_i$, so its socle is zero. If $\mathfrak{p}_i=\mathfrak{p}$, some power of $\mathfrak{p}A_{\mathfrak{p}}$ annihilates $T_i$. Every nonzero submodule then meets its socle. Irreducibility makes the socle one-dimensional over $k(\mathfrak{p})$, since two independent one-dimensional subspaces would have zero intersection.
+
+The map $M_{\mathfrak{p}}\to\bigoplus_iT_i$ is injective. For every $i$ with $\mathfrak{p}_i=\mathfrak{p}$, irredundancy gives a nonzero submodule supported in coordinate $i$: localize the image of $\bigcap_{j\ne i}Q_j$. Its image in $T_i$ is nonzero by contraction of $Q_i$, so it contains the one-dimensional socle of $T_i$. Consequently the socle of $M_{\mathfrak{p}}$ maps onto the direct sum of these socles, and
+\[\#\{i:\mathfrak{p}_i=\mathfrak{p}\}=\dim_{k(\mathfrak{p})}\operatorname{Soc}(M_{\mathfrak{p}}).\]
+The right-hand side is intrinsic, proving the module assertion. Apply it to $M=A$ and $N=\mathfrak{a}$. The multiplicities of all radicals agree, hence so do the total numbers of components.

@@ -1,7 +1,3 @@
-\textbf{(i)} By (ii), $\{x\}$ is closed iff $x$ is the only prime ideal containing itself, iff it is maximal.
+A closed set $V(\mathfrak a)$ contains $x$ iff $\mathfrak a\subseteq\mathfrak p_x$. The smallest such closed set is $V(\mathfrak p_x)$, so $\overline{\{x\}}=V(\mathfrak p_x)$ and $y\in\overline{\{x\}}$ iff $\mathfrak p_x\subseteq\mathfrak p_y$. Hence $x$ is closed iff $\mathfrak p_x$ is maximal.
 
-\textbf{(ii)} If $x\in V(\mathfrak a)$, then $\mathfrak a\subseteq x$, so the smallest closed set containg $x$ corresponds to the largest ideal inside $x$ which is $x$ itself, so closure is $V(x)$.
-
-\textbf{(iii)} $y\in\overline{\{x\}}$ iff $y\in V(x)$ iff $x\subseteq y$.
-
-\textbf{(iv)} If $x,y$ are two distinct points, then either $x\nsubseteq y$ or $y\nsubseteq x$, so by (iii) either $x\notin\overline{\{y\}}$ or $y\notin\overline{\{x\}}$, so either there is a neighbourhood around $x$ not containing $y$ (take $X-\overline{\{y\}}$), or the other way around.
+If $x\ne y$, choose an element belonging to one of their prime ideals but not the other. Its basic open contains exactly one of the two points, proving the $T_0$ property.

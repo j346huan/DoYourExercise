@@ -1,13 +1,9 @@
-\textbf{(i)} $\Leftarrow$ is by \exref{1.1}.
+\textbf{(i)} Suppose $fg=1$, where $g=\sum_{j=0}^m b_jx^j$ and $n>0$. Comparing highest coefficients gives $a_nb_m=0$. Inductively, multiply the coefficient equation of degree $n+m-r$ by $a_n^r$. Every term except $a_n^{r+1}b_{m-r}$ vanishes by the preceding identities, so $a_n^{r+1}b_{m-r}=0$ for $0\leq r\leq m$. Since $a_0b_0=1$, this gives $a_n^{m+1}=0$. Now $f-a_nx^n$ is a unit by \exref{1.1}; induction on $n$ proves the claim.
 
-$\Rightarrow$ Suppose $g=b_0+\cdots+b_mx^m$ is the inverse of $f$, then $a_nb_m=0$ (unless $n=0$). Suppose $a_n^r b_{m-r+1}=0$. Note that the $(r+1)n+m-r$ degree term $f^{r+1}g$ is $0$, its coefficient is the sum $a_{i_1}\cdots a_{i_{r+1}}b_k$ where $\sum i_j+k=(r+1)n+m-r$. If $k=m-r$, then $i_j$ must all be $n$. If $k=m-r+1$, then one of the $i_j$ can be $n-1$, and the rest must all be $n$. In general, we observe that if $k=m-r+\ell$, then at least $n-\ell$ of the $i_j$ must be $n$, so by induction hypothesis, those products are all $0$ for $k>m-r$. Leaving us $a_n^{r+1}b_{m-r}=0$. Now apply this to $r=m$, and note that $a_0b_0=1$, so $a_n^{m+1}=a_n^{m+1}b_0a_0=0a_0=0$. Thus $a_n$ is nilpotent, and by an induction on $n$ we see $a_i$ are all nilpotent for all $i>0$. Hence $f$ is a unit by \exref{1.1}.
+Conversely, a finite sum of nilpotent elements in a commutative ring is nilpotent. Thus $\sum_{i>0}a_ix^i$ is nilpotent, and \exref{1.1} applies.
 
-\textbf{(ii)} $\Leftarrow$ by expanding powers of $f$.
+\textbf{(ii)} If $f^r=0$, then $a_0^r=0$. Also $1+f$ is a unit, so (i) makes the remaining coefficients nilpotent. The converse follows by expanding a sufficiently large power of $f$.
 
-$\Rightarrow$ if $f^n=0$, then compare coefficients and see $a_0^n=0$. So $a_0$ nilpotent. Now $f+1$ is a unit so by (i) all the $a_i$ are nilpotent too for $i>0$.
+\textbf{(iii)} Choose a nonzero $g=\sum_{j=0}^m b_jx^j$ of least degree with $fg=0$. Then $a_ng$ annihilates $f$ and has degree less than $m$, so $a_ng=0$. Repeating with the remaining coefficients gives $a_ig=0$ for every $i$. Any nonzero coefficient $b_j$ of $g$ therefore satisfies $b_jf=0$. The converse is immediate.
 
-\textbf{(iii)} Suppose $f$ is a zero divisor with $fg=0$ where $g$ has minimal degree. Then $a_ngf=0$ and $a_ng$ has degree $m-1$, so by minimality $a_ng=0$. An induction (we have showed base case and basically decreased the degree of $f$ by $1$) shows $a_ig=0$ for all $i\geq 0$. Hence $a_ib_0=0$ for all $i$ and $b_0f=0$.
-
-\textbf{(iv)} $\Rightarrow$ Say $\sum_k r_k\sum_{i+j=k}a_ib_j=1$, then this gives a relation on $a_i$, and $b_j$, showing $(a_1,\ldots,a_n)=(1),(b_1,\ldots,b_m)=(1)$.
-
-$\Leftarrow$ (Gauss's Lemma) Suppose $fg$ not primitive, say the coefficients contained in maximal ideal $\mathfrak m$. Since the coefficients of $f,g$ are not all in $\mathfrak m$, let $a_s,b_t$ be the minimal ones not contained in $\mathfrak m$, then the degree $s+t$ term of $fg$ has coefficient $\sum_{i+j=s+t}a_ib_j$. The terms are all in $\mathfrak m$ except $a_sb_t$, so the sum is not in $\mathfrak m$, which is a contradiction.
+\textbf{(iv)} Every coefficient of $fg$ belongs to the coefficient ideal of each factor. Thus primitivity of $fg$ implies primitivity of both factors. Conversely, if all coefficients of $fg$ lie in a maximal ideal $\mathfrak m$, then the product of the reductions of $f,g$ in $(A/\mathfrak m)[x]$ is zero. This polynomial ring is a domain, so one factor has all coefficients in $\mathfrak m$ and is not primitive.

@@ -1,1 +1,5 @@
-Suppose $\sum g_i f_i(x_{f_i})=1$ where $g_i$ is in terms of $x_f$. Consider the degree $>1$ terms, note that they will cancel out only if $g_i=0$ for all $i$, a contradiction.
+Suppose $1=\sum_{i=1}^r g_if_i(x_{f_i})$. By successively adjoining roots, choose a field extension in which every $f_i$ has a root. Map $x_{f_i}$ to such a root and all other variables occurring in the identity to $0$. Evaluation gives $1=0$, a contradiction. Hence the ideal is proper.
+
+Choose a maximal ideal containing it. The quotient is a field containing $K$, since the kernel on $K$ is a proper ideal of a field. Each image of $x_f$ is algebraic over $K$, so every element of this quotient is algebraic over $K$.
+
+Iterating gives algebraic extensions $K\subseteq K_1\subseteq K_2\subseteq\cdots$. Their union is a field algebraic over $K$. The coefficients of any nonconstant polynomial over the union lie in some $K_n$, and an irreducible factor has a root in $K_{n+1}$. Thus the union is algebraically closed, and is an algebraic closure of $K$.

@@ -11,6 +11,46 @@
     {
       "id": "1",
       "title": "Rings and Ideals"
+    },
+    {
+      "id": "2",
+      "title": "Modules"
+    },
+    {
+      "id": "3",
+      "title": "Rings and Modules of Fractions"
+    },
+    {
+      "id": "4",
+      "title": "Primary Decomposition"
+    },
+    {
+      "id": "5",
+      "title": "Integral Dependence and Valuations"
+    },
+    {
+      "id": "6",
+      "title": "Chain Conditions"
+    },
+    {
+      "id": "7",
+      "title": "Noetherian Rings"
+    },
+    {
+      "id": "8",
+      "title": "Artin Rings"
+    },
+    {
+      "id": "9",
+      "title": "Discrete Valuation Rings and Dedekind Domains"
+    },
+    {
+      "id": "10",
+      "title": "Completions"
+    },
+    {
+      "id": "11",
+      "title": "Dimension Theory"
     }
   ],
   "publication": {

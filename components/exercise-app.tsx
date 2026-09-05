@@ -813,7 +813,9 @@ export default function ExerciseApp() {
               <p>
                 This is a repository of my solutions to exercises to textbooks
                 that I used. I shall also include lean formalization when
-                possible.
+                possible. I write the proofs myself first. The website is built
+                with help from AI, and proofs and Lean code are sometimes
+                refined or formatted by AI.
               </p>
               <h3>Sources</h3>
               <dl className="bibliography">

@@ -1,5 +1,3 @@
-Has maximal elements by Zorn's lemma. Suppose $\mathfrak p$ is maximal element, and $xy\in\mathfrak p$. Then $axy=0$ for some $a\in A$. Now if $x,y\notin\mathfrak p$, then $(x)+\mathfrak p$, $(y)+\mathfrak p$ contain non-zero-divisors $f,g$, and $fg$ is not a zero divisor, but
-\[
-fg\in(xy)+(x)\mathfrak p+(y)\mathfrak p+\mathfrak p^2\subseteq(xy)+\mathfrak p=\mathfrak p,
-\]
-a contradiction. Thus $x\in\mathfrak p$ or $y\in\mathfrak p$.
+The zero ideal belongs to this set. The union of a chain is again an ideal consisting of zero divisors, so Zorn's lemma gives maximal members, also among those containing any fixed such ideal.
+
+Let $\mathfrak p$ be maximal and suppose $xy\in\mathfrak p$ with $x,y\notin\mathfrak p$. Then $(x)+\mathfrak p$ and $(y)+\mathfrak p$ contain non-zero-divisors $f,g$. Their product is a non-zero-divisor, but $fg\in(xy)+(x)\mathfrak p+(y)\mathfrak p+\mathfrak p^2\subseteq\mathfrak p$, a contradiction. Also $1\notin\mathfrak p$, so $\mathfrak p$ is prime. If $x$ is a zero divisor, every multiple of $x$ is a zero divisor, so $(x)$ is contained in one of these prime ideals.

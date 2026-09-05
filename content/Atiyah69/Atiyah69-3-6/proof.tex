@@ -1,0 +1,5 @@
+The union of a chain of such subsets is again multiplicatively closed and excludes $0$, so Zorn's lemma gives maximal elements.
+
+Let $S$ be maximal. If $a\notin S$, adjoining $a$ must introduce $0$, so $sa^n=0$ for some $s\in S$ and $n\ge1$. If also $b\notin S$, choose $t\in S$ and $m\ge1$ with $tb^m=0$. Then $st(a+b)^{n+m}=0$, so $a+b\notin S$. Likewise $s(ra)^n=0$ gives $ra\notin S$ for every $r\in A$. Thus $A\setminus S$ is an ideal, and it is prime because $S$ is multiplicatively closed. Any smaller prime would have a larger multiplicatively closed complement, so $A\setminus S$ is minimal.
+
+Conversely, let $\mathfrak p$ be a minimal prime and extend $A\setminus\mathfrak p$ to a maximal multiplicatively closed subset $S$ excluding $0$. The preceding argument gives a prime $A\setminus S\subseteq\mathfrak p$. Minimality forces equality, so $S=A\setminus\mathfrak p$.

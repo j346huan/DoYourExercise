@@ -1,27 +1,15 @@
-\textbf{(i)} $(\varphi^*)^{-1}(D(f))$ is the set of ideals $\mathfrak q$ such that $\varphi^{-1}(\mathfrak q)$ does not contain $f$. This happens iff $\mathfrak q$ does not contain $\varphi(f)$. So $(\varphi^*)^{-1}(D(f))=D(\varphi(f))$.
+\textbf{(i)} A prime $\mathfrak q$ lies over $D(f)$ iff $f\notin\varphi^{-1}(\mathfrak q)$, iff $\varphi(f)\notin\mathfrak q$. Thus $(\varphi^*)^{-1}(D(f))=D(\varphi(f))$, proving continuity.
 
-\textbf{(ii)} $(\varphi^*)^{-1}(V(\mathfrak a))$ is the set of ideals $\mathfrak q$ such that $\varphi^{-1}(\mathfrak q)$ contains $\mathfrak a$. This is the set of ideals that contains $\varphi(\mathfrak a)$, which are those that contain $V(\mathfrak a^e)$. So $(\varphi^*)^{-1}(V(\mathfrak a))=V(\mathfrak a^e)$.
+\textbf{(ii)} The condition $\mathfrak a\subseteq\varphi^{-1}(\mathfrak q)$ is equivalent to $\mathfrak a^e\subseteq\mathfrak q$.
 
-\textbf{(iii)} Trivially $\varphi^*(V(\mathfrak b))\subseteq V(\mathfrak b^c)$.
-\[
-\bigcap_{\mathfrak p\in\varphi^*(V(\mathfrak b))}\mathfrak p
-=
-\bigcap_{\mathfrak q\in V(\mathfrak b)}\varphi^{-1}(\mathfrak q)
-=
-f^{-1}(\sqrt{\mathfrak b})
-=
-\sqrt{\mathfrak b^c}
-\]
-where last equality is by 1.18. This means $\overline{\varphi^*(V(\mathfrak b))}=V(\mathfrak a)$ for some $\mathfrak a\subseteq\sqrt{\mathfrak b^c}$ and implies the other inclusion.
+\textbf{(iii)} The closure of a set of primes is $V$ of their intersection. Here
+\[\bigcap_{\mathfrak q\supseteq\mathfrak b}\varphi^{-1}(\mathfrak q)=\varphi^{-1}(\sqrt{\mathfrak b})=\sqrt{\mathfrak b^c}.\]
+Hence $\overline{\varphi^*(V(\mathfrak b))}=V(\mathfrak b^c)$.
 
-\textbf{(iv)} Since surjective, $\varphi^*$ gives a one to one correspondence between $Y$ and $V(\ker(\varphi))$ by prop 1.1. In particular, it sends closed sets to closed sets, so homeomorphism.
+\textbf{(iv)} For surjective $\varphi$, the prime correspondence gives a bijection onto $V(\ker\varphi)$. Moreover $\varphi^*(V(\mathfrak b))=V(\mathfrak b^c)$ by the same correspondence, so the map is closed and is a homeomorphism. Apply this to $A\to A/\sqrt{(0)}$ for the stated special case.
 
-\textbf{(v)} If injective then by (iii), $\overline{\varphi^*(Y)}=V(\varphi^{-1}(0))=V(0)=X$. In general, it is dense iff
-\[
-\overline{\varphi^*(Y)}=V(\varphi^{-1}(0))=V(\ker\varphi)=X
-\]
-which happens iff $\ker\varphi$ is contained in nilradical.
+\textbf{(v)} Taking $\mathfrak b=0$ in (iii) gives $\overline{\varphi^*(\operatorname{Spec}B)}=V(\ker\varphi)$. This is the whole spectrum iff $\ker\varphi\subseteq\sqrt{(0)}$; in particular, injectivity suffices.
 
-\textbf{(vi)} Follows from $(\psi\circ\varphi)^{-1}=\varphi^{-1}\circ\psi^{-1}$.
+\textbf{(vi)} Inverse images satisfy $(\psi\circ\varphi)^{-1}=\varphi^{-1}\circ\psi^{-1}$.
 
-\textbf{(vii)} $B$ has two prime ideals $(0,K)$ and $(A/\mathfrak p,0)$. The inverse image of them are $\mathfrak p$ and $0$. Thus $\varphi^*$ is bijective. It is not homoemorphism because the singletons in $\operatorname{Spec}B$ are closed, but $\{(0)\}$ is not closed in $\operatorname{Spec}A$.
+\textbf{(vii)} Both $A/\mathfrak p$ and $K$ are fields. The two primes of their product contract to $\mathfrak p$ and $(0)$, respectively. Thus the spectral map is bijective. Its domain is discrete, whereas $\overline{\{(0)\}}=\operatorname{Spec}A$, so it is not a homeomorphism.

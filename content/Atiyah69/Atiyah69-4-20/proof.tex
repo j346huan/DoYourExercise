@@ -1,0 +1,15 @@
+By definition, $x\in r_M(N)$ exactly when some power of $x$ belongs to $(N:M)=\operatorname{Ann}(M/N)$. Thus $r_M(N)$ is the radical of this ideal.
+
+\textbf{(i)} We have $(N:M)\subseteq r_M(N)$.
+
+\textbf{(ii)} We have $r(r_M(N))=r_M(N)$, since a power of a power is a power.
+
+\textbf{(iii)} For submodules $N,P\subseteq M$ and an ideal $\mathfrak{a}\subseteq A$,
+\[r_M(N\cap P)=r_M(N)\cap r_M(P),\qquad r_M(\mathfrak{a}N)=r_M(\mathfrak{a}M)\cap r_M(N).\]
+For the first equality, choose an exponent large enough to send $M$ into both submodules. For the second, one inclusion follows from $\mathfrak{a}N\subseteq\mathfrak{a}M\cap N$. If $x^nM\subseteq\mathfrak{a}M$ and $x^mM\subseteq N$, then $x^{n+m}M\subseteq x^m\mathfrak{a}M\subseteq\mathfrak{a}N$.
+
+\textbf{(iv)} We have $r_M(N)=A$ exactly when $N=M$, by testing $1$.
+
+\textbf{(v)} We have $r(r_M(N)+r_M(P))\subseteq r_M(N+P)$, since the radical ideal on the right contains both summands. Equality need not hold: for $M=k^2$, $N=k\times0$ and $P=0\times k$, the two sides are $0$ and $k$.
+
+\textbf{(vi)} For a prime $\mathfrak{p}$ and $n>0$, $r_M(\mathfrak{p}^nM)=r_M(\mathfrak{p}M)\supseteq\mathfrak{p}$. Indeed, $x^qM\subseteq\mathfrak{p}M$ implies $x^{qn}M\subseteq\mathfrak{p}^nM$. If $M$ is finitely generated and $\mathfrak{p}\supseteq\operatorname{Ann}(M)$, then $M_{\mathfrak{p}}\ne0$ and Nakayama's lemma gives $M_{\mathfrak{p}}/\mathfrak{p}M_{\mathfrak{p}}\ne0$. No element outside $\mathfrak{p}$ can annihilate $M/\mathfrak{p}M$, so $(\mathfrak{p}M:M)\subseteq\mathfrak{p}$ and $r_M(\mathfrak{p}^nM)=\mathfrak{p}$.

@@ -1,0 +1,19 @@
+Passing to the quotient, take a minimal primary decomposition $0=\bigcap_{i=1}^nQ_i$ in $M$, and put $\mathfrak{p}_i=r_M(Q_i)$.
+
+\textbf{(4.6)} The minimal elements among the $\mathfrak{p}_i$ are exactly the primes minimal over $\operatorname{Ann}(M)$. Indeed, $r(\operatorname{Ann}(M))=\bigcap_i\mathfrak{p}_i$ by \exref{4.20}. Any prime containing $\operatorname{Ann}(M)$ therefore contains some $\mathfrak{p}_i$.
+
+\textbf{(4.7)} The zero-divisors on $M$ form $\bigcup_i\mathfrak{p}_i$. If $xm=0$ with $m\ne0$, then $x\in r(0:m)=\bigcap_{m\notin Q_i}\mathfrak{p}_i$. Conversely, by \exref{4.22}, each $\mathfrak{p}_i=r(0:m)$ for some nonzero $m$. If $x\in\mathfrak{p}_i$, choose the least $q>0$ such that $x^qm=0$; then $x$ kills the nonzero element $x^{q-1}m$.
+
+\textbf{(4.8)} Let $Q$ be $\mathfrak{p}$-primary and $S\subseteq A$ multiplicatively closed. If $s\in S\cap\mathfrak{p}$, some power of $s$ annihilates $M/Q$, so $S^{-1}Q=S^{-1}M$. If $S\cap\mathfrak{p}=\varnothing$, multiplication by every $s\in S$ is injective on $M/Q$. Hence the contraction of $S^{-1}Q$ is $Q$, and $S^{-1}(M/Q)\ne0$. If $x/s$ kills a nonzero element of this localization, then $uxm\in Q$ and $um\notin Q$ for suitable $u\in S$ and $m\in M$. Thus $x\in\mathfrak{p}$, and a power of $x/s$ annihilates the whole localized quotient. This proves primaryness. Its radical is $S^{-1}\mathfrak{p}$: elements of this ideal act nilpotently, while an element outside it acts injectively and cannot be nilpotent on a nonzero module.
+
+Conversely, the inverse image in $M$ of a primary submodule of $S^{-1}M$ is primary. Its quotient embeds in the localized quotient, and a scalar that is a zero-divisor there acts nilpotently. Extension recovers the original submodule. Thus extension and contraction give a correspondence between primary submodules of $S^{-1}M$ and primary submodules of $M$ whose radicals avoid $S$.
+
+\textbf{(4.9)} Let $I=\{i:S\cap\mathfrak{p}_i=\varnothing\}$ and $K=\ker(M\to S^{-1}M)$. Then
+\[0=\bigcap_{i\in I}S^{-1}Q_i,\qquad K=\bigcap_{i\in I}Q_i.\]
+These are minimal primary decompositions, with the empty intersection interpreted as the whole module. Localization commutes with finite intersections, and (4.8) discards exactly the other components. The surviving primes remain distinct by contraction. For each surviving $i$, an element of $\bigcap_{j\ne i}Q_j\setminus Q_i$ remains outside $S^{-1}Q_i$ after localization, proving irredundancy of both decompositions.
+
+\textbf{(4.10)} Let $\Sigma$ be an isolated subset of the associated primes, meaning that it contains every associated prime lying below one of its members. Set $S=A\setminus\bigcup_{\mathfrak{p}\in\Sigma}\mathfrak{p}$. This is multiplicatively closed. It avoids the primes in $\Sigma$ and meets every other associated prime by prime avoidance and isolation. Consequently,
+\[\bigcap_{\mathfrak{p}_i\in\Sigma}Q_i=\ker(M\to S^{-1}M).\]
+The right-hand side depends only on $M$ and $\Sigma$, so the intersection is independent of the chosen decomposition.
+
+\textbf{(4.11)} Taking $\Sigma=\{\mathfrak{p}_i\}$ for a minimal associated prime shows that its primary component is uniquely determined. For a general submodule $N$, apply these assertions to $M/N$ and take inverse images in $M$.

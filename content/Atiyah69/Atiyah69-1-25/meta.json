@@ -6,13 +6,11 @@
   "title": "",
   "status": "solved",
   "updated": "2026-09-05",
-  "dependencies": [],
+  "dependencies": [
+    "Atiyah69,1.24",
+    "Atiyah69,1.23",
+    "Atiyah69,1.17"
+  ],
   "lean": null,
-  "coverage": "proof",
-  "source": {
-    "url": "https://j346huan.github.io/download/A.pdf",
-    "pages": [9],
-    "label": "Original solution PDF",
-    "statement": "summary"
-  }
+  "coverage": "proof"
 }

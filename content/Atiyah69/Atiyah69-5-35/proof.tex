@@ -1,0 +1,7 @@
+The forward implication follows from \exref{5.3} and \exref{5.1}.
+
+Suppose $B$ is a domain. Replacing $A$ by its image in $B$ preserves the hypothesis, since tensoring over $A$ or its image gives the same result for an algebra over that image. Thus assume $A\subseteq B$, and put $K=\operatorname{Frac}B$. For any valuation ring $V$ of $K$ containing $A$, the spectrum map for $V\to B\otimes_A V$ is closed. The multiplication map $B\otimes_A V\to K$, $b\otimes v\mapsto bv$, is a $V$-algebra homomorphism. By \exref{5.34}, its image is $V$, so $B\subseteq V$. Corollary 5.22 identifies the intersection of all such $V$ with the integral closure of $A$ in $K$. Hence $B$ is integral over $A$.
+
+Now let $\mathfrak{p}_1,\ldots,\mathfrak{p}_n$ be the minimal primes of $B$. For every $C$, the surjection $B\otimes_A C\to(B/\mathfrak{p}_i)\otimes_A C$ induces a closed embedding of spectra. Thus $A\to B/\mathfrak{p}_i$ has the same closedness property and is integral by the domain case. By \exref{5.6}, the finite product $\prod_iB/\mathfrak{p}_i$ is integral over $A$.
+
+Writing $\mathfrak{N}$ for the nilradical, the map $B/\mathfrak{N}\to\prod_iB/\mathfrak{p}_i$ is injective because $\mathfrak{N}=\bigcap_i\mathfrak{p}_i$. Hence $B/\mathfrak{N}$ is integral over $A$. For $b\in B$, choose a monic $P\in A[T]$ with $P(b)\in\mathfrak{N}$. Some power $P(b)^r$ is zero, and $P(T)^r$ is monic. Thus every $b$ is integral over $A$.

@@ -1,0 +1,3 @@
+Choose a maximal ideal $\mathfrak{m}$ and put $k=A/\mathfrak{m}$. Tensoring an isomorphism $A^m\to A^n$ with $k$ gives an isomorphism $k^m\to k^n$, so $m=n$. Tensoring a surjection gives a surjection $k^m\to k^n$, so $m\geq n$.
+
+An injection also forces $m\leq n$. Otherwise, compose it with the inclusion of $A^n$ into the first $n$ coordinates of $A^m$, obtaining an injective endomorphism $T$ of $A^m$. By Cayley–Hamilton, $T$ satisfies a monic polynomial; choose one, $p$, of least degree. Every positive power of $T$ has image in the first $n$ coordinates, so the last coordinate of $p(T)e_m=0$ gives $p(0)=0$. Write $p(t)=tq(t)$. Since $Tq(T)=0$ and $T$ is injective, $q(T)=0$, contradicting minimality of the degree of $p$.

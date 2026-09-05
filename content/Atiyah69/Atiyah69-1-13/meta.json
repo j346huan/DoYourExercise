@@ -4,15 +4,9 @@
   "section": null,
   "number": "13",
   "title": "Construction of an algebraic closure of a field (E. Artin)",
-  "status": "unsolved",
+  "status": "solved",
   "updated": "2026-09-05",
   "dependencies": [],
   "lean": null,
-  "coverage": "partial",
-  "source": {
-    "url": "https://j346huan.github.io/download/A.pdf",
-    "pages": [7],
-    "label": "Original solution PDF",
-    "statement": "summary"
-  }
+  "coverage": "proof"
 }

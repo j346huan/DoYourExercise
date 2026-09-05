@@ -1,0 +1,5 @@
+(i)$\Rightarrow$(ii): Since $A/(x)$ is flat, the inclusion $(x)\to A$ induces an injection $(x)\otimes_A A/(x)\to A\otimes_A A/(x)$. This map is zero, because every element of $(x)$ acts as zero on $A/(x)$. By \exref{2.2}, its domain is $(x)/(x^2)$, so $(x)=(x^2)$.
+
+(ii)$\Rightarrow$(iii): Write $x=ax^2$. Then $e=ax$ satisfies $e^2=e$ and $(e)=(x)$. If $e,f$ are idempotent, so is $e+f-ef=1-(1-e)(1-f)$, and $(e,f)=(e+f-ef)$ because multiplying this generator by $e$ or $f$ gives $e$ or $f$. Induction shows that every finitely generated ideal is $(e)$ for an idempotent $e$. Since $A=(e)\oplus(1-e)$, it is a direct summand.
+
+(iii)$\Rightarrow$(i): For a finitely generated ideal $\mathfrak{a}$, the inclusion $\mathfrak{a}\to A$ splits, so $\mathfrak{a}\otimes_A N\to A\otimes_A N$ is injective for every $N$. The Tor exact sequence gives $\operatorname{Tor}_1^A(A/\mathfrak{a},N)=0$. By \exref{2.26}, every $N$ is flat.

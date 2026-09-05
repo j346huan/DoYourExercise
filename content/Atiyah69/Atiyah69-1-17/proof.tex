@@ -1,15 +1,5 @@
-If $\mathfrak p$ is not in $V(\mathfrak a)$, then $\mathfrak p$ does not contain some element $f\in\mathfrak a$ and $D(f)$ is a neighbourhood around $\mathfrak p$ in the complement of $V(\mathfrak a)$, so $D(f)$ form a basis of open sets.
+The complement of $V(\mathfrak a)$ is $\bigcup_{f\in\mathfrak a}D(f)$, so the $D(f)$ form a basis. Primality gives $D(f)\cap D(g)=D(fg)$. Also $D(f)=\varnothing$ iff $f$ belongs to every prime, iff it is nilpotent; and $D(f)=\operatorname{Spec}A$ iff $f$ belongs to no maximal ideal, iff it is a unit. Finally, $D(f)=D(g)$ iff $V(f)=V(g)$, which is equivalent to $\sqrt{(f)}=\sqrt{(g)}$ by intersection of primes.
 
-\textbf{(i)} Prime $\mathfrak p$ does not contain $f$ and $g$ iff it does not contain $fg$.
+If the $D(f_i)$ cover $\operatorname{Spec}A$, then the $f_i$ generate the unit ideal. Write $1=\sum_{i\in J}a_if_i$ for a finite set $J$. No prime contains all these $f_i$, so the corresponding finite family covers the spectrum.
 
-\textbf{(ii)} If $f$ is in all $\mathfrak p$ then $f$ in nilradical.
-
-\textbf{(iii)} If $f$ is in no prime ideal then it is in no maximal ideal, so it is a unit.
-
-\textbf{(iv)} $\sqrt{(f)}=\sqrt{(g)}$ because they are intersections of elements in $V(f)=V(g)$ by Prop 1.14.
-
-\textbf{(v)} Say $X$ covered by $D(f_i)$ (can decompose arbitrary cover into this form because $D(f)$ form a basis), then $(f_i)_{i\in I}=(1)$ because otherwise the maximal ideal containing $(f_i)_{i\in I}$ is in $X$ but not in any $D(f_i)$. Write $r_1f_1+\cdots+r_nf_n=1$ for some $r_i\in A$, then $\{D(f_i)\}_{i=1}^n$ covers $X$ because a prime can not contain all of $f_1,\ldots,f_n$.
-
-\textbf{(vi)} This is because $X_f=\operatorname{Spec}A_f$. Alternatively, given cover $D(f_i)$, since all primes containing $\mathfrak a$ must contain $f$, we have $f$ is nilpotent in $X/\mathfrak a$ so $f\in\sqrt{\mathfrak a}$. Take $f_1,\ldots,f_n$ such that $(f_1,\ldots,f_n)$ contains a power of $f$, then $D(f_1),\ldots,D(f_n)$ covers $X_f$.
-
-\textbf{(vii)} An open set is a union of $D(f)$ since they form a basis, if it were quasi-compact, then it is a finite union.
+More generally, if $D(f)\subseteq\bigcup_iD(f_i)$, then every prime containing the $f_i$ contains $f$. Thus $f^n\in(f_i:i\in I)$ for some $n$, and this relation uses only finitely many $f_i$. Those basic opens cover $D(f)$. Arbitrary open covers can be refined by basic opens, proving quasi-compactness. A quasi-compact open is a finite union of basic opens; conversely, a finite union of quasi-compact sets is quasi-compact.

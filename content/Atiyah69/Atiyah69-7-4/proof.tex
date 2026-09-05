@@ -1,0 +1,9 @@
+\textbf{(i)} Yes. This is $S^{-1}\mathbb{C}[z]$, where $S$ consists of polynomials with no zero on $|z|=1$, so it is a localization of a Noetherian ring.
+
+\textbf{(ii)} Yes. Every nonzero convergent power series is $z^nu$ with $u(0)\ne0$, and $u$ has a convergent reciprocal near $0$. A nonzero ideal therefore equals $(z^n)$, where $n$ is the least order of a nonzero element of the ideal.
+
+\textbf{(iii)} No. Identify the ring with the entire functions and put $f_n(z)=\sin(\pi z)/\prod_{j=1}^n(z-j)$ for $n\ge0$, filling in the removable singularities. Then $f_n=(z-n-1)f_{n+1}$, so $(f_n)\subseteq(f_{n+1})$. The inclusion is strict because $f_n(n+1)=0$ whereas $f_{n+1}(n+1)\ne0$.
+
+\textbf{(iv)} Yes. The ring is $\mathbb{C}+z^{k+1}\mathbb{C}[z]=\mathbb{C}[z^{k+1},z^{k+2},\ldots,z^{2k+1}]$, hence a finitely generated algebra over a field.
+
+\textbf{(v)} No. The condition is equivalent to $f(0,w)$ being constant, so the ring is $\mathbb{C}+z\mathbb{C}[z,w]$. The ideals $(z)\subsetneq(z,zw)\subsetneq\cdots$ form a strictly increasing chain. Modulo $z^2\mathbb{C}[z,w]$, multiplication of the generators by elements of this ring only multiplies their coefficients by constants. Thus $zw^{n+1}\notin(z,zw,\ldots,zw^n)$.

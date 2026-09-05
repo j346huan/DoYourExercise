@@ -1,11 +1,7 @@
-\textbf{(i)} Since $f(1-f)=0$, a prime contains exactly one of $f$ and $1-f$, so $D(f)\cup D(1-f)=X$ and they are both closed and open.
+\textbf{(i)} Every prime contains exactly one of $f,1-f$, so $D(f)=V(1-f)$ is clopen.
 
-\textbf{(ii)} $\mathfrak p$ does not contain $1-(1-f)(1-g)$ iff it contains $(1-f)(1-g)$, which means it either does not contain $g$ or $f$. So
-\[
-D(f)\cup D(g)=D(1-(1-f)(1-g))=D(1-1+f+g-fg)=D(fg-f-g).
-\]
-Since $1=(-1)^2=-1$, this is the same as $D(f+g+fg)$.
+\textbf{(ii)} Since each prime quotient is $\mathbb F_2$ by \exref{1.11}, a prime omits $1-\prod_i(1-f_i)$ iff it omits some $f_i$. Thus $\bigcup_iD(f_i)=D(1-\prod_i(1-f_i))$ for a finite family.
 
-\textbf{(iii)} See hint.
+\textbf{(iii)} A clopen subset is quasi-compact, being closed in the quasi-compact spectrum. Its cover by basic opens has a finite subcover, which is a single basic open by (ii).
 
-\textbf{(iv)} Hausdorff because $D(f)$ form a basis. Compact because quasi-compact.
+\textbf{(iv)} Distinct primes are distinct maximal ideals. Choose $f$ in one but not the other. The disjoint open sets $D(f),D(1-f)$ separate them. Hence the spectrum is Hausdorff, and its quasi-compactness makes it compact.

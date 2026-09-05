@@ -1,7 +1,5 @@
-Let $f\in R[x_1,\ldots,x_n]$. Write $f=g_0+g_1x_n+\cdots+g_mx_n^m$ where $g_i\in R[x_1,\ldots,x_{n-1}]$.
+Write $f=\sum_i g_ix_r^i$ with $g_i\in A[x_1,\ldots,x_{r-1}]$. By \exref{1.2}(i), $f$ is a unit iff $g_0$ is a unit and every $g_i$, $i>0$, is nilpotent. Induction on $r$, using \exref{1.2}(ii) at each step, gives exactly the stated unit and nilpotence criteria.
 
-By \exref{1.2}(i) $f$ is a unit iff $g_0$ is a unit and $g_i$ are nilpotent for $i\geq 1$. Observe $g_0$ now has one less variable, and again, an induction on $n$ shows that $f$ is a unit iff the constant term is a unit and other coefficients over $R$ are nilpotent.
+Suppose $fg=0$ with $g\ne0$. Choose $N$ larger than every exponent occurring in $f$ or $g$, and substitute $x_i=t^{N^{i-1}}$. Distinct monomials of either polynomial remain distinct, so the resulting polynomials have zero product and the second is nonzero. By \exref{1.2}(iii), some nonzero $a\in A$ kills every coefficient of the first. These are exactly the coefficients of $f$, so $af=0$. The converse is immediate.
 
-(ii), (iii) can also be done by induction on number of indeterminates.
-
-(iv) is the same proof, when we take minimal element, we take it with respect to lexicographic order.
+For primitivity, reduction modulo any maximal ideal gives a polynomial ring over a field, hence a domain. The argument of \exref{1.2}(iv) applies without change.

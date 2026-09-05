@@ -1,0 +1,5 @@
+First, an element of a ring which vanishes in all localizations belonging to a basic open cover is zero. Indeed, choose a finite subcover $D(f_1),\ldots,D(f_r)$. If $a$ vanishes in every $A_{f_i}$, some common power $f_i^n$ annihilates $a$ for every $i$. These powers generate the unit ideal, so $a=0$. This proves uniqueness, also after any localization.
+
+Choose a finite subcover and write $s_i=a_i/f_i^n$ with a common $n\ge1$. Compatibility gives a common $N\ge0$ such that $(f_if_j)^N(a_if_j^n-a_jf_i^n)=0$ for all pairs. Replace $f_i$ by $f_i^{n+N}$ and $a_i$ by $a_if_i^N$. The opens are unchanged, and now $s_i=a_i/f_i$ with $a_if_j=a_jf_i$.
+
+Choose $b_i\in A$ with $\sum_i b_if_i=1$, and put $s=\sum_i b_ia_i$. Then $f_js=\sum_i b_ia_if_j=\sum_i b_if_ia_j=a_j$, so $s$ restricts to $s_j$ on each member of the finite subcover. For any other $U_j$, the restrictions of $s$ and $s_j$ agree on its intersections with this finite subcover. Uniqueness applied over $A(U_j)$ shows that they agree on $U_j$ as well.

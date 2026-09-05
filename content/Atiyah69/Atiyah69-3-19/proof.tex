@@ -1,0 +1,15 @@
+\textbf{(i)} This is the local criterion for vanishing.
+
+\textbf{(ii)} We have $(A/\mathfrak a)_{\mathfrak p}\cong A_{\mathfrak p}/\mathfrak aA_{\mathfrak p}$. This is zero exactly when $\mathfrak a$ meets $A\setminus\mathfrak p$, or equivalently $\mathfrak a\nsubseteq\mathfrak p$.
+
+\textbf{(iii)} Localization gives $0\to M'_{\mathfrak p}\to M_{\mathfrak p}\to M''_{\mathfrak p}\to0$, so the middle term vanishes exactly when both outer terms vanish.
+
+\textbf{(iv)} Localization preserves the inclusions $M_i\subseteq M$ and gives $M_{\mathfrak p}=\sum_i(M_i)_{\mathfrak p}$. Hence $M_{\mathfrak p}=0$ exactly when every $(M_i)_{\mathfrak p}=0$.
+
+\textbf{(v)} By \exref{3.1}, $M_{\mathfrak p}=0$ exactly when some $s\notin\mathfrak p$ annihilates $M$, or equivalently $\operatorname{Ann}(M)\nsubseteq\mathfrak p$.
+
+\textbf{(vi)} Localizing gives $(M\otimes_A N)_{\mathfrak p}\cong M_{\mathfrak p}\otimes_{A_{\mathfrak p}}N_{\mathfrak p}$. If both factors are nonzero, Nakayama makes their reductions modulo $\mathfrak pA_{\mathfrak p}$ nonzero. Their tensor product over the residue field is nonzero, so the localized tensor product is nonzero. The converse is immediate.
+
+\textbf{(vii)} By (ii), (v), and (vi), $\operatorname{Supp}(M/\mathfrak aM)=V(\operatorname{Ann}(M))\cap V(\mathfrak a)=V(\mathfrak a+\operatorname{Ann}(M))$.
+
+\textbf{(viii)} For $\mathfrak q\in\operatorname{Spec}(B)$, put $\mathfrak p=f^{-1}(\mathfrak q)$. Then $(B\otimes_A M)_{\mathfrak q}\cong B_{\mathfrak q}\otimes_{A_{\mathfrak p}}M_{\mathfrak p}$, which vanishes if $M_{\mathfrak p}=0$. Conversely, if $M_{\mathfrak p}\ne0$, Nakayama gives $M_{\mathfrak p}/\mathfrak pM_{\mathfrak p}\ne0$. Reduction of the displayed tensor product modulo $\mathfrak qB_{\mathfrak q}$ is $k(\mathfrak q)\otimes_{k(\mathfrak p)}(M_{\mathfrak p}/\mathfrak pM_{\mathfrak p})$, which is nonzero. This proves the required equality.

@@ -46,6 +46,12 @@ Write `\exref{1.1}` for a same-book exercise or `\exref{Atiyah69,1.1}` for a cro
 
 The searchable catalog includes statements and metadata. Proofs, Lean code, and translations are loaded separately.
 
+## Proof style
+
+Keep proofs concise, rigorous, and limited to the mathematical question. Use new notation only when it is reused enough to shorten the argument.
+
+Use `$...$` for inline math, `:` rather than `\colon`, `\to` for arrows, `\mathbb` for number fields, and `\cong` for isomorphisms. Put each needed unnumbered display on a single source line, `\[equation\]`. Keep equations on one code line, avoid unnecessary displays, and omit equation tags.
+
 ## Lean files
 
 A proof for `Atiyah69,1.1` uses the generated module name `LeanExercises.Atiyah69.Ex_1_1`:

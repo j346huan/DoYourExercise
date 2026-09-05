@@ -1,0 +1,5 @@
+An ascending chain $\mathfrak p_1\subseteq\mathfrak p_2\subseteq\cdots$ gives a descending chain $V(\mathfrak p_1)\supseteq V(\mathfrak p_2)\supseteq\cdots$. If the latter stabilizes, so does the former, since prime ideals are radical.
+
+For the converse, take $A=k[x_1,x_2,\ldots]/(x_ix_j:i\ne j)$. A prime can omit at most one $x_j$. If it contains every variable, it is the maximal ideal $(x_1,x_2,\ldots)$. Otherwise it contains $\mathfrak p_j=(x_i:i\ne j)$, and its image in $A/\mathfrak p_j\cong k[x_j]$ is either zero or maximal. Each $\mathfrak p_j$ is minimal: any smaller prime omits $x_j$ and therefore contains every $x_i$ for $i\ne j$. Thus every prime is minimal or maximal, and a chain has at most two distinct terms.
+
+Nevertheless, $V(x_1)\supsetneq V(x_1,x_2)\supsetneq\cdots$ is strictly descending: $\mathfrak p_{n+1}$ belongs to $V(x_1,\ldots,x_n)$ but not to $V(x_1,\ldots,x_{n+1})$. Hence the spectrum is not Noetherian.

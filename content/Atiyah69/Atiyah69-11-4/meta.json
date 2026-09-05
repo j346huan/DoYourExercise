@@ -1,0 +1,12 @@
+{
+  "tag": "11.4",
+  "chapter": "11",
+  "section": null,
+  "number": "4",
+  "title": "An example of a Noetherian domain of infinite dimension (Nagata)",
+  "status": "unsolved",
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "empty"
+}

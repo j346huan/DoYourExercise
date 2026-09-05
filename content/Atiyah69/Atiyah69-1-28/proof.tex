@@ -1,5 +1,3 @@
-We need an inverse to the above identification. Suppose we have a $k$-algebra homomorphism $\varphi:A(Y)\to A(X)$. Let $f_i=\varphi(y_i)\in A(X)$. Now define $f:X\to Y$ by $f(x)=(f_1(x),\ldots,f_m(x))$ is regular. $g\circ f$ is equal to $\varphi(g)$ because
-\[
-g(f(x))=g(f_1(x),\ldots,f_m(x))=g(\varphi(y_1)(x),\ldots,\varphi(y_m)(x))=\varphi(g)(x)
-\]
-(since $\varphi$ is algebra homomorphism). The image lies inside $Y$ because $g\circ f=\varphi(g)=0$ for all $g\in I(Y)$, so $f(x)\in V(I(Y))=Y$.
+A regular map pulls polynomial functions back to polynomial functions, so it induces a $k$-algebra homomorphism.
+
+Conversely, let $\varphi:P(Y)\to P(X)$ be a $k$-algebra homomorphism and let $y_1,\ldots,y_m$ be the coordinate functions on $Y$. Define $f(x)=(\varphi(y_1)(x),\ldots,\varphi(y_m)(x))$. If $g\in I(Y)$, then $g(f(x))=\varphi(g)(x)=0$, so $f(x)\in Y$. Choosing polynomial representatives of the $\varphi(y_i)$ makes $f$ regular. For every polynomial function $g$ on $Y$, its pullback is $g(f(x))=\varphi(g)(x)$. Since the coordinate functions generate $P(Y)$, the two constructions are inverse.
