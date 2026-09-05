@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
-const base = '/DoYourExercise';
+const base = process.env.SITE_BASE_PATH || '';
 const html = readFileSync('site-dist/index.html', 'utf8');
 const urls = [...html.matchAll(/(?:src|href)="([^"]+)"/g)]
   .map((m) => m[1])
@@ -30,3 +30,4 @@ console.log(
       .filter((u) => !u.startsWith(base + '/'))
       .join(', '),
 );
+

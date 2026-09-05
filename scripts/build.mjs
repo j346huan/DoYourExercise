@@ -32,3 +32,5 @@ writeFileSync(path.join(target, '.nojekyll'), '');
 console.log(
   `GitHub Pages artifact ready: site-dist/ (base path: ${base || '/'})`,
 );
+const verified = spawnSync(process.execPath, ['scripts/verify-static.mjs'], {stdio: 'inherit', env: {...process.env, SITE_BASE_PATH: base}});
+if (verified.status !== 0) process.exit(verified.status || 1);

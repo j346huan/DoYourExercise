@@ -4,4 +4,5 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   css: { postcss: { plugins: [tailwindcss()] } },
   plugins: [vinext()],
+  server: { watch: { ignored: ['**/.tools/**', '**/.lake/**', '**/LeanExercises/**', '**/site-dist/**'] } },
 });
