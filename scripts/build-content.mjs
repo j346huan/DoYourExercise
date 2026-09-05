@@ -80,18 +80,13 @@ for (const folder of (await readdir('content', { withFileTypes: true }))
     if (meta.tag !== tag || dir.name !== slug)
       throw Error(`Expected folder ${slug} and tag ${tag}`);
     const files = {};
-    for (const name of [
-      'statement.tex',
-      'proof.tex',
-      'proof.lean',
-      'translation.tex',
-    ]) {
+    for (const name of ['proof.tex', 'proof.lean', 'translation.tex']) {
       try {
         const text = (await readFile(path.join(source, name), 'utf8')).replace(
           /^\uFEFF/,
           '',
         );
-        if (text.trim() || name === 'statement.tex') {
+        if (text.trim()) {
           files[name] = text;
           await write(path.join(publicContent, book.id, slug, name), text);
         }
@@ -99,8 +94,8 @@ for (const folder of (await readdir('content', { withFileTypes: true }))
         if (e.code !== 'ENOENT') throw e;
       }
     }
-    if (!('statement.tex' in files))
-      throw Error(`${slug} has no statement.tex`);
+    if ('statement' in meta)
+      throw Error(`${slug}: statement must not be stored in meta.json`);
     if (!['unsolved', 'solved', 'formalized'].includes(meta.status))
       throw Error(`Invalid status for ${slug}`);
     if (meta.status !== 'unsolved' && !files['proof.tex'])
@@ -181,7 +176,6 @@ for (const folder of (await readdir('content', { withFileTypes: true }))
       chapterTitle: ch.title,
       sectionTitle:
         ch.sections?.find((x) => x.id === meta.section)?.title || null,
-      statement: files['statement.tex'],
       files: Object.keys(files),
       sourcePath: `content/${book.id}/${slug}`,
     };
@@ -228,6 +222,4 @@ await write(
   'public/catalog.json',
   JSON.stringify({ version: 1, books, problems }, null, 2),
 );
-console.log(
-  `Indexed ${books.length} books, ${problems.length} exercises. Statements indexed separately; proof files loaded on demand.`,
-);
+console.log(`Indexed ${books.length} books, ${problems.length} exercises.`);

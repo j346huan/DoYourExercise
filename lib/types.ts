@@ -43,7 +43,6 @@ export interface Problem {
   };
   updated: string;
   dependencies: string[];
-  statement: string;
   files: string[];
   sourcePath: string;
   lean: { module: string; verified: boolean } | null;

@@ -970,33 +970,20 @@ function ProblemPage({
       {p.title && <h1 className="question-title">{p.title}</h1>}
       <div className="problem-layout">
         <article>
-          <section className="proof-panel statement-panel">
+          <section className="proof-panel solution-panel">
             <div className="panel-heading">
               <h2>
-                Question <span className="mono">{p.tag}</span>
+                Solution <span className="mono">{p.tag}</span>
               </h2>
               <Badge status={p.status} />
               <button
                 className="icon-button"
                 onClick={copyLink}
-                aria-label="Copy question link"
+                aria-label="Copy exercise link"
                 title="Copy link"
               >
                 <LinkIcon size={15} />
               </button>
-            </div>
-            {p.statement && (
-              <TexContent
-                text={p.statement}
-                book={p.book}
-                catalog={catalog}
-                onNavigate={navigate}
-              />
-            )}
-          </section>
-          <section className="proof-panel solution-panel">
-            <div className="panel-heading">
-              <h2>Solution</h2>
             </div>
             {proof.loading ? (
               <p className="source-message">Loading…</p>

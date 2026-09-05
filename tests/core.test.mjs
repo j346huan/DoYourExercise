@@ -76,9 +76,10 @@ test('tab persistence rejects malformed records and invalid routes', () => {
     '/problem/Notebook26-1-1-1',
   );
 });
-test('catalog contains statements but does not inline proofs or Lean code', () => {
+test('catalog omits statements and does not inline proofs or Lean code', () => {
   for (const p of problems) {
-    assert.ok(p.statement);
+    assert.ok(!('statement' in p));
+    assert.ok(!p.files.includes('statement.tex'));
     assert.ok(!('proof' in p));
     assert.ok(!('translation' in p));
     assert.ok(!('code' in p));
@@ -151,10 +152,10 @@ test('TeX parser preserves literal markup as text and handles escaped delimiters
   assert.equal(parsed.filter((n) => n.kind === 'math').length, 1);
 });
 
-test('untitled questions remain searchable by statement and reference', () => {
+test('untitled exercises remain searchable by chapter and reference', () => {
   const untitled = problems.map((p) => ({ ...p, title: '', tags: undefined }));
   assert.ok(
-    searchProblems(untitled, 'natural numbr book:Notebook26').some(
+    searchProblems(untitled, 'working with sum book:Notebook26').some(
       (p) => p.id === 'Notebook26,1.1.1',
     ),
   );

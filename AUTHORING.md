@@ -6,9 +6,10 @@ Create or update the exercise folder under `content/<BookID>/`. Use the book ID 
 
 Add these files:
 
-- `statement.tex`: the question.
 - `proof.tex`: the solution.
 - `meta.json`: the exercise metadata.
+
+Optionally keep the question in `statement.tex` in the same folder for private reference. This file is ignored by Git and excluded from the website. Do not force-add it to Git.
 
 For a solved exercise:
 
@@ -67,4 +68,4 @@ npm test
 npm run dev
 ```
 
-Commit the files in `content/` and push to `main` to publish.
+Commit the solution and metadata files in `content/` and push to `main` to publish.

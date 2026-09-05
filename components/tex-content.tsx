@@ -74,11 +74,8 @@ export function ExerciseReference({
           <span className={`status ${problem.status}`}>{problem.status}</span>
         </div>
         {problem.title && <strong>{problem.title}</strong>}
-        <div className="preview-statement">
-          <TexContent text={problem.statement} book={problem.book} />
-        </div>
         <div className="preview-actions">
-          <button onClick={() => onNavigate(route)}>Read question</button>
+          <button onClick={() => onNavigate(route)}>Read solution</button>
           <button onClick={() => onNavigate(route, true)}>
             <SquarePlus size={15} /> New tab
           </button>

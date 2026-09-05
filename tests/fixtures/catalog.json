@@ -86,16 +86,11 @@
       "section": null,
       "number": "1",
       "title": "Measuring three consecutive segments",
-      "tags": [
-        "length",
-        "associativity"
-      ],
+      "tags": ["length", "associativity"],
       "status": "solved",
       "sample": true,
       "updated": "2026-09-05",
-      "dependencies": [
-        "Notebook26,1.2.1"
-      ],
+      "dependencies": ["Notebook26,1.2.1"],
       "lean": {
         "module": "LeanExercises.Geometry26.Ex_1_1",
         "verified": false
@@ -106,13 +101,7 @@
       "bookTitle": "A First Notebook in Geometry",
       "chapterTitle": "Measuring paths",
       "sectionTitle": null,
-      "statement": "A broken line consists of three consecutive segments of lengths $a,b,c$, measured in whole units.\n\nShow that grouping the first two lengths or the last two lengths gives the same total:\n\\[\n(a+b)+c=a+(b+c).\n\\]\n",
-      "files": [
-        "statement.tex",
-        "proof.tex",
-        "proof.lean",
-        "translation.tex"
-      ],
+      "files": ["proof.tex", "proof.lean", "translation.tex"],
       "sourcePath": "content/Geometry26/Geometry26-1-1"
     },
     {
@@ -121,10 +110,7 @@
       "section": "1",
       "number": "1",
       "title": "Zero on the right",
-      "tags": [
-        "natural-numbers",
-        "identities"
-      ],
+      "tags": ["natural-numbers", "identities"],
       "status": "solved",
       "sample": true,
       "updated": "2026-09-05",
@@ -139,13 +125,7 @@
       "bookTitle": "A First Notebook in Algebra",
       "chapterTitle": "Working with sums",
       "sectionTitle": "Adding zero",
-      "statement": "Let $n$ be a natural number. Prove that\n\\[\nn+0=n.\n\\]\n",
-      "files": [
-        "statement.tex",
-        "proof.tex",
-        "proof.lean",
-        "translation.tex"
-      ],
+      "files": ["proof.tex", "proof.lean", "translation.tex"],
       "sourcePath": "content/Notebook26/Notebook26-1-1-1"
     },
     {
@@ -154,16 +134,11 @@
       "section": "1",
       "number": "2",
       "title": "Removing a silent term",
-      "tags": [
-        "natural-numbers",
-        "rewriting"
-      ],
+      "tags": ["natural-numbers", "rewriting"],
       "status": "solved",
       "sample": true,
       "updated": "2026-09-05",
-      "dependencies": [
-        "Notebook26,1.1.1"
-      ],
+      "dependencies": ["Notebook26,1.1.1"],
       "lean": {
         "module": "LeanExercises.Notebook26.Ex_1_1_2",
         "verified": false
@@ -174,13 +149,7 @@
       "bookTitle": "A First Notebook in Algebra",
       "chapterTitle": "Working with sums",
       "sectionTitle": "Adding zero",
-      "statement": "Let $n,m$ be natural numbers. Prove that\n\\[\n(n+0)+m=n+m.\n\\]\n",
-      "files": [
-        "statement.tex",
-        "proof.tex",
-        "proof.lean",
-        "translation.tex"
-      ],
+      "files": ["proof.tex", "proof.lean", "translation.tex"],
       "sourcePath": "content/Notebook26/Notebook26-1-1-2"
     },
     {
@@ -189,10 +158,7 @@
       "section": "2",
       "number": "1",
       "title": "Moving the parentheses",
-      "tags": [
-        "natural-numbers",
-        "associativity"
-      ],
+      "tags": ["natural-numbers", "associativity"],
       "status": "solved",
       "sample": true,
       "updated": "2026-09-05",
@@ -207,13 +173,7 @@
       "bookTitle": "A First Notebook in Algebra",
       "chapterTitle": "Working with sums",
       "sectionTitle": "Grouping terms",
-      "statement": "Let $a,b,c$ be natural numbers. Show that\n\\[\na+(b+c)=(a+b)+c.\n\\]\n",
-      "files": [
-        "statement.tex",
-        "proof.tex",
-        "proof.lean",
-        "translation.tex"
-      ],
+      "files": ["proof.tex", "proof.lean", "translation.tex"],
       "sourcePath": "content/Notebook26/Notebook26-1-2-1"
     },
     {
@@ -222,10 +182,7 @@
       "section": "1",
       "number": "1",
       "title": "Cancelling a common tail",
-      "tags": [
-        "natural-numbers",
-        "cancellation"
-      ],
+      "tags": ["natural-numbers", "cancellation"],
       "status": "unsolved",
       "sample": true,
       "updated": "2026-09-05",
@@ -237,10 +194,7 @@
       "bookTitle": "A First Notebook in Algebra",
       "chapterTitle": "Equations and inequalities",
       "sectionTitle": "Cancellation",
-      "statement": "Let $n,m,k$ be natural numbers. Suppose that $n+k=m+k$. Prove that $n=m$.\n",
-      "files": [
-        "statement.tex"
-      ],
+      "files": [],
       "sourcePath": "content/Notebook26/Notebook26-2-1-1"
     },
     {
@@ -249,10 +203,7 @@
       "section": "2",
       "number": "1",
       "title": "A sum cannot shrink its first term",
-      "tags": [
-        "natural-numbers",
-        "inequalities"
-      ],
+      "tags": ["natural-numbers", "inequalities"],
       "status": "unsolved",
       "sample": true,
       "updated": "2026-09-05",
@@ -264,10 +215,7 @@
       "bookTitle": "A First Notebook in Algebra",
       "chapterTitle": "Equations and inequalities",
       "sectionTitle": "Comparing sums",
-      "statement": "Let $n,m$ be natural numbers. Prove that $n\\leq n+m$.\n",
-      "files": [
-        "statement.tex"
-      ],
+      "files": [],
       "sourcePath": "content/Notebook26/Notebook26-2-2-1"
     }
   ],

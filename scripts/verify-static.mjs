@@ -12,6 +12,9 @@ for (const url of urls) {
 }
 const catalog = JSON.parse(readFileSync('site-dist/catalog.json', 'utf8'));
 for (const p of catalog.problems) {
+  assert.ok(!('statement' in p));
+  assert.ok(!p.files.includes('statement.tex'));
+  assert.ok(!existsSync(path.join('site-dist', p.sourcePath, 'statement.tex')));
   for (const file of p.files)
     assert.ok(existsSync(path.join('site-dist', p.sourcePath, file)));
   assert.ok(existsSync(`site-dist/exercises/${p.slug}/index.html`));
@@ -30,4 +33,3 @@ console.log(
       .filter((u) => !u.startsWith(base + '/'))
       .join(', '),
 );
-

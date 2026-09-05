@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 import katex from 'katex';
 import { parseTex } from '../lib/tex.mjs';
 import { resolveReference } from '../lib/core.mjs';
@@ -51,16 +51,13 @@ test('every published TeX fragment typesets with the website renderer', () => {
   assert.ok(expressions > 0, 'The collection contains rendered mathematics');
 });
 
-test('the published catalog contains statements but no proof contents', () => {
+test('published content excludes statements and preserves solution files', () => {
   for (const problem of problems) {
-    const statement = readFileSync(
-      `${problem.sourcePath}/statement.tex`,
-      'utf8',
-    );
-    assert.equal(problem.statement, statement);
-    for (const key of ['proof', 'translation', 'leanCode'])
+    for (const key of ['statement', 'proof', 'translation', 'leanCode'])
       assert.equal(problem[key], undefined);
-    for (const file of problem.files.filter((f) => f !== 'statement.tex')) {
+    assert.ok(!problem.files.includes('statement.tex'));
+    assert.ok(!existsSync(`public/${problem.sourcePath}/statement.tex`));
+    for (const file of problem.files) {
       assert.equal(
         readFileSync(`public/${problem.sourcePath}/${file}`, 'utf8'),
         readFileSync(`${problem.sourcePath}/${file}`, 'utf8'),
