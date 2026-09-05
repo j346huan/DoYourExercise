@@ -487,8 +487,9 @@ export default function ExerciseApp() {
                       <div className="library-heading">
                         <h1 id="library-title">Library</h1>
                         <p className="library-stats">
-                          {libraryStats.formalized}/{libraryStats.solved}/
-                          {catalog.problems.length} formalized/solved/included.
+                          {libraryStats.formalized} formalized,{' '}
+                          {libraryStats.solved} solved,{' '}
+                          {catalog.problems.length} included.
                         </p>
                       </div>
                       <div className="shelf-grid">
