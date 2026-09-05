@@ -1,0 +1,7 @@
+Let $\mathfrak q$ be a prime of $A[x]$ and put $\mathfrak p=\mathfrak q\cap A$, of height $h$. Choose a system of parameters in $A_{\mathfrak p}$ and clear its denominators to obtain $a_1,\ldots,a_h\in\mathfrak p$ such that $\mathfrak p$ is minimal over $(a_1,\ldots,a_h)$.
+
+The prime $\mathfrak p[x]$ is minimal over $(a_1,\ldots,a_h)A[x]$: a smaller prime containing that ideal would contract to a prime contained in $\mathfrak p$ and containing every $a_i$, hence to $\mathfrak p$ itself, and would then contain $\mathfrak p[x]$. Krull's height theorem gives $\operatorname{ht}\mathfrak p[x]\leq h$.
+
+If $\mathfrak q\neq\mathfrak p[x]$, choose $f\in\mathfrak q\setminus\mathfrak p[x]$. Any prime contained in $\mathfrak q$ and containing $(a_1,\ldots,a_h,f)$ must again contract to $\mathfrak p$. In the fiber $\operatorname{Spec}\kappa(\mathfrak p)[x]$, it contains the nonzero image of $f$, so it is maximal and equals the prime corresponding to $\mathfrak q$. Thus $\mathfrak q$ is minimal over this ideal of $h+1$ generators, and $\operatorname{ht}\mathfrak q\leq h+1$.
+
+It follows that $\dim A[x]\leq\dim A+1$. The reverse inequality is \exref{11.6}. Polynomial rings over $A$ remain Noetherian, so induction gives $\dim A[x_1,\ldots,x_n]=\dim A+n$.

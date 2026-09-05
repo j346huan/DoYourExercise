@@ -1,0 +1,7 @@
+The zero module is the empty direct sum. Otherwise finite generation and torsion give $0\ne a\in A$ with $aM=0$. Factor $(a)=\prod_{i=1}^r\mathfrak p_i^{e_i}$ with distinct nonzero primes. The Chinese Remainder Theorem gives
+\[A/(a)\cong\prod_{i=1}^r A/\mathfrak p_i^{e_i}.\]
+The corresponding orthogonal idempotents decompose $M$ as a direct sum of modules killed by the respective $\mathfrak p_i^{e_i}$. Each $A/\mathfrak p_i^{e_i}$ is local, so every element outside $\mathfrak p_i$ acts invertibly on its summand. The other summands vanish upon localization at $\mathfrak p_i$. Hence $M\cong\bigoplus_iM_{\mathfrak p_i}$ as $A$-modules.
+
+Each $M_{\mathfrak p_i}$ is a finitely generated torsion module over the principal ideal domain $A_{\mathfrak p_i}$. Its structure theorem gives a finite direct sum of modules $A_{\mathfrak p_i}/\mathfrak p_i^nA_{\mathfrak p_i}$ with $n\geq1$. The natural map $A/\mathfrak p_i^n\to A_{\mathfrak p_i}/\mathfrak p_i^nA_{\mathfrak p_i}$ is an isomorphism, since every element outside $\mathfrak p_i$ is already a unit modulo $\mathfrak p_i^n$. This proves existence.
+
+Localizing a decomposition at $\mathfrak p$ removes all summands belonging to other primes. For every $j\geq1$, the number of remaining summands with exponent at least $j$ is $\dim_{A/\mathfrak p}(\mathfrak p^{j-1}M_{\mathfrak p}/\mathfrak p^jM_{\mathfrak p})$. These dimensions determine the multiplicity of every exponent, proving uniqueness.

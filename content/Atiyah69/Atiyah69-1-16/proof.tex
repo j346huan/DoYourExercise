@@ -1,0 +1,11 @@
+For the first four rings, the prime ideals and their specializations are
+\[\begin{array}{c|c|c|c}\mathbb Z&\mathbb R&\mathbb C[x]&\mathbb R[x]\\(0)&(0)&(0)&(0)\\\downarrow&&\downarrow&\downarrow\\(p)&&(x-a)&(x-a),\ (x^2+bx+c)\end{array}\]
+Here $p$ ranges over positive primes, $a\in\mathbb C$ in the third column, and $a,b,c\in\mathbb R$ with $b^2-4c<0$ in the fourth. Each bottom entry is a closed point, and the arrows indicate specialization. The spectrum of $\mathbb R$ is a single point. In each of the other three spectra, $(0)$ is dense and the proper closed subsets are exactly the finite sets of nonzero prime ideals. These descriptions follow from the classification of ideals in a principal ideal domain and the factorization of real and complex polynomials.
+
+The primes of $\mathbb Z[x]$ are $(0)$, $(p)$, $(f)$, and $(p,g)$, where $p$ is prime, $f\in\mathbb Z[x]$ is primitive and irreducible of positive degree, and $g\in\mathbb Z[x]$ lifts a monic irreducible polynomial in $\mathbb F_p[x]$. Indeed, primes contracting to $(p)$ correspond to primes of $\mathbb F_p[x]$. Primes contracting to zero correspond by localization to primes of $\mathbb Q[x]$, and Gauss's lemma contracts their nonzero principal ideals to the ideals $(f)$.
+
+The ideals $(p,g)$ are maximal because their quotients are fields. Neither $(0)$ nor $(p)$ is maximal. Also $(f)$ is not maximal: choose $p$ not dividing the leading coefficient of $f$, and an irreducible factor $\bar g$ of its reduction modulo $p$; then $(f)\subsetneq(p,g)$.
+
+The specialization sketch is
+\[\begin{array}{ccc}&(0)&\\\swarrow&&\searrow\\(p)&&(f)\\\searrow&&\swarrow\\&(p,g)&\end{array}\]
+The inclusion $(f)\subseteq(p,g)$ holds exactly when $\bar g$ divides $\bar f$ in $\mathbb F_p[x]$. Thus $\overline{\{(0)\}}$ is the whole spectrum, $\overline{\{(p)\}}$ consists of $(p)$ and all $(p,g)$ over $p$, and $\overline{\{(f)\}}$ consists of $(f)$ and the closed points satisfying this divisibility condition. Since $\mathbb Z[x]$ is Noetherian, every closed subset is a finite union of these point closures.

@@ -4,9 +4,12 @@
   "section": null,
   "number": "8",
   "title": "",
-  "status": "unsolved",
+  "status": "solved",
   "updated": "2026-09-05",
-  "dependencies": [],
+  "dependencies": [
+    "Atiyah69,10.7",
+    "Atiyah69,3.17"
+  ],
   "lean": null,
-  "coverage": "empty"
+  "coverage": "proof"
 }

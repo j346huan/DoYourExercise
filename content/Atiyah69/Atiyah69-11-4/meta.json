@@ -4,9 +4,11 @@
   "section": null,
   "number": "4",
   "title": "An example of a Noetherian domain of infinite dimension (Nagata)",
-  "status": "unsolved",
+  "status": "solved",
   "updated": "2026-09-05",
-  "dependencies": [],
+  "dependencies": [
+    "Atiyah69,7.9"
+  ],
   "lean": null,
-  "coverage": "empty"
+  "coverage": "proof"
 }

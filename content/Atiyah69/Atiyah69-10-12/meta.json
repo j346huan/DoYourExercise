@@ -4,9 +4,9 @@
   "section": null,
   "number": "12",
   "title": "",
-  "status": "unsolved",
+  "status": "solved",
   "updated": "2026-09-05",
   "dependencies": [],
   "lean": null,
-  "coverage": "empty"
+  "coverage": "proof"
 }

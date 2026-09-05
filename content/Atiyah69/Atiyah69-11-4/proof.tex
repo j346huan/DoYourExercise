@@ -1,0 +1,9 @@
+Each $\mathfrak p_i$ is prime, since its quotient is a polynomial ring, and the $\mathfrak p_i$ are pairwise incomparable. A nonzero polynomial belongs to only finitely many of them: it involves variables from only finitely many blocks, and its image is unchanged on quotienting by any other block.
+
+We claim that an ideal contained in $\bigcup_i\mathfrak p_i$ is contained in one $\mathfrak p_i$. Otherwise choose a nonzero $f$ in the ideal. By finite prime avoidance, choose $g$ in the ideal outside all the finitely many $\mathfrak p_i$ containing $f$. Choose a block containing none of the variables in $f$ or $g$, and let $z$ be one of its variables, in the block indexed by $j$. Modulo $\mathfrak p_j$, the polynomial $f+zg$ becomes the nonzero polynomial $f$. For $i\neq j$, the variable $z$ survives as an independent indeterminate, so $f+zg\in\mathfrak p_i$ would force both $f,g\in\mathfrak p_i$, contrary to the choice of $g$. Thus $f+zg$ lies in $S$, a contradiction.
+
+Put $R=S^{-1}A$, which is a domain. By the claim and prime correspondence, its maximal ideals are exactly $S^{-1}\mathfrak p_i$; incomparability shows that none is contained in another. Let $K_i$ be the fraction field of the polynomial ring in the variables outside the $i$th block. Then
+\[R_{S^{-1}\mathfrak p_i}\cong A_{\mathfrak p_i}\cong K_i[x_{m_i+1},\ldots,x_{m_{i+1}}]_{(x_{m_i+1},\ldots,x_{m_{i+1}})}.\]
+This is a Noetherian regular local ring of dimension $m_{i+1}-m_i$. Every nonzero element $f/s$ of $R$ belongs to only finitely many maximal ideals, since $f$ belongs to only finitely many $\mathfrak p_i$. \exref{7.9} therefore shows that $R$ is Noetherian.
+
+The displayed localization gives $\operatorname{ht}(S^{-1}\mathfrak p_i)=m_{i+1}-m_i$. These differences are strictly increasing, hence unbounded. Since $R$ is a localization of a domain, it is a Noetherian domain of infinite dimension.

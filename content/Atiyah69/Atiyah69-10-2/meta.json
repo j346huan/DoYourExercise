@@ -4,11 +4,11 @@
   "section": null,
   "number": "2",
   "title": "",
-  "status": "unsolved",
+  "status": "solved",
   "updated": "2026-09-05",
   "dependencies": [
     "Atiyah69,10.1"
   ],
   "lean": null,
-  "coverage": "empty"
+  "coverage": "proof"
 }

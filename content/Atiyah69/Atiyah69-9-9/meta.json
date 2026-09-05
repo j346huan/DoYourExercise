@@ -4,9 +4,11 @@
   "section": null,
   "number": "9",
   "title": "Chinese Remainder Theorem",
-  "status": "unsolved",
+  "status": "solved",
   "updated": "2026-09-05",
-  "dependencies": [],
+  "dependencies": [
+    "Atiyah69,9.8"
+  ],
   "lean": null,
-  "coverage": "empty"
+  "coverage": "proof"
 }

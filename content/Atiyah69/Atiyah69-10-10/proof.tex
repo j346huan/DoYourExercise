@@ -1,0 +1,7 @@
+\textbf{(i)} Write $\bar f=(x-\bar a)\bar h$. The simple-root condition gives $\bar h(\bar a)=\bar f'(\bar a)\ne0$, so the factors are coprime. By \exref{10.9}, $f=(x-a)h$ for a lift $a$ of $\bar a$. Thus $f(a)=0$, and $f'(a)=h(a)$ is a unit because its reduction is nonzero.
+
+\textbf{(ii)} The polynomial $x^2-2$ has the simple root $3$ modulo $7$, since $3^2-2=7$ and $2\cdot3\not\equiv0\pmod7$. Part (i) gives a square root of $2$ in $\mathbb{Z}_7$.
+
+\textbf{(iii)} Put $b=\partial f/\partial y(0,a_0)\ne0$ and start with $y_0=a_0$. Suppose $y_N\in k[x]$ has degree at most $N$, constant term $a_0$, and $f(x,y_N)\in(x^{N+1})$. Let $c$ be the coefficient of $x^{N+1}$ in $f(x,y_N)$ and set $y_{N+1}=y_N-(c/b)x^{N+1}$. Polynomial expansion gives
+\[f(x,y_{N+1})\equiv f(x,y_N)-(c/b)x^{N+1}\frac{\partial f}{\partial y}(x,y_N)\equiv0\pmod{x^{N+2}}.\]
+The coefficients stabilize, defining $y(x)\in k[[x]]$ with $y(0)=a_0$. Passing to the limit gives $f(x,y(x))=0$.

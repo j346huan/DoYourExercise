@@ -1,0 +1,5 @@
+Necessity follows from $x_i-x_j=(x_i-x)+(x-x_j)\in\mathfrak a_i+\mathfrak a_j$.
+
+For sufficiency, induct on $n$. The case $n=1$ is immediate. Suppose $y$ solves the first $n-1$ congruences. For each $i<n$, the compatibility condition gives $x_n-y\in\mathfrak a_i+\mathfrak a_n$. Repeatedly applying \exref{9.8} yields
+\[x_n-y\in\bigcap_{i<n}(\mathfrak a_i+\mathfrak a_n)=\left(\bigcap_{i<n}\mathfrak a_i\right)+\mathfrak a_n.\]
+Write $x_n-y=u+v$ with $u\in\bigcap_{i<n}\mathfrak a_i$ and $v\in\mathfrak a_n$. Then $x=y+u$ still solves the first $n-1$ congruences, and $x-x_n=-v\in\mathfrak a_n$. Thus it solves them all.

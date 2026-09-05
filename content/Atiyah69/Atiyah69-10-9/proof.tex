@@ -1,0 +1,9 @@
+Put $\kappa=A/\mathfrak{m}$, $r=\deg\bar g$ and $n=\deg f$. Coprimality implies that
+\[(u,v)\mapsto u\bar h+\bar g v\]
+is an isomorphism from $\kappa[x]_{<r}\oplus\kappa[x]_{<n-r}$ to $\kappa[x]_{<n}$, where the subscript bounds the degree. Indeed, its kernel is zero by coprimality and the degree bounds, and both spaces have dimension $n$.
+
+Choose arbitrary monic lifts $g_1,h_1$ of the prescribed degrees. Suppose $f-g_jh_j\in\mathfrak{m}^jA[x]$. The error has degree less than $n$. Tensoring the preceding isomorphism with the $\kappa$-vector space $\mathfrak{m}^j/\mathfrak{m}^{j+1}$ gives polynomials $u_j\in\mathfrak{m}^jA[x]$ of degree less than $r$ and $v_j\in\mathfrak{m}^jA[x]$ of degree less than $n-r$ such that
+\[f-g_jh_j\equiv u_jh_j+g_jv_j\pmod{\mathfrak{m}^{j+1}A[x]}.\]
+Set $g_{j+1}=g_j+u_j$ and $h_{j+1}=h_j+v_j$. Since $u_jv_j\in\mathfrak{m}^{2j}A[x]\subseteq\mathfrak{m}^{j+1}A[x]$, the new error lies in $\mathfrak{m}^{j+1}A[x]$. The degrees and leading coefficients remain unchanged.
+
+The coefficients form Cauchy sequences, so completeness gives monic limits $g,h$ of the required degrees and reductions. Since $f-g_jh_j$ tends to zero, $f=gh$.

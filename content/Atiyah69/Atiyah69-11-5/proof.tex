@@ -1,0 +1,7 @@
+Write $H_M(t)=\sum_{n\geq0}[M_n]t^n$. If necessary, replace $M$ by its nonnegative part, which is finitely generated since $A$ is Noetherian. Each $M_n$ is finite over $A_0$, so these classes lie in $K(A_0)$.
+
+Induct on $s$. If $s=0$, then $A=A_0$ and $M$ has only finitely many nonzero homogeneous components, so $H_M(t)$ is a polynomial.
+
+Let $x_s$ be the last homogeneous generator, of degree $k_s$, and put $K=(0:_M x_s)$ and $L=M/x_sM$. These are finitely generated graded modules annihilated by $x_s$, hence finite over $A_0[x_1,\ldots,x_{s-1}]$. With negative components interpreted as zero, multiplication by $x_s$ gives an exact sequence $0\to K_{n-k_s}\to M_{n-k_s}\to M_n\to L_n\to0$ for every $n\geq0$. The defining relations of $K(A_0)$ therefore give
+\[(1-t^{k_s})H_M(t)=H_L(t)-t^{k_s}H_K(t).\]
+By induction, multiplying either series on the right by $\prod_{i<s}(1-t^{k_i})$ gives a polynomial in $K(A_0)[t]$. Hence $\prod_{i\leq s}(1-t^{k_i})H_M(t)$ is such a polynomial.
