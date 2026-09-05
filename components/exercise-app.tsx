@@ -276,6 +276,11 @@ export default function ExerciseApp() {
     () => (catalog ? searchProblems(catalog.problems, query) : []),
     [catalog, query],
   );
+  const libraryStats = useMemo(() => {
+    const counts = { solved: 0, unsolved: 0, formalized: 0 };
+    for (const exercise of catalog?.problems || []) counts[exercise.status]++;
+    return counts;
+  }, [catalog]);
   const currentBook = catalog?.books.find((b) => b.id === problem?.book);
   const selectedBook = catalog?.books.find((b) => b.id === bookDialog?.book);
   const modalProblem =
@@ -475,41 +480,61 @@ export default function ExerciseApp() {
                       )}
                     </div>
                   ) : activeTab.route === '/' ? (
-                    <section className="shelf-grid" aria-label="Textbooks">
-                      {catalog.books.map((b) => (
-                        <button
-                          className="book-tile"
-                          key={b.id}
-                          onClick={() => browse(b.id)}
-                        >
-                          <div className="book-image-area">
-                            {b.cover ? (
-                              <Image
-                                unoptimized
-                                className="book-cover"
-                                src={asset(b.cover)}
-                                alt={b.title}
-                                width={180}
-                                height={270}
-                              />
-                            ) : (
-                              <BookOpen size={44} />
-                            )}
-                          </div>
-                          <div className="book-details">
-                            <span className="book-id">{b.id}</span>
-                            <h2>{b.title}</h2>
-                            <p>{b.authors}</p>
-                            <div className="book-foot">
-                              {
-                                catalog.problems.filter((p) => p.book === b.id)
-                                  .length
-                              }{' '}
-                              exercises
+                    <section
+                      className="library"
+                      aria-labelledby="library-title"
+                    >
+                      <div className="library-heading">
+                        <h1 id="library-title">Library</h1>
+                        <p className="library-stats">
+                          <span>
+                            {catalog.problems.length} exercises included
+                          </span>
+                          {', '}
+                          <span>{libraryStats.solved} solved</span>
+                          {', '}
+                          <span>{libraryStats.unsolved} unsolved</span>
+                          {', '}
+                          <span>{libraryStats.formalized} formalized</span>.
+                        </p>
+                      </div>
+                      <div className="shelf-grid">
+                        {catalog.books.map((b) => (
+                          <button
+                            className="book-tile"
+                            key={b.id}
+                            onClick={() => browse(b.id)}
+                          >
+                            <div className="book-image-area">
+                              {b.cover ? (
+                                <Image
+                                  unoptimized
+                                  className="book-cover"
+                                  src={asset(b.cover)}
+                                  alt={b.title}
+                                  width={180}
+                                  height={270}
+                                />
+                              ) : (
+                                <BookOpen size={44} />
+                              )}
                             </div>
-                          </div>
-                        </button>
-                      ))}
+                            <div className="book-details">
+                              <span className="book-id">{b.id}</span>
+                              <h2>{b.title}</h2>
+                              <p>{b.authors}</p>
+                              <div className="book-foot">
+                                {
+                                  catalog.problems.filter(
+                                    (p) => p.book === b.id,
+                                  ).length
+                                }{' '}
+                                exercises
+                              </div>
+                            </div>
+                          </button>
+                        ))}
+                      </div>
                     </section>
                   ) : problem && currentBook ? (
                     <>
