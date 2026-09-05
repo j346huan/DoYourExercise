@@ -3,16 +3,8 @@
   "chapter": "1",
   "section": null,
   "number": "3",
-  "title": "Several polynomial variables",
-  "tags": [
-    "polynomial-rings",
-    "units",
-    "nilpotents",
-    "zero-divisors",
-    "primitive-polynomials"
-  ],
+  "title": "",
   "status": "unsolved",
-  "sample": false,
   "updated": "2026-09-05",
   "dependencies": ["Atiyah69,1.2"],
   "lean": null,

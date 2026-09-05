@@ -71,12 +71,7 @@ for (const folder of (await readdir('content', { withFileTypes: true }))
       throw Error(`Unknown section in ${dir.name}`);
     if (ch.sections?.length && !meta.section)
       throw Error(`Missing section in ${dir.name}`);
-    if (
-      !part.test(meta.number) ||
-      !meta.title ||
-      !Array.isArray(meta.tags) ||
-      meta.tags.some((t) => typeof t !== 'string')
-    )
+    if (!part.test(meta.number) || typeof meta.title !== 'string')
       throw Error(`Invalid exercise metadata in ${dir.name}`);
     const tag = [meta.chapter, meta.section, meta.number]
       .filter(Boolean)
@@ -96,7 +91,7 @@ for (const folder of (await readdir('content', { withFileTypes: true }))
           /^\uFEFF/,
           '',
         );
-        if (text.trim()) {
+        if (text.trim() || name === 'statement.tex') {
           files[name] = text;
           await write(path.join(publicContent, book.id, slug, name), text);
         }
@@ -104,7 +99,8 @@ for (const folder of (await readdir('content', { withFileTypes: true }))
         if (e.code !== 'ENOENT') throw e;
       }
     }
-    if (!files['statement.tex']) throw Error(`${slug} has no statement.tex`);
+    if (!('statement.tex' in files))
+      throw Error(`${slug} has no statement.tex`);
     if (!['unsolved', 'solved', 'formalized'].includes(meta.status))
       throw Error(`Invalid status for ${slug}`);
     if (meta.status !== 'unsolved' && !files['proof.tex'])
@@ -220,8 +216,8 @@ for (const p of problems) {
 }
 books.sort(
   (a, b) =>
-    ['Atiyah69', 'Notebook26', 'Hartshorne77', 'Geometry26'].indexOf(a.id) -
-    ['Atiyah69', 'Notebook26', 'Hartshorne77', 'Geometry26'].indexOf(b.id),
+    ['Atiyah69', 'Hartshorne77'].indexOf(a.id) -
+    ['Atiyah69', 'Hartshorne77'].indexOf(b.id),
 );
 problems.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
 await write(

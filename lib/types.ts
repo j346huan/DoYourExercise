@@ -5,8 +5,7 @@ export interface Book {
   shortTitle: string;
   authors: string;
   year: number;
-  description: string;
-  kind: 'sample' | 'planned' | 'textbook';
+  bibtex: string;
   cover: string | null;
   coverCredit: string | null;
   coverSource?: string;
@@ -28,9 +27,7 @@ export interface Problem {
   sectionTitle: string | null;
   number: string;
   title: string;
-  tags: string[];
   status: Status;
-  sample: boolean;
   coverage?: 'proof' | 'partial' | 'empty';
   source?: {
     url: string;

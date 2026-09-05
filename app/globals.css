@@ -2470,3 +2470,266 @@ h1 {
   margin-top: 10px;
   line-height: 1.5;
 }
+/* Compact reading layout. */
+.masthead {
+  min-height: 48px;
+  padding: 6px 24px;
+  gap: 24px;
+  flex-wrap: nowrap;
+}
+.brand {
+  font-size: 18px;
+  gap: 9px;
+}
+.brand > svg {
+  width: 23px;
+  height: 23px;
+}
+.global-search [data-slot='input-group'] {
+  height: 34px !important;
+}
+.search-key {
+  top: 8px;
+}
+.search-hint {
+  padding: 6px 12px;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+.search-popover [data-slot='command-item'] {
+  padding: 8px;
+}
+.tab-bar {
+  min-height: 33px;
+  padding: 0 24px;
+}
+.tab-bar [data-slot='tabs-list'],
+.tab-bar .workspace-tab-list {
+  height: 32px;
+}
+.tab-bar .tab-item [data-slot='tabs-trigger'] {
+  height: 32px;
+  min-width: 85px;
+  padding: 5px 12px;
+  font-size: 13px;
+}
+.tab-close {
+  padding: 5px;
+  margin-right: 3px;
+}
+.tab-bar > button {
+  padding: 5px 8px;
+}
+.workspace {
+  width: 100%;
+  padding: 20px 24px 28px;
+}
+.breadcrumbs {
+  margin-bottom: 16px;
+  font-size: 13px;
+}
+.shelf-grid {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 280px));
+  gap: 18px;
+}
+.book-image-area {
+  min-height: 250px;
+  padding: 20px;
+}
+.book-cover {
+  height: 210px;
+}
+.book-details {
+  padding: 14px 16px 0;
+}
+.book-tile h2 {
+  min-height: 0;
+  font-size: 16px;
+  margin: 8px 0;
+}
+.book-tile p {
+  min-height: 0;
+  font-size: 13px;
+}
+.book-id {
+  font-size: 12px;
+  letter-spacing: 0;
+}
+.book-foot {
+  padding: 10px 0;
+  margin-top: 14px;
+  font-size: 12px;
+}
+.question-title {
+  font-size: 22px;
+  margin: 0 0 18px;
+}
+.problem-layout {
+  grid-template-columns: minmax(0, 1fr) 200px;
+  gap: 20px;
+}
+.proof-panel {
+  padding: 16px 20px;
+  margin-bottom: 14px;
+}
+.panel-heading {
+  margin-bottom: 14px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.panel-heading h2 {
+  font-size: 16px;
+}
+.panel-heading h2 .mono {
+  margin-left: 8px;
+  font-size: 14px;
+  color: var(--muted-foreground);
+}
+.tex-content {
+  line-height: 1.7;
+}
+.tex-content .math-display {
+  margin: 14px 0;
+}
+.paragraph-break {
+  height: 14px;
+}
+.proof-artifacts {
+  gap: 12px;
+}
+.artifact-card {
+  padding: 12px 16px;
+  gap: 10px;
+}
+.problem-pagination {
+  margin-top: 16px;
+  padding-top: 14px;
+}
+.problem-pagination > button {
+  padding: 6px 0;
+}
+.aside-panel {
+  padding: 14px;
+  margin-bottom: 14px;
+}
+.tree-toolbar {
+  justify-content: flex-end;
+  padding-top: 0;
+}
+.tree-problem > button:first-child > span:nth-child(2) {
+  min-width: 0;
+}
+.bibliography {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font:
+    13px/1.7 Consolas,
+    monospace;
+  margin: 14px 0 0;
+}
+.about-content {
+  padding-top: 0;
+}
+.reference-preview > strong:empty {
+  display: none;
+}
+@media (min-width: 1450px) {
+  .masthead,
+  .tab-bar {
+    padding-left: calc((100vw - 1224px) /2);
+    padding-right: calc((100vw - 1224px) /2);
+  }
+}
+@media (max-width: 900px) {
+  .masthead {
+    gap: 16px;
+  }
+  .problem-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .problem-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .problem-sidebar > .aside-panel {
+    flex: 1;
+    min-width: 180px;
+  }
+}
+@media (max-width: 640px) {
+  .masthead {
+    flex-wrap: wrap;
+    padding: 8px 14px;
+    gap: 8px;
+  }
+  .search-container {
+    flex-basis: 100%;
+    order: 3;
+  }
+  .tab-bar {
+    padding: 0 14px;
+  }
+  .workspace {
+    padding: 16px 14px 24px;
+  }
+  .shelf-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .book-tile {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    min-height: 190px;
+  }
+  .book-image-area {
+    min-height: 190px;
+    padding: 14px;
+  }
+  .book-cover {
+    height: 160px;
+  }
+  .book-details {
+    padding: 14px 12px 0;
+  }
+  .book-tile h2 {
+    font-size: 15px;
+  }
+  .book-tile p {
+    font-size: 12px;
+  }
+  .proof-panel {
+    padding: 14px;
+  }
+  .tex-content {
+    font-size: 17px;
+  }
+  .question-title {
+    font-size: 20px;
+  }
+  .artifact-card {
+    padding: 11px;
+  }
+  .artifact-card strong {
+    font-size: 13px;
+  }
+  .breadcrumbs {
+    gap: 6px;
+    font-size: 12px;
+  }
+  .bibliography {
+    font-size: 12px;
+  }
+}
+.about-dialog [data-slot='dialog-header'] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  clip-path: inset(50%);
+}
+.about-dialog .about-content {
+  padding-top: 24px;
+}

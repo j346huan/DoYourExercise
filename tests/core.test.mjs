@@ -23,22 +23,21 @@ test('same-book and cross-book references resolve to unique exercises', () => {
 });
 test('fuzzy search tolerates spelling errors', () => {
   assert.ok(
-    searchProblems(problems, 'associatvity').some((p) => p.tag === '1.2.1'),
+    searchProblems(problems, 'parenthess').some((p) => p.tag === '1.2.1'),
   );
   assert.equal(
     searchProblems(problems, 'zero on the rght')[0].title,
     'Zero on the right',
   );
 });
-test('search combines tag, book, and status filters', () => {
+test('search combines text, book, and status filters', () => {
   const found = searchProblems(
     problems,
-    '[associativity] book:Notebook26 status:solved',
+    'parentheses book:Notebook26 status:solved',
   );
   assert.equal(found.length, 1);
   assert.equal(found[0].tag, '1.2.1');
   assert.equal(searchProblems(problems, 'status:unsolved').length, 2);
-  assert.equal(searchProblems(problems, '[nonexistent]').length, 0);
 });
 test('search finds chapter tags and cross-book citation syntax', () => {
   assert.ok(
@@ -150,4 +149,17 @@ test('TeX parser preserves literal markup as text and handles escaped delimiters
     ),
   );
   assert.equal(parsed.filter((n) => n.kind === 'math').length, 1);
+});
+
+test('untitled questions remain searchable by statement and reference', () => {
+  const untitled = problems.map((p) => ({ ...p, title: '', tags: undefined }));
+  assert.ok(
+    searchProblems(untitled, 'natural numbr book:Notebook26').some(
+      (p) => p.id === 'Notebook26,1.1.1',
+    ),
+  );
+  assert.equal(
+    searchProblems(untitled, '(Notebook26,1.1.2)')[0].id,
+    'Notebook26,1.1.2',
+  );
 });

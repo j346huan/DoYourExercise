@@ -6,7 +6,7 @@ import {
   HoverCardTrigger,
   HoverCardContent,
 } from '@/components/ui/hover-card';
-import { SquarePlus, ArrowUpRight } from 'lucide-react';
+import { SquarePlus } from 'lucide-react';
 import type { Catalog, Problem } from '@/lib/types';
 import { resolveReference, referenceLabel } from '@/lib/core.mjs';
 import { parseTex } from '@/lib/tex.mjs';
@@ -73,19 +73,12 @@ export function ExerciseReference({
           EXERCISE {problem.tag}{' '}
           <span className={`status ${problem.status}`}>{problem.status}</span>
         </div>
-        <strong>{problem.title}</strong>
-        {problem.source?.statement === 'summary' && (
-          <p className="preview-summary-label">
-            Statement summary from the author’s notes
-          </p>
-        )}
+        {problem.title && <strong>{problem.title}</strong>}
         <div className="preview-statement">
           <TexContent text={problem.statement} book={problem.book} />
         </div>
         <div className="preview-actions">
-          <button onClick={() => onNavigate(route)}>
-            <ArrowUpRight size={15} /> Read exercise
-          </button>
+          <button onClick={() => onNavigate(route)}>Read question</button>
           <button onClick={() => onNavigate(route, true)}>
             <SquarePlus size={15} /> New tab
           </button>
