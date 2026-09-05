@@ -1,17 +1,11 @@
 # Do Your Exercise
 
-A personal repository of textbook exercise solutions and Lean 4 formalizations.
+My repository of textbook exercise solutions and Lean 4 formalizations.
 
 [Website](https://j346huan.github.io/DoYourExercise/) · [Repository](https://github.com/j346huan/DoYourExercise)
 
-## Content
 
-- `Atiyah69`: Atiyah–Macdonald, _Introduction to Commutative Algebra_ (1969), Chapter 1.
-- `Hartshorne77`: Hartshorne, _Algebraic Geometry_ (1977).
-
-The editable files are in `content/`. Statements, natural-language proofs, Lean source, and Lean translations remain separate. Exercise titles are optional and are used only when the textbook supplies an individual title. Exercise identities use `chapter.problem` or `chapter.section.problem`; there are no topic tags.
-
-See [AUTHORING.md](AUTHORING.md) for the file format. The [Chapter 1 import record](content/Atiyah69/IMPORT.md) records source provenance separately from the reading interface.
+See [AUTHORING.md](AUTHORING.md) for the file format. 
 
 ## Local use
 
@@ -55,4 +49,3 @@ lake exe cache get
 npm run lean:check
 ```
 
-No Lean proofs are currently included. Canonical Lean sources, when added, live beside their exercise's statement and proof. Generated module copies allow later exercises to import earlier results. Only a successful compiler check creates the evidence required for `formalized` status.
