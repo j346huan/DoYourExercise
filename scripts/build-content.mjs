@@ -111,9 +111,36 @@ for (const folder of (await readdir('content', { withFileTypes: true }))
       throw Error(`${slug} needs proof.tex`);
     if (
       meta.status === 'unsolved' &&
-      (files['proof.tex'] || files['proof.lean'])
+      (files['proof.lean'] ||
+        (files['proof.tex'] && meta.coverage !== 'partial'))
     )
-      throw Error(`${slug}: mark completed work solved`);
+      throw Error(
+        `${slug}: only partial notes may accompany an unsolved exercise`,
+      );
+    if (
+      meta.coverage === 'partial' &&
+      (meta.status !== 'unsolved' || !files['proof.tex'])
+    )
+      throw Error(`${slug}: partial notes need proof.tex and unsolved status`);
+    if (meta.coverage && !['proof', 'partial', 'empty'].includes(meta.coverage))
+      throw Error(`Invalid coverage for ${slug}`);
+    if (
+      meta.coverage === 'empty' &&
+      (meta.status !== 'unsolved' || files['proof.tex'])
+    )
+      throw Error(`${slug}: empty entries must be unsolved without proof.tex`);
+    if (meta.source) {
+      const url = new URL(meta.source.url);
+      if (
+        !['http:', 'https:'].includes(url.protocol) ||
+        !meta.source.label ||
+        !Array.isArray(meta.source.pages) ||
+        !meta.source.pages.length ||
+        meta.source.pages.some((page) => !Number.isInteger(page) || page < 1) ||
+        !['summary', 'missing'].includes(meta.source.statement)
+      )
+        throw Error(`Invalid source attribution for ${slug}`);
+    }
     if (files['proof.lean']) {
       const leanModule = `LeanExercises.${book.id}.Ex_${tag.replaceAll('.', '_')}`;
       if (meta.lean?.module !== leanModule)
@@ -193,8 +220,8 @@ for (const p of problems) {
 }
 books.sort(
   (a, b) =>
-    ['Notebook26', 'Atiyah69', 'Hartshorne77', 'Geometry26'].indexOf(a.id) -
-    ['Notebook26', 'Atiyah69', 'Hartshorne77', 'Geometry26'].indexOf(b.id),
+    ['Atiyah69', 'Notebook26', 'Hartshorne77', 'Geometry26'].indexOf(a.id) -
+    ['Atiyah69', 'Notebook26', 'Hartshorne77', 'Geometry26'].indexOf(b.id),
 );
 problems.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
 await write(

@@ -1,0 +1,20 @@
+{
+  "tag": "1.15",
+  "chapter": "1",
+  "section": null,
+  "number": "15",
+  "title": "The prime spectrum of a ring",
+  "tags": ["spectrum", "zariski-topology", "radicals"],
+  "status": "solved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [7],
+    "label": "Original solution PDF",
+    "statement": "summary"
+  }
+}

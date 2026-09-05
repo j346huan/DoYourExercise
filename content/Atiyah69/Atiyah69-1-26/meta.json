@@ -1,0 +1,20 @@
+{
+  "tag": "1.26",
+  "chapter": "1",
+  "section": null,
+  "number": "26",
+  "title": "Continuous functions and the maximal-ideal space",
+  "tags": ["continuous-functions", "maximal-ideals", "topology"],
+  "status": "unsolved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "partial",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [9],
+    "label": "Original solution PDF",
+    "statement": "summary"
+  }
+}

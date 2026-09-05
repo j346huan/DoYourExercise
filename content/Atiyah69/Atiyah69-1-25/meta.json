@@ -1,0 +1,20 @@
+{
+  "tag": "1.25",
+  "chapter": "1",
+  "section": null,
+  "number": "25",
+  "title": "Boolean lattices and clopen subsets",
+  "tags": ["boolean-rings", "boolean-lattices", "spectrum", "clopen-sets"],
+  "status": "solved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [9],
+    "label": "Original solution PDF",
+    "statement": "summary"
+  }
+}

@@ -74,6 +74,11 @@ export function ExerciseReference({
           <span className={`status ${problem.status}`}>{problem.status}</span>
         </div>
         <strong>{problem.title}</strong>
+        {problem.source?.statement === 'summary' && (
+          <p className="preview-summary-label">
+            Statement summary from the author’s notes
+          </p>
+        )}
         <div className="preview-statement">
           <TexContent text={problem.statement} book={problem.book} />
         </div>

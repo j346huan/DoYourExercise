@@ -1,0 +1,20 @@
+{
+  "tag": "1.23",
+  "chapter": "1",
+  "section": null,
+  "number": "23",
+  "title": "The spectrum of a Boolean ring",
+  "tags": ["boolean-rings", "spectrum", "topology"],
+  "status": "unsolved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "partial",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [9],
+    "label": "Original solution PDF",
+    "statement": "summary"
+  }
+}

@@ -62,7 +62,22 @@ For a natural solution, add `proof.tex` and set `status` to `solved`. To include
 
 The module name must use the exact book ID and exercise numbering with underscores. Dependencies are full exercise identities, for example `"dependencies": ["Notebook26,1.1.1"]`. The website links them and uses them to show related exercises. Lean imports themselves go in `proof.lean`.
 
-A solved exercise may have no Lean formalization. An unsolved exercise must not include a completed proof. `formalized` requires all proof files plus current evidence produced by `npm run lean:check`.
+A solved exercise may have no Lean formalization. An unsolved exercise must not include a completed proof. It may include `proof.tex` containing partial notes when `"coverage": "partial"` is set; these notes are displayed and downloadable while the status remains unsolved. `formalized` requires all proof files plus current evidence produced by `npm run lean:check`.
+
+## Imported notes
+
+Keep the original argument faithful, and distinguish transcription from verification. The optional `coverage` field is `proof`, `partial`, or `empty`. Source metadata can identify the original PDF and mark an editorial statement summary:
+
+```json
+"source": {
+  "url": "https://example.org/solutions.pdf",
+  "pages": [5, 6],
+  "label": "Original solution PDF",
+  "statement": "summary"
+}
+```
+
+Use `"statement": "missing"` when only an exercise heading is available, and place a clear placeholder in `statement.tex`. Do not present a reconstructed statement as verbatim textbook text. The website labels summaries and provides a page-specific source link. When replacing a summary with a checked statement, update or remove this import-specific source metadata accordingly.
 
 ## TeX fragments
 

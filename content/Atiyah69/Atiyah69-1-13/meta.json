@@ -1,0 +1,20 @@
+{
+  "tag": "1.13",
+  "chapter": "1",
+  "section": null,
+  "number": "13",
+  "title": "Construction of an algebraic closure of a field",
+  "tags": ["fields", "algebraic-closure"],
+  "status": "unsolved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "partial",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [7],
+    "label": "Original solution PDF",
+    "statement": "summary"
+  }
+}

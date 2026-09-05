@@ -31,6 +31,13 @@ export interface Problem {
   tags: string[];
   status: Status;
   sample: boolean;
+  coverage?: 'proof' | 'partial' | 'empty';
+  source?: {
+    url: string;
+    pages: number[];
+    label: string;
+    statement: 'summary' | 'missing';
+  };
   updated: string;
   dependencies: string[];
   statement: string;

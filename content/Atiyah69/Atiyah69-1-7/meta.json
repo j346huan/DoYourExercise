@@ -1,0 +1,20 @@
+{
+  "tag": "1.7",
+  "chapter": "1",
+  "section": null,
+  "number": "7",
+  "title": "Power identities in an integral domain",
+  "tags": ["integral-domains", "fields", "idempotents"],
+  "status": "solved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [6],
+    "label": "Original solution PDF",
+    "statement": "summary"
+  }
+}

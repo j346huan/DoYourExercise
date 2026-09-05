@@ -4,7 +4,9 @@ A personal mathematical notebook: linked textbook exercises, natural-language pr
 
 ## This edition
 
-Six original demo exercises are included. Four are solved in natural language and have **unverified Lean examples**; two are unsolved. The algebra and geometry notebooks demonstrate same-book and cross-book references, chapters with sections, and chapters without sections. Atiyah–Macdonald (1969) and Hartshorne (1977) are empty planned collections. No real textbook exercises or claimed formal verifications are included.
+Atiyah–Macdonald Chapter 1 includes the author's notes for exercises 1–28, imported from [their solution PDF](https://j346huan.github.io/download/A.pdf). There are 21 supplied proofs, five partial entries, and two blank entries. Partial and blank entries remain unsolved. The PDF omits the textbook statements, so the website clearly labels editorial statement summaries reconstructed from the notes. The original arguments are preserved without independent mathematical verification; no Lean formalizations were added for this chapter. See [the import record](content/Atiyah69/IMPORT.md) for provenance and transcription notes.
+
+Six original demo exercises also remain available. Four have unverified Lean examples and two are unsolved. Hartshorne is a planned collection.
 
 ## Run locally
 
@@ -46,7 +48,7 @@ content/
 ```
 
 - `statement.tex`: only the problem statement.
-- `proof.tex`: the natural-language solution; omit for an unsolved exercise.
+- `proof.tex`: the natural-language solution or partial notes (set `coverage: "partial"` and keep `status: "unsolved"`). Omit when no notes exist.
 - `proof.lean`: the Lean 4 source; optional for a solved exercise.
 - `translation.tex`: a literal human explanation of that Lean source, required when Lean code is supplied.
 - `meta.json`: title, numbering, topic tags, status, and references.
@@ -108,7 +110,7 @@ The current sample snippets have not been compiled. They remain `solved`.
 
 ## GitHub Pages
 
-The intended repository is `j346huan/DoYourExercise`. Once it exists, select **Settings → Pages → Source → GitHub Actions**. The included workflow publishes the `site-dist/` artifact, with the correct repository base path. The expected address is `https://j346huan.github.io/DoYourExercise/`.
+The repository is [j346huan/DoYourExercise](https://github.com/j346huan/DoYourExercise), with GitHub Actions selected as its Pages source. Each push to `main` publishes the `site-dist/` artifact to [the live notebook](https://j346huan.github.io/DoYourExercise/).
 
 For an equivalent local production build in PowerShell:
 
@@ -130,4 +132,3 @@ The initial workflow is reviewed GitHub pull requests. The repository includes a
 - Hartshorne cover: Springer Nature, [publisher page](https://link.springer.com/book/10.1007/978-1-4757-3849-0).
 - Publisher cover art remains owned by the respective rights holders; no open license is asserted.
 - Typesetting uses KaTeX; interface icons use Lucide.
-

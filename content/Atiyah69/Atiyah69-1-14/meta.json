@@ -1,0 +1,20 @@
+{
+  "tag": "1.14",
+  "chapter": "1",
+  "section": null,
+  "number": "14",
+  "title": "Prime ideals among ideals of zero divisors",
+  "tags": ["prime-ideals", "zero-divisors", "zorns-lemma"],
+  "status": "solved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [7],
+    "label": "Original solution PDF",
+    "statement": "summary"
+  }
+}

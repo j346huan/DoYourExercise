@@ -1,0 +1,20 @@
+{
+  "tag": "1.8",
+  "chapter": "1",
+  "section": null,
+  "number": "8",
+  "title": "A Zorn's lemma argument",
+  "tags": ["ideals", "zorns-lemma"],
+  "status": "unsolved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "partial",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [6],
+    "label": "Original solution PDF",
+    "statement": "summary"
+  }
+}

@@ -427,7 +427,10 @@ export default function ExerciseApp() {
           <HelpCircle size={20} />
         </button>
         <span className="edition">
-          <span /> SAMPLE EDITION
+          <span />{' '}
+          {catalog?.problems.some((p) => !p.sample)
+            ? 'WORKING NOTEBOOK'
+            : 'SAMPLE EDITION'}
         </span>
       </header>
       <Tabs
@@ -590,9 +593,9 @@ export default function ExerciseApp() {
                           <div className="sample-note">
                             <Info size={16} />
                             <p>
-                              This is the sample edition. Notebook exercises are
-                              original demonstrations; the textbook collections
-                              are waiting for their first proofs.
+                              Textbook solutions and original demo exercises are
+                              labeled separately. Imported notes include a link
+                              to their source.
                             </p>
                           </div>
                           <div className="section-heading exercise-section">
@@ -1136,12 +1139,14 @@ export default function ExerciseApp() {
                 <code>(1.1.1)</code> within a book and{' '}
                 <code>(Notebook26,1.1.1)</code> between books.
               </p>
-              <h3>About the sample edition</h3>
+              <h3>About this edition</h3>
               <p>
-                All six demo exercises are original material. Atiyah–Macdonald
-                and Hartshorne are planned collections with no statements or
-                proofs added. Lean snippets remain unverified until checked with
-                the pinned toolchain.
+                Atiyah–Macdonald Chapter 1 contains the author’s solution notes,
+                transcribed from the original PDF. Statement summaries are
+                reconstructed from those notes because the PDF omits the
+                textbook statements. Partial notes and blank entries remain
+                unsolved. Six original demo exercises are also included;
+                Hartshorne remains a planned collection.
               </p>
               <h3>Sources & acknowledgments</h3>
               <p>
@@ -1292,9 +1297,20 @@ function ProblemPage({
               <span className="panel-icon">
                 <FileCode2 size={18} />
               </span>
-              <h2>Statement</h2>
+              <h2>
+                {p.source?.statement === 'summary'
+                  ? 'Statement summary'
+                  : 'Statement'}
+              </h2>
               <span className="mono muted">({p.tag})</span>
             </div>
+            {p.source && (
+              <p className="statement-origin">
+                {p.source.statement === 'summary'
+                  ? 'Summarized from the solution notes; the full textbook statement is not included in the source PDF.'
+                  : 'The source PDF includes this exercise heading without a statement.'}
+              </p>
+            )}
             <TexContent
               text={p.statement}
               book={p.book}
@@ -1324,14 +1340,27 @@ function ProblemPage({
                   <Check size={20} />
                 )}
               </span>
-              <h2>Solution</h2>
-              {p.status !== 'unsolved' && (
-                <span className="solution-kind">NATURAL LANGUAGE PROOF</span>
+              <h2>
+                {p.coverage === 'partial'
+                  ? 'Partial solution notes'
+                  : p.source
+                    ? 'Author’s solution'
+                    : 'Solution'}
+              </h2>
+              {p.files.includes('proof.tex') && (
+                <span className="solution-kind">
+                  {p.source ? 'TRANSCRIBED NOTES' : 'NATURAL LANGUAGE PROOF'}
+                </span>
               )}
             </div>
-            {p.status === 'unsolved' ? (
+            <SourceAttribution problem={p} />
+            {!p.files.includes('proof.tex') ? (
               <div className="unsolved-content">
-                <p>This proof is still to be written.</p>
+                <p>
+                  {p.source
+                    ? 'No solution was included in the PDF.'
+                    : 'This proof is still to be written.'}
+                </p>
                 <span>There is room here for a good argument.</span>
                 <button className="outline-button" onClick={contribute}>
                   About contributing <ArrowUpRight size={15} />
@@ -1349,13 +1378,15 @@ function ProblemPage({
                   catalog={catalog}
                   onNavigate={navigate}
                 />
-                <div className="qed" aria-label="End of proof">
-                  □
-                </div>
+                {p.coverage !== 'partial' && (
+                  <div className="qed" aria-label="End of proof">
+                    □
+                  </div>
+                )}
               </>
             )}
           </section>
-          {p.status !== 'unsolved' && (
+          {p.files.includes('proof.tex') && (
             <div className="proof-artifacts">
               <button
                 className="artifact-card"
@@ -1366,7 +1397,11 @@ function ProblemPage({
                 </div>
                 <span>
                   <strong>LaTeX source</strong>
-                  <small>The natural proof, ready to reuse</small>
+                  <small>
+                    {p.coverage === 'partial'
+                      ? 'Source for the partial notes'
+                      : 'The natural proof, ready to reuse'}
+                  </small>
                 </span>
                 <ArrowUpRight size={18} />
               </button>
@@ -1485,5 +1520,32 @@ function ProblemPage({
         </aside>
       </div>
     </>
+  );
+}
+
+function SourceAttribution({ problem: p }: { problem: Problem }) {
+  if (!p.source) return null;
+  return (
+    <div className="source-attribution">
+      <div>
+        <a
+          href={p.source.url + '#page=' + p.source.pages[0]}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FileCode2 size={14} />
+          {p.source.label} · {p.source.pages.length > 1 ? 'pp.' : 'p.'}{' '}
+          {p.source.pages.join('–')}
+          <ExternalLink size={12} />
+        </a>
+        <span>
+          {p.coverage === 'partial'
+            ? 'The source provides partial notes; the exercise remains unsolved.'
+            : p.coverage === 'empty'
+              ? 'No solution is written under this heading in the source.'
+              : 'Transcribed with the original argument preserved; not independently verified.'}
+        </span>
+      </div>
+    </div>
   );
 }

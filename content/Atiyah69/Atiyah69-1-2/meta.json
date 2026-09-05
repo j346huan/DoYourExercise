@@ -1,0 +1,26 @@
+{
+  "tag": "1.2",
+  "chapter": "1",
+  "section": null,
+  "number": "2",
+  "title": "Coefficients of polynomials",
+  "tags": [
+    "polynomial-rings",
+    "units",
+    "nilpotents",
+    "zero-divisors",
+    "primitive-polynomials"
+  ],
+  "status": "solved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": ["Atiyah69,1.1"],
+  "lean": null,
+  "coverage": "proof",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [5],
+    "label": "Original solution PDF",
+    "statement": "summary"
+  }
+}

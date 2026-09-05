@@ -1,0 +1,20 @@
+{
+  "tag": "1.4",
+  "chapter": "1",
+  "section": null,
+  "number": "4",
+  "title": "Radicals of a polynomial ring",
+  "tags": ["polynomial-rings", "nilradical", "jacobson-radical"],
+  "status": "solved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": ["Atiyah69,1.2"],
+  "lean": null,
+  "coverage": "proof",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [5],
+    "label": "Original solution PDF",
+    "statement": "summary"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "tag": "1.17",
+  "chapter": "1",
+  "section": null,
+  "number": "17",
+  "title": "Basic open sets and quasi-compactness",
+  "tags": ["spectrum", "zariski-topology", "quasi-compactness"],
+  "status": "solved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [7],
+    "label": "Original solution PDF",
+    "statement": "summary"
+  }
+}

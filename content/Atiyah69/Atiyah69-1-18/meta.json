@@ -1,0 +1,20 @@
+{
+  "tag": "1.18",
+  "chapter": "1",
+  "section": null,
+  "number": "18",
+  "title": "Closures of points in the prime spectrum",
+  "tags": ["spectrum", "zariski-topology", "closures"],
+  "status": "solved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [7],
+    "label": "Original solution PDF",
+    "statement": "summary"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "tag": "1.5",
+  "chapter": "1",
+  "section": null,
+  "number": "5",
+  "title": "Formal power series",
+  "tags": [
+    "power-series",
+    "units",
+    "nilpotents",
+    "jacobson-radical",
+    "maximal-ideals",
+    "prime-ideals"
+  ],
+  "status": "solved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [5, 6],
+    "label": "Original solution PDF",
+    "statement": "summary"
+  }
+}

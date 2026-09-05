@@ -4,10 +4,15 @@
   "shortTitle": "Atiyah–Macdonald",
   "authors": "M. F. Atiyah · I. G. Macdonald",
   "year": 1969,
-  "description": "The first planned textbook collection. No textbook statements or solutions have been added yet.",
-  "kind": "planned",
+  "description": "Chapter 1: the author’s solutions and partial notes, transcribed from the original PDF. Statement summaries accompany the proofs.",
+  "kind": "textbook",
   "cover": "covers/atiyah-macdonald.jpg",
   "coverCredit": "CRC Press / Taylor & Francis",
   "coverSource": "https://www.routledge.com/Introduction-To-Commutative-Algebra/Atiyah-MacDonald/p/book/9780367091286",
-  "chapters": []
+  "chapters": [
+    {
+      "id": "1",
+      "title": "Rings and Ideals"
+    }
+  ]
 }

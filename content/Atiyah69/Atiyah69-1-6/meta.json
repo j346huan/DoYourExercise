@@ -1,0 +1,20 @@
+{
+  "tag": "1.6",
+  "chapter": "1",
+  "section": null,
+  "number": "6",
+  "title": "Idempotents and the Jacobson radical",
+  "tags": ["idempotents", "nilradical", "jacobson-radical"],
+  "status": "solved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [6],
+    "label": "Original solution PDF",
+    "statement": "summary"
+  }
+}

@@ -1,0 +1,11 @@
+Let $e_i=(\ldots,0,1,0,\ldots)$, then $e_i e_j=0$ is in all prime ideals. So if $\mathfrak p\subseteq A$ were to not contain $e_i$, then it must contain all other $e_j$. Thus $\mathfrak p$ is of form $A_1\times\cdots\times\mathfrak p'\times\cdots\times A_n$, and can be identified with prime ideal $\mathfrak p'\subseteq A_i$. In particular, $X$ is the disjoint union of $\operatorname{Spec}A_i$.
+
+\textbf{(i) $\Rightarrow$ (iii)} Suppose there are closed sets $V(\mathfrak a)\cap V(\mathfrak b)=\varnothing$, $V(\mathfrak a)\cup V(\mathfrak b)=\operatorname{Spec}A$. This means $\mathfrak a\cap\mathfrak b\subseteq\operatorname{nil}(A)$ and $\mathfrak a+\mathfrak b=(1)$. Take $a\in\mathfrak a,b\in\mathfrak b$ such that $(a,b)=(1)$ and $(ab)^n=0$. Since any maximal ideal containing $(a^n,b^n)$ will contain $(a,b)$, we know $(a^n,b^n)=(1)$. Say $fa^n+gb^n=1$. Replace $a$ with $fa^n$ and $b$ with $gb^n$ and get $a+b=1,ab=0$. This means $a(1-a)=0$ and $a\in\mathfrak a,b\in\mathfrak b$ is idempotent, not $1$ and not $0$ (if one is $0$, the other has to be $1$).
+
+\textbf{(iii) $\Rightarrow$ (ii)} Consider $\varphi:A\to A/(a)\times A/(1-a)$ where $a$ idempotent. Injective because $\ker\varphi=(a)\cap(1-a)$ and if $a\mid r,1-a\mid r$, then
+\[
+r=r(a+(1-a))=ra+r(1-a)=r_1(1-a)a+r_2a(1-a)=0.
+\]
+Surjective because $(1-a)s+ar\mapsto(r,s)$ for any $r,s\in A$.
+
+\textbf{(ii) $\Rightarrow$ (i)} As shown before.

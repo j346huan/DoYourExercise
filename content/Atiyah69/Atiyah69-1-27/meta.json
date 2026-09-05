@@ -1,0 +1,20 @@
+{
+  "tag": "1.27",
+  "chapter": "1",
+  "section": null,
+  "number": "27",
+  "title": "Affine algebraic varieties",
+  "tags": ["affine-algebraic-varieties"],
+  "status": "unsolved",
+  "sample": false,
+  "updated": "2026-09-05",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "empty",
+  "source": {
+    "url": "https://j346huan.github.io/download/A.pdf",
+    "pages": [9],
+    "label": "Original solution PDF",
+    "statement": "missing"
+  }
+}
