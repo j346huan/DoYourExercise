@@ -730,7 +730,7 @@ h1 {
   display: flex;
   align-items: center;
   gap: 9px;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 500;
   margin: 0 0 17px;
 }
@@ -1321,13 +1321,13 @@ h1 {
 }
 .related-exercise .exercise-reference {
   font-family: Arial, sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.6;
   text-decoration: none;
 }
 .file-panel > a {
   font-family: Consolas, monospace;
-  font-size: 11px;
+  font-size: 14px;
   display: flex;
   gap: 10px;
   justify-content: space-between;
@@ -2217,7 +2217,7 @@ h1 {
     margin-bottom: 12px;
   }
   .file-panel > a {
-    font-size: 12px;
+    font-size: 15px;
   }
   .source-dialog,
   .book-dialog {
