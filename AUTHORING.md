@@ -2,7 +2,7 @@
 
 ## Files
 
-Create or update the exercise folder under `content/<BookID>/`. Use the book ID followed by the exercise number, replacing dots with dashes: `content/Atiyah69/Atiyah69-1-1/` for `Atiyah69,1.1`, or `<BookID>-<chapter>-<section>-<problem>` when sections are numbered.
+Create or update the exercise folder under `content/<BookID>/`. Use the book ID followed by the exercise number, replacing dots with dashes: `content/AtiyahMcdonald69/AtiyahMcdonald69-1-1/` for `AtiyahMcdonald69,1.1`, or `<BookID>-<chapter>-<section>-<problem>` when sections are numbered.
 
 Add these files:
 
@@ -34,7 +34,7 @@ Replace `updated` with the date of the edit. Set `section` to its number when ap
 
 Write UTF-8 TeX fragments without a document preamble or custom macro definitions. Use `$...$` for inline mathematics and `\[...\]` for an unnumbered display, with each equation on one source line. Text formatting supports `\textbf{...}`, `\emph{...}`, `\textit{...}`, and `\texttt{...}`; lists support `enumerate` and `itemize`.
 
-Use `\exref{1.1}` for a reference within the same book and `\exref{Atiyah69,1.1}` for another book. List referenced exercises in `dependencies` using their full identities, such as `"Atiyah69,1.1"`.
+Use `\exref{1.1}` for a reference within the same book and `\exref{AtiyahMcdonald69,1.1}` for another book. List referenced exercises in `dependencies` using their full identities, such as `"AtiyahMcdonald69,1.1"`.
 
 ## Lean formalizations
 
@@ -42,7 +42,7 @@ Add `proof.lean` and its explanation in `translation.tex` to the exercise folder
 
 ```json
 "lean": {
-  "module": "LeanExercises.Atiyah69.Ex_1_1",
+  "module": "LeanExercises.AtiyahMcdonald69.Ex_1_1",
   "verified": false
 }
 ```

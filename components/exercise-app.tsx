@@ -44,6 +44,7 @@ import { TexContent, ExerciseReference } from '@/components/tex-content';
 import type { Catalog, Problem, WorkspaceState } from '@/lib/types';
 import {
   searchProblems,
+  exerciseHeading,
   routeFromHash,
   restoreWorkspace,
   navigateWorkspace,
@@ -237,9 +238,12 @@ export default function ExerciseApp() {
     if (mainRef.current)
       mainRef.current.scrollTop = scrolls.current[workspace.active] || 0;
     document.title = problem
-      ? `${problem.id}${problem.title ? ' · ' + problem.title : ''} — Do Your Exercise`
+      ? `${exerciseHeading(
+          problem,
+          catalog?.books.find((b) => b.id === problem.book),
+        )} — Do Your Exercise`
       : 'Do Your Exercise';
-  }, [workspace.active, activeTab.route, problem]);
+  }, [workspace.active, activeTab.route, problem, catalog]);
   function updateRoute(state: WorkspaceState) {
     setWorkspace(state);
     const tab = state.tabs.find((t) => t.id === state.active);
@@ -967,14 +971,20 @@ function ProblemPage({
   );
   return (
     <>
-      {p.title && <h1 className="question-title">{p.title}</h1>}
+      <header className="exercise-heading">
+        <h1 className="question-title">
+          {exerciseHeading(
+            p,
+            catalog.books.find((b) => b.id === p.book),
+          )}
+        </h1>
+        {p.title && <p className="exercise-subtitle">{p.title}</p>}
+      </header>
       <div className="problem-layout">
         <article>
           <section className="proof-panel solution-panel">
             <div className="panel-heading">
-              <h2>
-                Solution <span className="mono">{p.tag}</span>
-              </h2>
+              <h2>Solution</h2>
               <Badge status={p.status} />
               <button
                 className="icon-button"

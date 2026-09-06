@@ -2,6 +2,15 @@ import { readdir, readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { leanProjectDigest } from './lean-digest.mjs';
+import { exerciseHeading } from '../lib/core.mjs';
+const escapeHtml = (text) =>
+  text.replace(
+    /[&<>"']/g,
+    (char) =>
+      ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[
+        char
+      ],
+  );
 const projectDigest = await leanProjectDigest();
 const root = process.cwd();
 const readJSON = async (p) =>
@@ -184,11 +193,13 @@ for (const folder of (await readdir('content', { withFileTypes: true }))
       path.join(publicContent, book.id, slug, 'meta.json'),
       JSON.stringify(meta, null, 2),
     );
-    // Human-shareable static page named after the exercise tag; works under any Pages subpath.
-    await write(
-      `public/exercises/${slug}/index.html`,
-      `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Do Your Exercise — ${slug}</title><meta http-equiv="refresh" content="0;url=../../#/problem/${slug}"><a href="../../#/problem/${slug}">Open ${slug}</a></html>`,
-    );
+    const heading = escapeHtml(exerciseHeading(record, book));
+    const page = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>${heading} — Do Your Exercise</title><meta name="description" content="Solution to ${heading}."><meta http-equiv="refresh" content="0;url=../../#/problem/${slug}"></head><body><h1>${heading}</h1><a href="../../#/problem/${slug}">Read solution</a></body></html>`;
+    await write(`public/exercises/${slug}/index.html`, page);
+    if (book.id === 'AtiyahMcdonald69') {
+      const previousSlug = slug.replace(/^AtiyahMcdonald69-/, 'Atiyah69-');
+      await write(`public/exercises/${previousSlug}/index.html`, page);
+    }
   }
 }
 for (const p of problems) {
@@ -210,8 +221,8 @@ for (const p of problems) {
 }
 books.sort(
   (a, b) =>
-    ['Atiyah69', 'Hartshorne77'].indexOf(a.id) -
-    ['Atiyah69', 'Hartshorne77'].indexOf(b.id),
+    ['AtiyahMcdonald69', 'Hartshorne77'].indexOf(a.id) -
+    ['AtiyahMcdonald69', 'Hartshorne77'].indexOf(b.id),
 );
 problems.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
 await write(

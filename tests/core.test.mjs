@@ -85,7 +85,10 @@ test('catalog omits statements and does not inline proofs or Lean code', () => {
     assert.ok(!('code' in p));
     assert.ok(Array.isArray(p.files));
   }
-  assert.equal(books.find((b) => b.id === 'Atiyah69').chapters.length, 0);
+  assert.equal(
+    books.find((b) => b.id === 'AtiyahMcdonald69').chapters.length,
+    0,
+  );
   assert.equal(books.find((b) => b.id === 'Hartshorne77').chapters.length, 0);
 });
 test('every sample mathematical expression typesets successfully', () => {
@@ -162,5 +165,41 @@ test('untitled exercises remain searchable by chapter and reference', () => {
   assert.equal(
     searchProblems(untitled, '(Notebook26,1.1.2)')[0].id,
     'Notebook26,1.1.2',
+  );
+});
+
+test('renamed book references, links, searches, and saved tabs use the current identifier', () => {
+  const oldRoute = '/problem/Atiyah69-1-13';
+  const newRoute = '/problem/AtiyahMcdonald69-1-13';
+  assert.equal(routeFromHash(`#${oldRoute}`), newRoute);
+  assert.equal(routeFromHash(`#${newRoute}`), newRoute);
+  assert.equal(
+    resolveReference('(Atiyah69,1.13)', 'Hartshorne77'),
+    'AtiyahMcdonald69,1.13',
+  );
+  assert.equal(resolveReference('1.13', 'Atiyah69'), 'AtiyahMcdonald69,1.13');
+  const saved = {
+    tabs: [
+      { id: 'home', route: '/' },
+      { id: 'exercise', route: oldRoute },
+    ],
+    active: 'exercise',
+  };
+  assert.deepEqual(restoreWorkspace(JSON.stringify(saved)), {
+    ...saved,
+    tabs: [saved.tabs[0], { id: 'exercise', route: newRoute }],
+  });
+  const exercise = {
+    id: 'AtiyahMcdonald69,1.13',
+    slug: 'AtiyahMcdonald69-1-13',
+    book: 'AtiyahMcdonald69',
+    bookTitle: 'Introduction to Commutative Algebra',
+    tag: '1.13',
+    title: '',
+    status: 'solved',
+  };
+  assert.deepEqual(
+    searchProblems([exercise], '(Atiyah69,1.13) book:Atiyah69'),
+    [exercise],
   );
 });

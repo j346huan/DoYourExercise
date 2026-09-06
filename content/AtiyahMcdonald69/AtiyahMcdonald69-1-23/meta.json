@@ -1,0 +1,14 @@
+{
+  "tag": "1.23",
+  "chapter": "1",
+  "section": null,
+  "number": "23",
+  "title": "",
+  "status": "solved",
+  "updated": "2026-09-05",
+  "dependencies": [
+    "AtiyahMcdonald69,1.11"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}
