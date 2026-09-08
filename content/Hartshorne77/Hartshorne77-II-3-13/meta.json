@@ -1,0 +1,15 @@
+{
+  "tag": "II.3.13",
+  "chapter": "II",
+  "section": "3",
+  "number": "13",
+  "title": "Properties of Morphisms of Finite Type",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,II.3.11",
+    "Hartshorne77,II.3.3"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

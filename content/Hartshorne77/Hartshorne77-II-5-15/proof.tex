@@ -1,0 +1,9 @@
+(a) Write $\mathcal F=\widetilde M$. The finite submodules of $M$ form a directed family with union $M$, and their associated sheaves are coherent. This is a union on every open set: cover that open set by finitely many distinguished opens; a section is locally represented by finitely many fractions, whose numerators lie in one finite submodule of $M$. The local representatives then glue in its associated subsheaf.
+
+(b) The sheaf $i_*\mathcal F$ is quasi-coherent, hence is the union of its coherent subsheaves by (a). Cover $U$ by finitely many affine open sets on which $\mathcal F$ has finite sets of generators. By (a), these finitely many sections belong to a finite sum of coherent subsheaves of $i_*\mathcal F$. That sum is coherent and restricts to $\mathcal F$.
+
+(c) Put $\mathcal H=\rho^{-1}(i_*\mathcal F)\subseteq\mathcal G$, where $\rho:\mathcal G\to i_*(\mathcal G|_U)$ is restriction. This is quasi-coherent, since it is the kernel of the map to $i_*(\mathcal G|_U)/i_*\mathcal F$. Also $\mathcal H|_U=\mathcal F$. Apply the argument of (b) to the coherent subsheaves of $\mathcal H$.
+
+(d) Choose a finite affine covering $V_1,\ldots,V_r$ of $X$. Suppose a coherent subsheaf of $\mathcal G$ has already been constructed on $U\cup V_1\cup\cdots\cup V_{j-1}$. Part (c), applied on $V_j$ to its intersection with that open set, extends it to a coherent subsheaf on $V_j$. The two subsheaves agree on the intersection, so they glue as subsheaves of $\mathcal G$. Induction proves the claim. Taking $\mathcal G=i_*\mathcal F$ gives an extension of $\mathcal F$.
+
+(e) For $s\in\mathcal F(U)$, the image of $\mathcal O_U\to\mathcal F|_U$, $1\mapsto s$, is coherent. Part (d) extends it to a coherent subsheaf of $\mathcal F$ containing $s$. Hence the coherent subsheaves have union $\mathcal F$ on every open set.

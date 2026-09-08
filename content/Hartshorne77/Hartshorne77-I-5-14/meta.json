@@ -1,0 +1,12 @@
+{
+  "tag": "I.5.14",
+  "chapter": "I",
+  "section": "5",
+  "number": "14",
+  "title": "Analytically Isomorphic Singularities",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof"
+}

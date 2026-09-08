@@ -1,0 +1,16 @@
+{
+  "tag": "I.5.15",
+  "chapter": "I",
+  "section": "5",
+  "number": "15",
+  "title": "Families of Plane Curves",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,I.5.5",
+    "Hartshorne77,I.5.8",
+    "Hartshorne77,I.5.9"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

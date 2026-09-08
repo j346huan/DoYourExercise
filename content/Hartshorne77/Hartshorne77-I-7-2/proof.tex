@@ -1,0 +1,13 @@
+(a) Since $P_{\mathbb{P}^n}(z)=\binom{z+n}{n}$, its value at $0$ is $1$, and $p_a(\mathbb{P}^n)=0$.
+
+(b) Multiplication by a degree $d$ equation gives $P_Y(z)=\binom{z+2}{2}-\binom{z-d+2}{2}$. Thus $p_a(Y)=1-P_Y(0)=\frac12(d-1)(d-2)$.
+
+(c) Likewise $P_H(z)=\binom{z+n}{n}-\binom{z-d+n}{n}$, so
+\[p_a(H)=(-1)^n\binom{n-d}{n}=\binom{d-1}{n}.\]
+
+(d) Write $I(Y)=(f,g)$ with $\deg f=a$, $\deg g=b$, and put $S=k[x_0,x_1,x_2,x_3]$. The polynomials $f,g$ form a regular sequence, so the Koszul resolution gives
+\[P_Y(z)=\binom{z+3}{3}-\binom{z-a+3}{3}-\binom{z-b+3}{3}+\binom{z-a-b+3}{3}.\]
+Evaluating at $0$ yields $P_Y(0)=\frac12ab(4-a-b)$, hence $p_a(Y)=\frac12ab(a+b-4)+1$.
+
+(e) The degree $m$ part of the homogeneous coordinate ring of the Segre image of $Y\times Z$ is $S(Y)_m\otimes_k S(Z)_m$. Therefore $P_{Y\times Z}(z)=P_Y(z)P_Z(z)$. Since $\dim Y=r$ and $\dim Z=s$, this gives
+\[p_a(Y\times Z)=p_a(Y)p_a(Z)+(-1)^s p_a(Y)+(-1)^r p_a(Z).\]

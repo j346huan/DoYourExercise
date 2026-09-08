@@ -1,0 +1,8 @@
+(a) Translate $P$ to the origin and write $R=k[x,y]_{(x,y)}$, $\mathfrak m=(x,y)R$, $r=\mu_P(Y)$, and $s=\mu_P(Z)$. Since the distinct irreducible polynomials $f,g$ have no common factor, every prime of $R$ containing $(f,g)$ is $\mathfrak m$. Thus $R/(f,g)$ has finite length, equal to its dimension over $k$.
+
+Set $N=r+s-1$. Multiplication by $f$ and $g$ gives a surjection from $R/\mathfrak m^{N-r}\oplus R/\mathfrak m^{N-s}$ onto $((f,g)+\mathfrak m^N)/\mathfrak m^N$. Hence
+\[\dim_k R/(f,g)\geq\dim_k R/(f,g,\mathfrak m^N)\geq\binom{r+s}{2}-\binom{s}{2}-\binom{r}{2}=rs.\]
+
+(b) Let $L$ have parametrization $(x,y)=(at,bt)$. If $f_r(a,b)\ne0$, then $f(at,bt)$ has order $r$, so $R/(f,L)\cong k[t]_{(t)}/(f(at,bt))$ has length $r$. The excluded directions are precisely the finitely many zeros of the nonzero homogeneous polynomial $f_r$ on $\mathbb{P}^1$.
+
+(c) Choose coordinates with $L=Z(z)$. Since $L\ne Y$, the binary homogeneous polynomial $f(x,y,0)$ is nonzero of degree $d$. At each point of $L$, quotienting the local ring of $\mathbb{P}^2$ by $z$ identifies the intersection multiplicity with the order of vanishing of this binary form. Its linear factors, counted with multiplicity, have total degree $d$, so $(L\cdot Y)=d$.

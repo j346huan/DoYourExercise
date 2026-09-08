@@ -1,0 +1,14 @@
+{
+  "tag": "II.3.12",
+  "chapter": "II",
+  "section": "3",
+  "number": "12",
+  "title": "Closed Subschemes of Proj S",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,II.2.14"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

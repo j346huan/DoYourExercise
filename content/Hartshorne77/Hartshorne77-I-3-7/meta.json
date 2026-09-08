@@ -1,0 +1,17 @@
+{
+  "tag": "I.3.7",
+  "chapter": "I",
+  "section": "3",
+  "number": "7",
+  "title": "",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,I.2.8",
+    "Hartshorne77,I.1.9",
+    "Hartshorne77,I.3.5",
+    "Hartshorne77,I.3.1"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

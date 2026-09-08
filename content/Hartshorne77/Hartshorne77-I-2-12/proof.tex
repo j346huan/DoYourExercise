@@ -1,0 +1,9 @@
+(a) The homomorphism $\theta$ multiplies degrees by $d$, so its kernel is homogeneous. Its image is a subring of a domain, hence the kernel is prime.
+
+(b) Every point in the image vanishes on $\ker\theta$. Conversely, label a coordinate by its degree-$d$ monomial and let $(b_M)\in Z(\ker\theta)$. The relations $b_M^d=\prod_j b_{x_j^d}^{\alpha_j}$ for $M=\prod_jx_j^{\alpha_j}$ show that some $b_{x_i^d}\ne0$. Normalize it to $1$ and set $a_j=b_{x_i^{d-1}x_j}$. The relations
+\[b_M b_{x_i^d}^{d-1}=\prod_j b_{x_i^{d-1}x_j}^{\alpha_j}\]
+ give $b_M=M(a_0,\ldots,a_n)$, proving surjectivity onto $Z(\ker\theta)$.
+
+(c) Pulling back homogeneous equations shows continuity. On the chart $b_{x_i^d}\ne0$, the inverse is given by $a_j/a_i=b_{x_i^{d-1}x_j}/b_{x_i^d}$, so it is continuous as well. Hence $\rho_d$ is a homeomorphism onto its image.
+
+(d) For $n=1,d=3$, the map is $(s,t)\mapsto(s^3,s^2t,st^2,t^3)$, whose image is the projective closure of $(1,t,t^2,t^3)$ by \exref{I.2.9}.

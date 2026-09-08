@@ -1,0 +1,14 @@
+{
+  "tag": "II.5.17",
+  "chapter": "II",
+  "section": "5",
+  "number": "17",
+  "title": "Affine Morphisms",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,II.2.17"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

@@ -1,0 +1,17 @@
+(a) If the multiplicity is $r$, the associated graded ring of the completed local ring is $k[x,y]/(f_r)$. Indeed, the initial form of a multiple of $f$ is the corresponding multiple of $f_r$. Its degree $n$ part has dimension $n+1$ for $n<r$ and $r$ for $n\geq r$. An isomorphism of complete local rings preserves maximal-ideal powers, so it preserves these dimensions and hence $r$.
+
+(b) Put $r=s+t$. Since $g_s,h_t$ are relatively prime, the kernel of
+\[k[x,y]_{n-s}\oplus k[x,y]_{n-t}\to k[x,y]_n,\qquad (a,b)\mapsto g_sa+h_tb\]
+consists of $(h_tc,-g_sc)$. For $n\geq s+t-1$, a dimension count shows that this map is surjective. Suppose the terms of $g,h$ have been chosen so that $f-gh$ has order at least $n>r$. Its degree $n$ term can therefore be written $g_sa+h_tb$, with $\deg a=n-s$ and $\deg b=n-t$. Adding $b$ to $g$ and $a$ to $h$ corrects degree $n$ without changing lower degrees. Repeating gives convergent formal series with $f=gh$.
+
+(c) By (b), an ordinary multiple point factors formally into smooth branches with the prescribed distinct tangent directions. For two branches, their equations form formal coordinates, giving $k[[x,y]]/(xy)$. For three branches, first use two branch equations as coordinates. The third has the form $a(x,y)x+b(x,y)y$, where $a,b$ are units. Replacing the coordinates by $a(x,y)x,b(x,y)y$ gives $k[[x,y]]/(xy(x+y))$.
+
+Consider the ordinary quadruple points $xy(x-y)(x-\lambda y)=0$, with $\lambda\ne0,1$. Any analytic isomorphism induces an invertible linear map on the cotangent spaces and hence identifies their four tangent lines. Thus the parameters can be equivalent only when one belongs to
+\[\left\{\lambda,1-\lambda,\frac1\lambda,\frac1{1-\lambda},\frac\lambda{\lambda-1},\frac{\lambda-1}\lambda\right\}.\]
+Conversely, these changes are realized by projective transformations of the tangent directions and therefore by linear changes of the two coordinates. The parameter modulo this finite equivalence gives a one-parameter family of mutually nonisomorphic ordinary quadruple points.
+
+(d) Choose coordinates so that the coefficient of $y^2$ in the quadratic part is nonzero, and rescale $f$ so that it is $1$. The formal equation $f_y(x,s(x))=0$ has a unique solution $s(x)\in xk[[x]]$, obtained recursively because $f_{yy}(0)=2$. After replacing $y$ by $y+s(x)$, write $f=h(x)+y^2u(x,y)$, where $u$ is a unit. A unit with a nonzero constant has a formal square root in characteristic different from $2$. Replacing $y$ by $y\sqrt{u(x,y)}$ therefore gives $y^2+h(x)$.
+
+Here $h\ne0$: otherwise $f$ and $f_y$ would have the common root $s(x)$ over $k((x))$, whereas the irreducible polynomial $f$ is relatively prime to the nonzero polynomial $f_y$ in $k(x)[y]$. Write $-h=x^rv(x)$ with $v$ a unit. Rescaling $y$ by $\sqrt{v(x)}$ gives $y^2-x^r$, and $r\geq2$ because the multiplicity is $2$.
+
+To see uniqueness, let $\delta$ be the dimension over $k$ of the normalization of the completed ring modulo that ring, and let $b$ be its number of branches. For $r=2m+1$, the normalization is $k[[t]]$, with $x=t^2,y=t^{2m+1}$; the missing powers are $t,t^3,\ldots,t^{2m-1}$, so $(b,\delta)=(1,m)$. For $r=2m$, the normalization is $k[[t]]\oplus k[[t]]$, with $x=(t,t)$ and $y=(t^m,-t^m)$; its image consists of pairs congruent modulo $t^m$, so $(b,\delta)=(2,m)$. Thus $r=2\delta+2-b$, which is intrinsic to the completed local ring.

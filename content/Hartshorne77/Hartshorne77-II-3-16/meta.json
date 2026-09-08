@@ -1,0 +1,12 @@
+{
+  "tag": "II.3.16",
+  "chapter": "II",
+  "section": "3",
+  "number": "16",
+  "title": "Noetherian Induction",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof"
+}

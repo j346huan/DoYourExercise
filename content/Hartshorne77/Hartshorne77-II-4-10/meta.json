@@ -1,0 +1,12 @@
+{
+  "tag": "II.4.10",
+  "chapter": "II",
+  "section": "4",
+  "number": "10",
+  "title": "Chow's Lemma",
+  "status": "unsolved",
+  "updated": "2026-09-08",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "empty"
+}

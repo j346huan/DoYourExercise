@@ -1,0 +1,13 @@
+(a) The polynomial $y^2-x^3+x$ is irreducible, since $x^3-x$ is not a square in $k(x)$. A singular point would satisfy $y=0$, $3x^2=1$, and $x(x^2-1)=0$, which is impossible when $\operatorname{char}k\ne2$. Thus $Y$ is nonsingular, and its local rings are discrete valuation rings. Since $A$ is the intersection of its localizations at maximal ideals, it is integrally closed.
+
+(b) Division by the monic polynomial $y^2-x^3+x$ shows that $A$ is free over $k[x]$ with basis $1,y$. In particular, $k[x]$ embeds in $A$ as a polynomial ring, and $A$ is integral over it. Any element of $K$ integral over $k[x]$ is integral over $A$, hence lies in $A$ by (a). Thus $A$ is its integral closure in $K$.
+
+(c) Substitution $x\mapsto x$, $y\mapsto-y$ preserves the defining equation and squares to the identity, so it defines an automorphism $\sigma$. Every $a\in A$ has a unique expression $h(x)+g(x)y$, and
+\[N(a)=h(x)^2-g(x)^2(x^3-x)\in k[x].\]
+Also $N(1)=1$ and $N(ab)=ab\sigma(a)\sigma(b)=N(a)N(b)$.
+
+(d) The two possible nonzero terms in $N(a)$ have degrees of opposite parity. Therefore
+\[\deg N(h+gy)=\max\{2\deg h,2\deg g+3\},\]
+with a zero summand omitted. A unit has constant nonzero norm, so it belongs to $k^*$; conversely every element of $k^*$ is a unit. Every nonunit different from zero has norm of degree at least $2$. Since $\deg N(x)=2$ and $\deg N(y)=3$, neither $x$ nor $y$ can be a product of two nonunits. They are irreducible and are not associates. But $x$ divides $y^2=x(x^2-1)$ and does not divide $y$, so $x$ is not prime. Hence $A$ is not a unique factorization domain.
+
+(e) The affine curve $Y$ is not isomorphic to $\mathbb{P}^1$, since $x$ is a nonconstant global regular function. If $Y$ were rational, \exref{I.6.1} would make $A$ a unique factorization domain, contradicting (d).

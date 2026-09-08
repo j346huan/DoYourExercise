@@ -1,0 +1,14 @@
+{
+  "tag": "II.4.9",
+  "chapter": "II",
+  "section": "4",
+  "number": "9",
+  "title": "",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,II.4.8"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

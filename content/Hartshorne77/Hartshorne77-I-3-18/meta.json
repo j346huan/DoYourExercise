@@ -1,0 +1,12 @@
+{
+  "tag": "I.3.18",
+  "chapter": "I",
+  "section": "3",
+  "number": "18",
+  "title": "Projectively Normal Varieties",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof"
+}

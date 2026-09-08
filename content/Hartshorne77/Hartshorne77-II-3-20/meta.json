@@ -1,0 +1,14 @@
+{
+  "tag": "II.3.20",
+  "chapter": "II",
+  "section": "3",
+  "number": "20",
+  "title": "Dimension",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,II.3.6"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

@@ -1,0 +1,12 @@
+{
+  "tag": "II.1.22",
+  "chapter": "II",
+  "section": "1",
+  "number": "22",
+  "title": "Glueing Sheaves",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof"
+}

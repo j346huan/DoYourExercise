@@ -1,0 +1,12 @@
+{
+  "tag": "I.5.4",
+  "chapter": "I",
+  "section": "5",
+  "number": "4",
+  "title": "Intersection Multiplicity",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof"
+}

@@ -1,0 +1,7 @@
+(a) Suppose $X\times Y=Z_1\cup Z_2$ with $Z_i$ closed. Each fiber $\{x\}\times Y$ is irreducible, hence lies in one $Z_i$. Put $X_i=\{x:\{x\}\times Y\subseteq Z_i\}$. It is closed, since it is the common zero set in $X$ of the polynomials $f(x,y)$ with $f\in I(Z_i)$ and $y\in Y$ fixed. Since $X=X_1\cup X_2$ and $X$ is irreducible, one $X_i=X$, giving $Z_i=X\times Y$.
+
+(b) The natural map $A(X)\otimes_k A(Y)\to A(X\times Y)$ is surjective. Write an element of its kernel as $\sum_i f_i\otimes g_i$ with the $f_i$ linearly independent over $k$. For each $y\in Y$, $\sum_i g_i(y)f_i=0$ in $A(X)$, so all $g_i(y)=0$. Thus $g_i=0$ in $A(Y)$, proving injectivity.
+
+(c) The projections are polynomial maps. Given $f:Z\to X$ and $g:Z\to Y$, the unique possible map is $z\mapsto(f(z),g(z))$; its coordinate functions are regular, so it is a morphism by (3.6).
+
+(d) Choose Noether normalizations $k[u_1,\ldots,u_r]\subseteq A(X)$ and $k[v_1,\ldots,v_s]\subseteq A(Y)$. Tensoring over $k$ preserves injectivity and makes $A(X)\otimes_k A(Y)$ finite over $k[u_1,\ldots,u_r,v_1,\ldots,v_s]$. Thus its dimension is $r+s=\dim X+\dim Y$.

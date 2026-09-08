@@ -1,0 +1,21 @@
+(a) Given $x\in X$, choose an affine open containing $x$ and $\sigma(x)$. Its intersection with its conjugate is affine by \exref{II.4.3}, is stable under $\sigma$, and contains both points. Thus $X$ has a covering by invariant affine opens.
+
+On such an open $\operatorname{Spec}A$, let $A_0=A^\sigma$. Every $a\in A$ has the unique decomposition
+\[a=\frac{a+\sigma(a)}2+i\frac{a-\sigma(a)}{2i},\]
+with both coefficients in $A_0$. Hence $A_0\otimes_{\mathbb R}\mathbb C\cong A$. Taking the two coefficients of finitely many complex algebra generators shows that $A_0$ is a finite-type $\mathbb R$-algebra.
+
+The finite surjection $q:\operatorname{Spec}A\to\operatorname{Spec}A_0$ has fibers equal to the $\sigma$-orbits: over a residue field the algebra is $\kappa[t]/(t^2+1)$, which is either a field or a product of two fields exchanged by conjugation. Thus invariant opens descend to opens, since their invariant closed complements have closed images under $q$. Moreover $(A_f)^\sigma=(A_0)_f$ for $f\in A_0$. Applying this to intersections glues the schemes $\operatorname{Spec}A_0$ to $X_0$, with $X_0\times_{\mathbb R}\mathbb C\cong X$.
+
+A finite invariant affine cover makes $X_0$ of finite type. Its affine intersections are the descended affine intersections in $X$. The ring maps testing its diagonal become surjective after tensoring with $\mathbb C$, because $X$ is separated; faithful flatness makes the original maps surjective. Hence $X_0$ is separated. The invariant-ring description on these opens also proves uniqueness, with the specified identification after base change.
+
+(b) If $X_0=\operatorname{Spec}A_0$, then $X=\operatorname{Spec}(A_0\otimes_{\mathbb R}\mathbb C)$. Conversely, if $X$ is affine, its invariant ring gives an affine descent as in (a), and uniqueness identifies it with $X_0$.
+
+(c) Base change sends $f_0$ to a morphism commuting with the involutions. Conversely, for an equivariant $f$, the inverse image of an invariant affine open of $Y$ is invariant and hence descends to an open of $X_0$. Cover this open by affines of $X_0$. On their complexifications, the ring homomorphisms defining $f$ preserve invariants, so give real ring homomorphisms. They agree on overlaps and glue to $f_0$. Faithful flatness gives uniqueness. This argument applies to any of the stated $X_0,Y_0$, since their affine opens complexify to invariant affine opens.
+
+(d) On complex points write $\sigma(z)=a\overline z+b$. The involution condition gives $a\overline a=1$ and $a\overline b+b=0$, so $b/2$ is fixed. Choose $c\ne0$ with $a\overline c=c$. In the coordinate $w=(z-b/2)/c$, the involution is $w\mapsto\overline w$. Hence $X_0\cong\mathbb A_{\mathbb R}^1$.
+
+(e) Write $\sigma([v])=[A\overline v]$ for $A\in\operatorname{GL}_2(\mathbb C)$. Then $A\overline A=\lambda I$ for some nonzero real $\lambda$. Rescaling $A$ makes $\lambda=1$ or $-1$. If $\lambda=1$, the semilinear map $v\mapsto A\overline v$ is an involution. Its fixed real vector space has a real basis which is a complex basis of $\mathbb C^2$, so $\sigma$ becomes ordinary conjugation and $X_0\cong\mathbb P_{\mathbb R}^1$.
+
+If $\lambda=-1$, choose $v\ne0$. Then $v,A\overline v$ are independent, since dependence would imply $-1=|c|^2$ for some $c$. In this basis $\sigma([z:w])=[-\overline w:\overline z]$. The isomorphism
+\[[z:w]\mapsto[z^2-w^2:i(z^2+w^2):2zw]\]
+from $\mathbb P_{\mathbb C}^1$ to $x_0^2+x_1^2+x_2^2=0$ intertwines this involution with coordinatewise conjugation. Part (c) therefore identifies $X_0$ with that real conic.

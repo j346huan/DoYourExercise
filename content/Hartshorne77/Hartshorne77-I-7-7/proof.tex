@@ -1,0 +1,9 @@
+(a) Put $P=(1:0:\cdots:0)$ and project from $P$ to $\mathbb{P}^{n-1}$. Let $Z$ be the closure of the image of $Y-P$. It is irreducible, and $X$ is the cone over $Z$ with vertex $P$: the union over the actual image is dense in this cone. Hence $X$ is irreducible and $\dim X=\dim Z+1\leq r+1$.
+
+If $X=Y$, every line $PQ$ lies in $Y$, so its direction belongs to the Zariski tangent space of $Y$ at $P$. Since $P$ is nonsingular, the corresponding projective tangent space is a linear $\mathbb{P}^r$ containing all of $Y$. A closed irreducible subset of the same dimension must be that linear space, contrary to $d>1$. Thus $Y\subsetneq X$, and $\dim X=r+1$, $\dim Z=r$.
+
+(b) A general linear section of codimension $r$ of a degree $e$ variety of dimension $r$ consists of $e$ distinct points. Indeed, general linear forms cut properly, avoid the singular locus, and have independent differentials at the intersection points; successive differences of the Hilbert polynomial give total length $e$.
+
+The projection $Y-P\to Z$ is dominant between varieties of the same dimension, so over a nonempty open subset of $Z$ its fibers are nonempty and finite. Shrink this open subset to avoid the closure of the image of the singular locus of $Y$, which has dimension at most $r-1$. Choose a general codimension $r$ linear subspace $M\subset\mathbb{P}^{n-1}$ such that $M\cap Z$ consists of $\deg Z$ points in this open subset. Also choose it disjoint from the projectivized tangent space of $Y$ at $P$. The span of $P$ and $M$ then meets $Y$ properly in finitely many points, transversely at $P$. Successive hyperplane intersections have total length $d$. Besides the length $1$ at $P$, there is at least one point over each of the $\deg Z$ points of $M\cap Z$. Consequently $d\geq1+\deg Z$.
+
+Finally $S(X)=S(Z)[x_0]$, whose Hilbert polynomial has degree one higher and leading coefficient divided by $r+1$. Thus $\deg X=\deg Z<d$.

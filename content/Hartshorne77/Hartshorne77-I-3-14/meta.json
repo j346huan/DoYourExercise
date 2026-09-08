@@ -1,0 +1,12 @@
+{
+  "tag": "I.3.14",
+  "chapter": "I",
+  "section": "3",
+  "number": "14",
+  "title": "Projection from a Point",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof"
+}

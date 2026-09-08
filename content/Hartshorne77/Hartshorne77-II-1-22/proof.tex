@@ -1,0 +1,7 @@
+For every open $V\subset X$, define
+\[\mathscr F(V)=\left\{(s_i)\in\prod_i\mathscr F_i(V\cap U_i):s_j=\varphi_{ij}(s_i)\text{ on }V\cap U_i\cap U_j\right\}.\]
+Use coordinatewise restrictions and operations. Compatible sections on a cover glue in each $\mathscr F_i$, and the transition equalities hold after gluing because they hold locally. Thus $\mathscr F$ is a sheaf.
+
+Projection onto coordinate $i$ gives $\psi_i:\mathscr F|_{U_i}\to\mathscr F_i$. For $V\subset U_i$, a section $s\in\mathscr F_i(V)$ has the unique compatible tuple whose $j$th coordinate is $\varphi_{ij}(s|_{V\cap U_j})$; compatibility follows from the cocycle identity. Hence $\psi_i$ is an isomorphism and $\psi_j=\varphi_{ij}\psi_i$ on overlaps.
+
+For any other sheaf with such isomorphisms, send a section to the tuple of its images on the $V\cap U_i$. This defines the unique morphism respecting all the given identifications. It is locally an isomorphism and therefore an isomorphism, proving uniqueness.

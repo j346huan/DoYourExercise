@@ -1,0 +1,7 @@
+(a) For $P\in Z$, the intersections $V\cap Z$, with $V$ ranging over neighborhoods of $P$ in $X$, are all neighborhoods of $P$ in $Z$. Thus $(i_*\mathscr F)_P=\mathscr F_P$. For $P\notin Z$, there is a neighborhood disjoint from $Z$, so the stalk is zero.
+
+(b) If $P\in U$, its neighborhoods contained in $U$ are cofinal, so the defining presheaf has stalk $\mathscr F_P$. If $P\notin U$, every neighborhood has value zero. Sheafification preserves these stalks and restricts to $\mathscr F$ on $U$.
+
+If $\mathscr G$ is another sheaf with the stated restriction and stalks, map the defining presheaf to $\mathscr G$ by the chosen identification on opens contained in $U$ and by the zero map on other opens. Sheafification gives $j_!\mathscr F\to\mathscr G$, which is an isomorphism on every stalk and hence an isomorphism. It is unique with the chosen restriction, since its stalk maps are already determined everywhere.
+
+(c) The first map is induced by the identity on opens contained in $U$, and the second is the natural restriction morphism $\mathscr F\to i_*i^{-1}\mathscr F$. At $P\in U$, their stalk sequence is $0\to\mathscr F_P\to\mathscr F_P\to0\to0$; at $P\in Z$, it is $0\to0\to\mathscr F_P\to\mathscr F_P\to0$. Both are exact, so the sequence of sheaves is exact by \exref{II.1.2}.

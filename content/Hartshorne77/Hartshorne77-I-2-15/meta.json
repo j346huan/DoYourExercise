@@ -1,0 +1,14 @@
+{
+  "tag": "I.2.15",
+  "chapter": "I",
+  "section": "2",
+  "number": "15",
+  "title": "The Quadric Surface in ℙ³",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,I.2.14"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

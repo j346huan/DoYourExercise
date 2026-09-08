@@ -1,0 +1,12 @@
+{
+  "tag": "I.2.14",
+  "chapter": "I",
+  "section": "2",
+  "number": "14",
+  "title": "The Segre Embedding",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof"
+}

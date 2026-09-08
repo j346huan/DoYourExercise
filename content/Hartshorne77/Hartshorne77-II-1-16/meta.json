@@ -1,0 +1,14 @@
+{
+  "tag": "II.1.16",
+  "chapter": "II",
+  "section": "1",
+  "number": "16",
+  "title": "Flasque Sheaves",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,II.1.8"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

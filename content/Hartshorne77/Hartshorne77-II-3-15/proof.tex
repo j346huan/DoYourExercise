@@ -1,0 +1,17 @@
+First suppose $k$ is algebraically closed and $A$ is a finitely generated reduced $k$-algebra. For $u=\sum_i a_i\otimes\lambda_i\in A\otimes_kK$, choose the $\lambda_i$ linearly independent over $k$. If $u$ is nilpotent, its image in $(A/\mathfrak m)\otimes_kK=K$ is zero for every maximal ideal $\mathfrak m$. Thus every $a_i$ lies in all maximal ideals, hence is zero by the Nullstellensatz. So $A\otimes_kK$ is reduced.
+
+If $A$ is also a domain and $uv=0$, write $v=\sum_jb_j\otimes\mu_j$ with the $\mu_j$ independent. At every closed point, all the $a_i$ vanish or all the $b_j$ vanish. Density of closed points gives $\operatorname{Spec}A=V(a_i)\cup V(b_j)$. Irreducibility and reducedness imply $u=0$ or $v=0$, so $A\otimes_kK$ is a domain. If $\operatorname{Spec}A$ is merely irreducible, apply this to $A_{\mathrm{red}}$; the nilradical of the noetherian ring $A$ is nilpotent and remains so after tensoring. Hence $\operatorname{Spec}(A\otimes_kK)$ is irreducible.
+
+These assertions pass to schemes by affine covers. For irreducibility, the base changes of the nonempty affine opens are irreducible and intersect pairwise: projections under a field extension are surjective, since every fiber is the spectrum of a nonzero tensor product of fields.
+
+(a) Clearly (iii) implies (i), and surjectivity of $X_{\bar k}\to X_{k_s}$ gives (i)$\Rightarrow$(ii). The extension $\bar k/k_s$ is purely inseparable. On each affine chart, every element of the larger coordinate ring has a $p$-power in the smaller ring; the extension is integral and induces a bijection on primes by lying over and uniqueness of contraction lifts. Thus $X_{\bar k}\to X_{k_s}$ is a homeomorphism, proving (ii)$\Rightarrow$(i). In characteristic zero the two fields are equal.
+
+For (i)$\Rightarrow$(iii), choose a common extension field of $\bar k$ and $K$ over $k$. The preceding algebraically closed argument makes the base change to this common field irreducible, and its surjection onto $X_K$ makes $X_K$ irreducible.
+
+(b) Faithfulness of tensoring with a field extension gives (iii)$\Rightarrow$(i)$\Rightarrow$(ii). The preliminary reducedness argument, followed by passage to a common extension field as in (a), gives (i)$\Rightarrow$(iii).
+
+For (ii)$\Rightarrow$(i), put $k'=k^p$, which is perfect. If $A$ is a reduced $k'$-algebra and $L/k'$ is finite separable, embed $A$ in the product of the fraction fields of its prime quotients. Tensoring with the finite-dimensional space $L$ preserves this injection and commutes with that product. Each field factor tensored with $L$ is reduced, since a separable defining polynomial remains squarefree over every field extension. Hence $A\otimes_{k'}L$ is reduced. Taking the union over finite subextensions of $\bar k/k'$ proves that $X_{\bar k}$ is reduced.
+
+(c) Let $k=\mathbb F_p(t)$ and $X=\operatorname{Spec}\mathbb F_{p^2}(u)$, where $t$ acts as $u^p$. This is integral, but
+\[\mathbb F_{p^2}(u)\otimes_k\bar k\cong\bar k[\epsilon]/(\epsilon^p)\times\bar k[\epsilon]/(\epsilon^p).\]
+Thus $X_{\bar k}$ is neither irreducible nor reduced.

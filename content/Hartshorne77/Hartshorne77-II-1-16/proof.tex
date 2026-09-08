@@ -1,0 +1,9 @@
+(a) Every nonempty open subset of an irreducible space is irreducible and therefore connected. A locally constant function on it is constant. Thus all restrictions between nonempty opens are the identity on the constant group, and restrictions to the empty set are also surjective.
+
+(b) By \exref{II.1.8}, only surjectivity on sections remains. Fix $s\in\mathscr F''(U)$ and order pairs $(V,t)$, where $V\subset U$ is open and $t\in\mathscr F(V)$ lifts $s|_V$, by extension. A chain has an upper bound by gluing, so Zorn's lemma gives a maximal pair. If $V\ne U$, choose a local lift $t'\in\mathscr F(W)$ near a point outside $V$. On $V\cap W$, the difference $t'-t$ is a section of $\mathscr F'$. Flasqueness extends it to $W$. Subtracting this extension from $t'$ makes it agree with $t$, so they glue over $V\cup W$, contradicting maximality. Hence $V=U$.
+
+(c) For $V\subset U$ and $s\in\mathscr F''(V)$, part (b) lifts $s$ to $\mathscr F(V)$. Flasqueness of $\mathscr F$ extends this lift to $U$, whose image extends $s$. Therefore $\mathscr F''$ is flasque.
+
+(d) The restriction $(f_*\mathscr F)(U)\to(f_*\mathscr F)(V)$ is the restriction $\mathscr F(f^{-1}U)\to\mathscr F(f^{-1}V)$, hence is surjective.
+
+(e) The groups $\mathscr G(U)=\prod_{P\in U}\mathscr F_P$ form a sheaf, since arbitrary functions glue uniquely. A section on $V\subset U$ extends by zero outside $V$, so $\mathscr G$ is flasque. The map $\mathscr F(U)\to\mathscr G(U)$, $s\mapsto(s_P)_{P\in U}$, respects restrictions and is injective, since a section whose germs all vanish is zero.

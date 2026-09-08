@@ -1,0 +1,15 @@
+Every nonempty affine open $\operatorname{Spec}A\subseteq X$ has fraction field $K(X)$ by \exref{II.3.6}. The dimension theorem for finitely generated domains therefore gives $\dim A=\operatorname{tr.deg}_kK(X)$. Since dimension is the supremum over an open cover, all these affine dimensions equal $\dim X$.
+
+(a) Choose an affine neighborhood $\operatorname{Spec}A$ of $P$, with maximal ideal $\mathfrak m$. The dimension formula gives $\dim A=\operatorname{ht}\mathfrak m+\dim A/\mathfrak m=\operatorname{ht}\mathfrak m$. Thus $\dim\mathcal O_{X,P}=\dim A_{\mathfrak m}=\dim X$.
+
+(b) This is the equality established above.
+
+(c) For an irreducible closed subset with generic point $\eta$, chains of irreducible closed subsets containing it can be computed in any affine neighborhood of $\eta$. Hence its codimension is the height of the corresponding prime, namely $\dim\mathcal O_{X,\eta}$. Apply this to the finitely many irreducible components of $Y$. Every $P\in Y$ specializes from one of their generic points, so its local dimension is at least that component's codimension. The infimum is consequently attained at a component's generic point, giving the stated formula.
+
+(d) For each irreducible component of $Y$, the dimension formula in an affine neighborhood of its generic point gives its dimension plus its codimension equal to $\dim X$. Taking the maximum of the component dimensions and the minimum of their codimensions proves the equality.
+
+(e) Every nonempty affine open in $U$ is also one in $X$, so it has dimension $\dim X$. Taking their supremum gives $\dim U=\dim X$.
+
+(f) On a nonempty affine open $\operatorname{Spec}A\subseteq X$, choose a Noether normalization $R=k[t_1,\ldots,t_n]\subseteq A$, where $n=\dim X$ and $A$ is finite over $R$. Since $A$ is a domain, it is a finite torsion-free $R$-module and embeds in a finite free $R$-module: choose a basis over $\operatorname{Frac}R$ and clear denominators of finitely many module generators. Tensoring over $k$ with $k'$ gives an embedding of $A'=A\otimes_kk'$ into a finite free $R'=k'[t_1,\ldots,t_n]$-module. Thus nonzero elements of $R'$ are nonzerodivisors on $A'$.
+
+Every minimal prime of the noetherian ring $A'$ consists of zero divisors, so it contracts to $(0)$ in $R'$. Its quotient is therefore a finite integral domain extension of $R'$ and has dimension $n$. Thus every irreducible component of this affine base change has dimension $n$. These affine opens cover $X'$, proving the assertion for every irreducible component of $X'$.

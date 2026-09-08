@@ -1,0 +1,15 @@
+{
+  "tag": "I.2.10",
+  "chapter": "I",
+  "section": "2",
+  "number": "10",
+  "title": "The Cone Over a Projective Variety",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,I.2.4",
+    "Hartshorne77,I.2.6"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

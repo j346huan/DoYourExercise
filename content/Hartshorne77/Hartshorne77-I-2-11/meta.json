@@ -1,0 +1,12 @@
+{
+  "tag": "I.2.11",
+  "chapter": "I",
+  "section": "2",
+  "number": "11",
+  "title": "Linear Varieties in ℙⁿ",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof"
+}

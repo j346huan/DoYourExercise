@@ -1,0 +1,14 @@
+{
+  "tag": "I.5.3",
+  "chapter": "I",
+  "section": "5",
+  "number": "3",
+  "title": "Multiplicities",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,I.5.1"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

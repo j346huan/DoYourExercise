@@ -1,0 +1,14 @@
+{
+  "tag": "II.1.21",
+  "chapter": "II",
+  "section": "1",
+  "number": "21",
+  "title": "Some Examples of Sheaves on Varieties",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,II.1.6"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

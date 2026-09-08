@@ -1,0 +1,7 @@
+(a) The affine cone is cut out by $q$ equations in $\mathbb A^{n+1}$, so \exref{I.1.9} gives $\dim C(Y)\ge n+1-q$. Hence $\dim Y\ge n-q$ by \exref{I.2.10}.
+
+(b) Choose homogeneous generators of $I(Y)$ lifting a basis of $I(Y)/S_+I(Y)$. They generate by induction on degree, and there are at most $n-r$ of them since $I(Y)$ already has $n-r$ generators. The height bound makes their number exactly $n-r$. Since $I(Y)$ is prime, each generator has an irreducible homogeneous factor in $I(Y)$. Replacing each generator by such a factor leaves the generated ideal equal to $I(Y)$. Their zero sets are the required hypersurfaces.
+
+(c) By \exref{I.2.9}, the twisted cubic ideal has three independent quadratic generators and no linear elements. Thus its quotient by $S_+I(Y)$ has dimension at least $3$, so two generators cannot suffice. Set $H_1=Z(uy-x^2)$ and $H_2=Z(uz^2-2xyz+y^3)$. Both polynomials are irreducible by Gauss's lemma: they are linear in $u$, with relatively prime coefficient and constant term. The cubic lies on both. On $u\ne0$, the identity
+\[u(uz^2-2xyz+y^3)=(uz-xy)^2+y^2(uy-x^2)\]
+ gives $uz=xy$ and then $xz=y^2$. On $u=0$, the two equations give $x=y=0$, leaving only $(0:0:0:1)$. Hence $H_1\cap H_2=Y$.

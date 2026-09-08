@@ -1,0 +1,12 @@
+{
+  "tag": "II.1.18",
+  "chapter": "II",
+  "section": "1",
+  "number": "18",
+  "title": "Adjoint Property of f⁻¹",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof"
+}

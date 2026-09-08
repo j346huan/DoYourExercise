@@ -1,0 +1,7 @@
+(a) The invertible matrix $\begin{pmatrix}a&b\\c&d\end{pmatrix}$ induces $(u:v)\mapsto(au+bv:cu+dv)$. Its two coordinates never vanish simultaneously, so this is a morphism. The inverse matrix gives its inverse morphism, and on $v\ne0$ it is $x\mapsto(ax+b)/(cx+d)$.
+
+(b) Corollary 6.12 identifies automorphisms of $\mathbb{P}^1$ with $k$-automorphisms of $k(x)$. More precisely, $\varphi\mapsto(\varphi^{-1})^*$ is a group isomorphism, since pullback reverses composition.
+
+(c) Write the image of $x$ as $f(x)/g(x)$ with relatively prime polynomials $f,g$. For an indeterminate $T$, the polynomial $Tg(t)-f(t)$ is irreducible in $k[T,t]$: viewed as a polynomial in $T$, it is primitive and linear over $k(t)$. It is also primitive over $k[T]$, since $f/g$ is nonconstant. Thus it is irreducible in $k(T)[t]$. Substituting $T=f(x)/g(x)$ shows that
+\[[k(x):k(f(x)/g(x))]=\max\{\deg f,\deg g\}.\]
+For an automorphism the left side is $1$, so $f=ax+b$, $g=cx+d$, with $ad-bc\ne0$. Thus every automorphism is a fractional linear transformation, and the map $\operatorname{PGL}(1)\to\operatorname{Aut}\mathbb{P}^1$ is an isomorphism.

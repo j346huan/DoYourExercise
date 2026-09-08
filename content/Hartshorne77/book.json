@@ -7,7 +7,68 @@
   "cover": "covers/hartshorne.jpg",
   "coverCredit": "Springer Nature",
   "coverSource": "https://link.springer.com/book/10.1007/978-1-4757-3849-0",
-  "chapters": [],
+  "chapters": [
+    {
+      "id": "I",
+      "title": "Varieties",
+      "sections": [
+        {
+          "id": "1",
+          "title": "Affine Varieties"
+        },
+        {
+          "id": "2",
+          "title": "Projective Varieties"
+        },
+        {
+          "id": "3",
+          "title": "Morphisms"
+        },
+        {
+          "id": "4",
+          "title": "Rational Maps"
+        },
+        {
+          "id": "5",
+          "title": "Nonsingular Varieties"
+        },
+        {
+          "id": "6",
+          "title": "Nonsingular Curves"
+        },
+        {
+          "id": "7",
+          "title": "Intersections in Projective Space"
+        }
+      ]
+    },
+    {
+      "id": "II",
+      "title": "Schemes",
+      "sections": [
+        {
+          "id": "1",
+          "title": "Sheaves"
+        },
+        {
+          "id": "2",
+          "title": "Schemes"
+        },
+        {
+          "id": "3",
+          "title": "First Properties of Schemes"
+        },
+        {
+          "id": "4",
+          "title": "Separated and Proper Morphisms"
+        },
+        {
+          "id": "5",
+          "title": "Sheaves of Modules"
+        }
+      ]
+    }
+  ],
   "publication": {
     "publisher": "Springer-Verlag",
     "address": "New York",

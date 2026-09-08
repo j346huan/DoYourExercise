@@ -1,0 +1,12 @@
+{
+  "tag": "II.2.3",
+  "chapter": "II",
+  "section": "2",
+  "number": "3",
+  "title": "Reduced Schemes",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof"
+}

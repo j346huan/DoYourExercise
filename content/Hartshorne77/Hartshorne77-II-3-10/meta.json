@@ -1,0 +1,12 @@
+{
+  "tag": "II.3.10",
+  "chapter": "II",
+  "section": "3",
+  "number": "10",
+  "title": "Fibres of a Morphism",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [],
+  "lean": null,
+  "coverage": "proof"
+}

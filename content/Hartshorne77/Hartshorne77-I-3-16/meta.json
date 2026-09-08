@@ -1,0 +1,14 @@
+{
+  "tag": "I.3.16",
+  "chapter": "I",
+  "section": "3",
+  "number": "16",
+  "title": "Products of Quasi-Projective Varieties",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,I.3.15"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

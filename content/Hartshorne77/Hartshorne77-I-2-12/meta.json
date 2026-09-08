@@ -1,0 +1,14 @@
+{
+  "tag": "I.2.12",
+  "chapter": "I",
+  "section": "2",
+  "number": "12",
+  "title": "The d-Uple Embedding",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,I.2.9"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

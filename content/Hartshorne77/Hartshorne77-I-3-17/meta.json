@@ -1,0 +1,14 @@
+{
+  "tag": "I.3.17",
+  "chapter": "I",
+  "section": "3",
+  "number": "17",
+  "title": "Normal Varieties",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,I.3.1"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}
