@@ -1,0 +1,11 @@
+(a) For each irreducible component of $X$, remove the other components and take the scheme-theoretic closure of the resulting open subscheme. This gives an irreducible closed subscheme agreeing with $X$ on that open subset. Apply the irreducible case to these finitely many closed subschemes and take the disjoint union of the resulting projective schemes. Their maps are isomorphisms over a dense open subset of $X$.
+
+(b) Cover $S$ by affine open subsets and their inverse images by finitely many affine open subsets $V_i$. Each $V_i$ has a closed immersion into affine space over one of these affine subsets of $S$, hence an immersion into some $\mathbb P_S^{n_i}$. Its scheme-theoretic closure $P_i$ is projective over $S$ and contains $V_i$ as an open subscheme.
+
+(c) Put $P=\prod_S P_i$, with projections $q_i$. The graph of $V\to P$ is closed in $V\times_S P$, since $P$ is separated over $S$. Thus $g^{-1}(V)\cong V$, and this open subscheme is scheme-theoretically dense in $X'$ by construction.
+
+On $g^{-1}(V_i)$, the maps $q_i h$ and $V_i\hookrightarrow P_i$ composed with $g$ agree: their equalizer is closed and contains the scheme-theoretically dense open subscheme $V$. Therefore $h$ has image in the open subset $P^0=\bigcup_i q_i^{-1}(V_i)$ of $P$.
+
+On $h^{-1}(q_i^{-1}(V_i))$, the maps to $X$ given by $g$ and by $q_i h$ followed by $V_i\hookrightarrow X$ likewise agree, since $X$ is separated over $S$. Consequently $X'\cap(X\times_S q_i^{-1}(V_i))$ is a closed subscheme of the graph of $q_i^{-1}(V_i)\to X$. This graph is isomorphic to $q_i^{-1}(V_i)$, so $h$ is a closed immersion over each of these open subsets. Hence $X'\to P^0$ is a closed immersion. Also $h:X'\to P$ is proper, since $X$ is proper over $S$. Its image is therefore closed in $P$, and the preceding local descriptions show that $h$ is a closed immersion. Thus $X'$ is projective over $S$.
+
+(d) The graph calculation in (c) gives $g^{-1}(V)\cong V$. Since $X$ is irreducible, the finite intersection $V=\bigcap_i V_i$ is dense and nonempty.

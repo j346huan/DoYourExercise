@@ -1,0 +1,9 @@
+(a) By (8.24), $\widetilde X$ and $Y'$ are nonsingular, and $Y'$ is irreducible. Since $\operatorname{codim}(Y,X)\ge2$, (6.5) and (6.16) give $\operatorname{Pic}X\cong\operatorname{Pic}(X-Y)$. Applying the same results to $Y'\subset\widetilde X$ gives an exact sequence $\mathbb Z[Y']\to\operatorname{Pic}\widetilde X\to\operatorname{Pic}(\widetilde X-Y')\to0$. Under $\widetilde X-Y'\cong X-Y$, pullback by $\pi$ splits this sequence.
+
+For a closed point $y\in Y$, the fibre $Z$ is $\mathbb P^{r-1}$, and (8.24)(c) gives $\mathcal O_{\widetilde X}(nY')|_Z\cong\mathcal O_{\mathbb P^{r-1}}(-n)$. This is trivial only when $n=0$. Thus $\mathbb Z[Y']\to\operatorname{Pic}\widetilde X$ is injective, and
+\[\operatorname{Pic}X\oplus\mathbb Z\to\operatorname{Pic}\widetilde X,\qquad(\mathcal L,n)\mapsto\pi^*\mathcal L\otimes\mathcal O_{\widetilde X}(nY')\]
+is an isomorphism.
+
+(b) By (a), write $\omega_{\widetilde X}\cong\pi^*\mathcal L\otimes\mathcal O_{\widetilde X}(qY')$. Restriction to $\widetilde X-Y'\cong X-Y$ identifies $\mathcal L|_{X-Y}$ with $\omega_X|_{X-Y}$. Since $\operatorname{Pic}X\to\operatorname{Pic}(X-Y)$ is an isomorphism, $\mathcal L\cong\omega_X$. Adjunction (8.20) and (8.24)(c) give
+\[\omega_{Y'}\cong(\pi^*\omega_X)|_{Y'}\otimes\mathcal O_{Y'}(-q-1).\]
+Near $y$, the projective bundle $Y'\to Y$ is a product, so the normal bundle of $Z=\pi^{-1}(y)$ in $Y'$ is trivial. Adjunction therefore gives $\omega_Z\cong\omega_{Y'}|_Z\cong\mathcal O_Z(-q-1)$. Since $Z\cong\mathbb P^{r-1}$, we also have $\omega_Z\cong\mathcal O_Z(-r)$, whence $q=r-1$. Thus $\omega_{\widetilde X}\cong\pi^*\omega_X\otimes\mathcal O_{\widetilde X}((r-1)Y')$.

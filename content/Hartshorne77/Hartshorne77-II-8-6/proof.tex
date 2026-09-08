@@ -1,0 +1,11 @@
+(a) Since $I^2=0$, multiplication on $I$ factors through $B$. If $g,g':A\to B'$ lift $f$, their difference takes values in $I$, vanishes on $k$, and satisfies
+\[(g-g')(ab)=f(a)(g-g')(b)+f(b)(g-g')(a).\]
+Thus $g-g'$ is a $k$-derivation and determines an element of $\operatorname{Hom}_A(\Omega_{A/k},I)$. Conversely, if $\delta:A\to I$ is a $k$-derivation, then $I^2=0$ gives $(g+\delta)(a)(g+\delta)(b)=g(ab)+\delta(ab)$. Hence $g+\delta$ is a $k$-algebra homomorphism lifting $f$.
+
+(b) Choose in $B'$ a lift of each $f(\overline{x_i})$. The universal property of $P=k[x_1,\ldots,x_n]$ gives $h:P\to B'$ lifting $P\to A\to B$. Then $h(J)\subseteq I$ and $h(J^2)=0$. Moreover, $h(pj)=f(\overline p)h(j)$ for $p\in P$, $j\in J$. Therefore $h$ induces an $A$-linear map $\overline h:J/J^2\to I$.
+
+(c) By (8.17), the conormal sequence is exact:
+\[0\to J/J^2\to\Omega_{P/k}\otimes_P A\to\Omega_{A/k}\to0.\]
+The module $\Omega_{A/k}$ is finite locally free by (8.15), hence projective, so this sequence splits. Applying $\operatorname{Hom}_A(-,I)$ gives
+\[0\to\operatorname{Hom}_A(\Omega_{A/k},I)\to\operatorname{Hom}_P(\Omega_{P/k},I)\to\operatorname{Hom}_A(J/J^2,I)\to0.\]
+Choose a derivation $\delta:P\to I$ mapping to $\overline h$. The argument in (a) shows that $h-\delta$ is a $k$-algebra homomorphism. For $j\in J$, $\delta(j)=\overline h(j\bmod J^2)=h(j)$, so $(h-\delta)(J)=0$. It therefore descends to the required lift $g:A\to B'$.

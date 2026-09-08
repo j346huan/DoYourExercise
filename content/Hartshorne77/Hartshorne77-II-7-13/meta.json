@@ -1,0 +1,16 @@
+{
+  "tag": "II.7.13",
+  "chapter": "II",
+  "section": "7",
+  "number": "13",
+  "title": "A Complete Nonprojective Variety",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,II.6.9",
+    "Hartshorne77,II.7.9",
+    "Hartshorne77,II.4.9"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

@@ -1,0 +1,15 @@
+{
+  "tag": "II.6.11",
+  "chapter": "II",
+  "section": "6",
+  "number": "11",
+  "title": "The Grothendieck Group of a Nonsingular Curve",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,II.5.15",
+    "Hartshorne77,II.5.16"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

@@ -1,0 +1,17 @@
+(a) The morphism is $(x:y:z)\mapsto(x^2:y^2:z^2:xy:xz:yz)$, the $2$-uple map of \exref{I.2.12}. It is a closed immersion by \exref{II.5.13}.
+
+(b) Assume $\operatorname{char}k\ne2$. Identify $\mathbb P^5$ with the projective space of symmetric $3\times3$ matrices, so that the Veronese image consists of the matrices $vv^{\mathsf T}$. The given map is projection from
+\[\left[\begin{pmatrix}0&1&1\\1&0&1\\1&1&0\end{pmatrix}\right].\]
+This matrix has determinant $2$. Every matrix on a secant line to the Veronese surface has rank at most $2$. The same holds for every matrix in a projective tangent plane, since it has the form $avv^{\mathsf T}+vw^{\mathsf T}+wv^{\mathsf T}$. Thus the center lies on neither a secant line nor a tangent plane. The projection separates points and tangent vectors, so (7.3) makes it a closed immersion.
+
+The assertion fails in characteristic $2$. On the chart $x=1$, the nonconstant tangent vector $(y,z)=(1+\epsilon,\epsilon)$ over $k[\epsilon]/(\epsilon^2)$ has the same image $(1:1:0:1:0)$ as $(y,z)=(1,0)$. Hence the differential at $(1:1:0)$ is not injective.
+
+(c) Take $P=(0:0:1)$. The blowup is $\widetilde X=\{xt=ys\}\subseteq\mathbb P^2\times\mathbb P^1$, with coordinates $(x:y:z)$ and $(s:t)$. Its Segre embedding lies in the hyperplane identifying the coordinates $xt$ and $ys$, and therefore gives a closed immersion
+\[\widetilde X\to\mathbb P^4,\qquad ((x:y:z),(s:t))\mapsto(xs:xt:yt:zs:zt).\]
+Away from $P$, $(s:t)=(x:y)$, so this is the map given by $(x^2:xy:y^2:xz:yz)$. Its restriction is the required immersion of $X-P$.
+
+The Segre coordinate ring has degree-$n$ piece of dimension $\binom{n+2}{2}(n+1)$. The equation $xt-ys$ is a nonzero linear element of this domain. Thus the hyperplane section has Hilbert polynomial
+\[\binom{n+2}{2}(n+1)-\binom{n+1}{2}n=\frac{3n^2+5n+2}{2},\]
+and $\deg\widetilde X=3$.
+
+For fixed $(s:t)$, the fibre of $\widetilde X\to\mathbb P^1$ is the strict transform of the corresponding line through $P$. Its image is the line parametrized by $(\lambda:\mu)\mapsto(\lambda s^2:\lambda st:\lambda t^2:\mu s:\mu t)$. These fibres are disjoint and cover $\widetilde X$.

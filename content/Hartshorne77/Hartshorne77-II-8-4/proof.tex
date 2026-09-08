@@ -1,0 +1,22 @@
+(a) If $I=(f_1,\ldots,f_r)$ with homogeneous $f_i$, take $H_i=V_+(f_i)$. Their ideal sheaves sum to $\widetilde I$, so their scheme-theoretic intersection is $Y$.
+
+Conversely, write $H_i=V_+(f_i)$ and put $J=(f_1,\ldots,f_r)$. Since $\dim\operatorname{Proj}(S/J)=n-r$, we have $\dim(S/J)_{S_+}=n+1-r$. The ring $S_{S_+}$ is regular, so (8.21A) shows that the $f_i$ form a regular sequence there and that $(S/J)_{S_+}$ is Cohen--Macaulay of positive dimension. In particular, it has no nonzero element annihilated by a power of $S_+$. If a homogeneous $g$ satisfies $S_+^N g\subseteq J$, its image in $(S/J)_{S_+}$ is therefore zero. A nonzero homogeneous element of $S/J$ remains nonzero after localization at $S_+$, since a polynomial outside $S_+$ has a nonzero constant term. Thus $g\in J$, and $J$ is saturated. Its associated ideal sheaf is $\mathcal I_Y$, so $J=I$.
+
+(b) Put $A=S/I$. The affine cone $\operatorname{Spec}A$ is a complete intersection, hence Cohen--Macaulay by (8.23). On $D(x_i)$,
+\[A_{x_i}\cong A_{(x_i)}[x_i,x_i^{-1}],\]
+so the cone away from its vertex is normal because $Y$ is normal. The vertex has codimension $\dim Y+1\ge2$. Thus the cone is regular in codimension one and is normal by (8.23). A noetherian normal ring is a finite product of normal domains. Since $A$ is nonnegatively graded with $A_0=k$, its only idempotents are $0$ and $1$: comparison of the least positive degree in an idempotent or its complement proves this. Hence $A$ is an integrally closed domain, and $Y$ is projectively normal.
+
+(c) A section of $\mathcal O_Y(l)$ corresponds on the charts in (b) to a homogeneous regular function of degree $l$ on the punctured cone. By (6.3A), every such function extends uniquely across the vertex, whose codimension is at least two. Taking degree $l$ gives $\Gamma(Y,\mathcal O_Y(l))=A_l$ for every integer $l$. Hence $S_l\to\Gamma(Y,\mathcal O_Y(l))$ is surjective for $l\ge0$. In degree zero this gives $\Gamma(Y,\mathcal O_Y)=k$, so $Y$ is connected.
+
+(d) Proceed by induction, starting with $\mathbb P^n$. Suppose $H_1,\ldots,H_{i-1}$ have been chosen with nonsingular irreducible intersection of dimension $n-i+1\ge2$. Apply (8.18) to its $d_i$-uple embedding and to the $d_i$-uple embedding of $\mathbb P^n$. A general degree $d_i$ hypersurface $H_i$ is nonsingular and cuts the previous intersection nonsingularly in codimension one. The resulting intersection is a complete intersection by (a), and has positive dimension. It is normal and connected by (c), hence irreducible. This completes the induction.
+
+(e) The regular sequence defining $Y$ gives $\mathcal I_Y/\mathcal I_Y^2\cong\bigoplus_{i=1}^r\mathcal O_Y(-d_i)$ by (8.21A)(e). Applying (8.20) and $\omega_{\mathbb P^n}\cong\mathcal O_{\mathbb P^n}(-n-1)$ yields
+\[\omega_Y\cong\mathcal O_Y\left(\sum_{i=1}^r d_i-n-1\right).\]
+
+(f) Suppose $n\ge2$. By (c) and (e), $p_g(Y)=\dim_k(S/(f))_{d-n-1}$. This degree is less than $d$, so the defining equation contributes no relation. Negative graded pieces are zero. Consequently $p_g(Y)=\binom{d-1}{n}$, which equals $p_a(Y)$ by \exref{I.7.2}(c). For $n=2$, this is $\frac12(d-1)(d-2)$.
+
+The dimension assumption is necessary: a nonsingular degree-$d$ hypersurface in $\mathbb P^1$ consists of $d$ reduced points, so $\omega_Y=\mathcal O_Y$ and $h^0(Y,\omega_Y)=d$, whereas $\binom{d-1}{1}=d-1$.
+
+(g) Write $I=(f,g)$ with degrees $d,e$. The Koszul resolution of $S/I$, together with (c) and (e), gives
+\[p_g(Y)=\dim_k(S/I)_{d+e-4}=\binom{d+e-1}{3}-\binom{d-1}{3}-\binom{e-1}{3}=\frac12de(d+e-4)+1.\]
+Here a binomial coefficient with nonnegative upper entry less than $3$ is zero. This equals the arithmetic genus in \exref{I.7.2}(d).

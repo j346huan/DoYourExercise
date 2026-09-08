@@ -1,0 +1,9 @@
+Since the cubic is nodal, $\operatorname{char}k\neq2$. Its normalization is parametrized by $t=y/x$, with $x=t^2-1$ and $y=t(t^2-1)$ on $z=1$. The points $t=1,-1$ lie over the node $N$, and $t=\infty$ maps to $P_0=(0:1:0)$.
+
+Let $B$ be the semilocal ring of $\mathbb P^1$ at $1,-1$. Since $k[t^2-1,t(t^2-1)]=k+(t^2-1)k[t]$, the local ring at the node is
+\[\mathcal O_{X,N}=k+(t^2-1)B=\{f\in B:f(1)=f(-1)\}.\]
+Thus $f\in K(X)^*$ is a unit at $N$ exactly when it is regular and nonzero at both branches and $f(1)=f(-1)$.
+
+Subtracting the principal divisor of a local equation at $N$ shows that every Cartier divisor class has a representative $D=\sum n_PP$ supported on $X-N$. Set $\deg D=\sum n_P$. This is well defined on classes, since a principal divisor represented by a unit at $N$ has the same degree as its divisor on $\mathbb P^1$, namely zero.
+
+For $\deg D=0$, choose $f\in k(t)^*$ with $(f)_{\mathbb P^1}=D$, and send $[D]$ to $f(1)/f(-1)$. Constants cancel, and changing $D$ by a principal Cartier divisor multiplies $f$ by a unit at $N$, so the map is well defined. Its kernel is zero by the characterization of $\mathcal O_{X,N}^*$ above. For $P$ corresponding to $t=a$, the class $[P-P_0]$ maps to $(a-1)/(a+1)$, with value $1$ at $a=\infty$. This is the isomorphism $\mathbb P^1-\{1,-1\}\to\mathbb G_m$, so the map is surjective and identifies $\operatorname{CaCl}^0X$ with $\mathbb G_m$.

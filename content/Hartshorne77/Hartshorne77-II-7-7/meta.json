@@ -1,0 +1,15 @@
+{
+  "tag": "II.7.7",
+  "chapter": "II",
+  "section": "7",
+  "number": "7",
+  "title": "Some Rational Surfaces",
+  "status": "solved",
+  "updated": "2026-09-08",
+  "dependencies": [
+    "Hartshorne77,I.2.12",
+    "Hartshorne77,II.5.13"
+  ],
+  "lean": null,
+  "coverage": "proof"
+}

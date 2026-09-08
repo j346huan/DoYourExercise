@@ -1,0 +1,11 @@
+(a) Put $K=k(B)$. By (8.25A), the complete local ring $B/\mathfrak m^2$ contains a copy of $K$ over $k$, so $B/\mathfrak m^2=K\oplus\mathfrak m/\mathfrak m^2$ as $K$-vector spaces. The projection $B\to\mathfrak m/\mathfrak m^2$ is a $k$-derivation, where $B$ acts through $K$: the product of two elements of $\mathfrak m/\mathfrak m^2$ is zero. Its induced map $\Omega_{B/k}\otimes_B K\to\mathfrak m/\mathfrak m^2$ is a left inverse to $\delta$. Thus the sequence is exact on the left.
+
+(b) By (a) and (8.6A),
+\[\dim_{k(B)}(\Omega_{B/k}\otimes_B k(B))=\dim_{k(B)}\mathfrak m/\mathfrak m^2+\operatorname{tr.deg}_k k(B).\]
+If $\Omega_{B/k}$ is free of the stated rank, this equality gives $\dim_{k(B)}\mathfrak m/\mathfrak m^2=\dim B$, so $B$ is regular.
+
+Conversely, suppose $B$ is regular, and let $K$ be its fraction field. The dimension formula (I, 1.8A) gives $\operatorname{tr.deg}_k K=\dim B+\operatorname{tr.deg}_k k(B)$. Since $k$ is perfect, (8.2A) and (8.6A) show that $\dim_K(\Omega_{B/k}\otimes_B K)$ equals this number. Part (a) gives the same dimension over $k(B)$. Now $\Omega_{B/k}$ is finite by (8.5), and (8.9) makes it free of the required rank.
+
+(c) Apply (I, 1.8A) to affine opens of $X_{\mathrm{red}}$ to obtain $\dim\mathcal O_{X,x}+\operatorname{tr.deg}_k k(x)=n$. Since $(\Omega_{X/k})_x=\Omega_{\mathcal O_{X,x}/k}$, the assertion follows from (b).
+
+(d) By (c), the regular locus is the locus where $\Omega_{X/k}$ is free of rank $\dim X$. This is open by \exref{II.5.7}. The generic local ring is a field, hence regular, so this open subset contains the generic point and is dense.

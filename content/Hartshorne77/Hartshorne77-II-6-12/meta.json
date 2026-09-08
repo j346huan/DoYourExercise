@@ -1,13 +1,13 @@
 {
-  "tag": "II.4.5",
+  "tag": "II.6.12",
   "chapter": "II",
-  "section": "4",
-  "number": "5",
+  "section": "6",
+  "number": "12",
   "title": "",
   "status": "solved",
   "updated": "2026-09-08",
   "dependencies": [
-    "Hartshorne77,II.4.10"
+    "Hartshorne77,II.6.11"
   ],
   "lean": null,
   "coverage": "proof"

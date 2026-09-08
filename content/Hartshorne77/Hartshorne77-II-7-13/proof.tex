@@ -1,0 +1,13 @@
+(a) Over either standard affine open of $\mathbb P^1$, $\pi$ is the projection $C\times\mathbb A^1\to\mathbb A^1$, a base change of the proper morphism $C\to\operatorname{Spec}k$. Properness is local on the base, so $\pi$ is proper. Its composition with $\mathbb P^1\to\operatorname{Spec}k$ is proper. The two integral charts have nonempty intersection, so $X$ is integral and hence a complete variety.
+
+(b) The normalization $\mathbb P^1\to C$ identifies $0$ and $\infty$. Let $B=k[u]$ or $k[u,u^{-1}]$. As in \exref{II.6.9}, an invertible sheaf on $C\times\operatorname{Spec}B$ is an invertible sheaf on $\mathbb P^1_B$ together with an identification of its fibres along $0$ and $\infty$.
+
+Since $B$ is a principal ideal domain, \exref{II.7.9}(a) gives $\operatorname{Pic}\mathbb P^1_B=\mathbb Z$. Thus the sheaf upstairs is $\mathcal O(n)$, and an identification of its two fibres is multiplication by $\lambda\in B^*$. Locally at the node, the branch ideals in the semilocal normalization are comaximal. The Chinese remainder theorem gives a unit with branch values $1$ and $\lambda$; rescaling by this unit makes the gluing condition equality of values, proving local freeness. An automorphism of $\mathcal O(n)$ multiplies both fibres by the same unit, so it does not change $\lambda$. Tensor product multiplies $\lambda$ and adds $n$. Therefore $\operatorname{Pic}(C\times\operatorname{Spec}B)\cong B^*\times\mathbb Z$. Since $k[u]^*=k^*$ and $k[u,u^{-1}]^*=k^*u^{\mathbb Z}$, this gives the two asserted groups.
+
+(c) Use homogeneous coordinates $[v:w]$ on the normalization, with $t=v/w$. Trivialize $\mathcal O(n)$ at $0$ and $\infty$ by $w^n$ and $v^n$, and define $\lambda$ by identifying $w^n$ at $0$ with $\lambda v^n$ at $\infty$. Restriction from $\mathbb A^1$ to $\mathbb G_m$ sends $(\lambda,n)$ to $(\lambda,0,n)$.
+
+The automorphism $\varphi$ lifts to $[v:w]\mapsto[uv:w]$. Under pullback, the first frame is unchanged and the second is multiplied by $u^n$. Hence the gluing factor $\lambda u^d$ becomes $\lambda u^{d+n}$. Thus $\varphi^*(\lambda,d,n)=(\lambda,d+n,n)$.
+
+(d) An invertible sheaf on $X$ restricts to classes $(\lambda_0,n_0)$ and $(\lambda_\infty,n_\infty)$ on the two charts. Compatibility on their intersection, using (c), forces $n_0=n_\infty$ and $0=n_\infty$. Its restriction to $C\times\{0\}$ therefore has degree zero.
+
+A very ample sheaf on $C$ pulls back to $\mathcal O_{\mathbb P^1}(n)$ with $n>0$, since normalization followed by the embedding is a nonconstant morphism. Thus $X$ has no very ample sheaf and is not projective. If $\pi$ were projective, composition with the projective morphism $\mathbb P^1\to\operatorname{Spec}k$ would make $X$ projective by \exref{II.4.9}, a contradiction.

@@ -1,13 +1,13 @@
 {
-  "tag": "II.4.5",
+  "tag": "II.7.10",
   "chapter": "II",
-  "section": "4",
-  "number": "5",
-  "title": "",
+  "section": "7",
+  "number": "10",
+  "title": "ℙⁿ-Bundles Over a Scheme",
   "status": "solved",
   "updated": "2026-09-08",
   "dependencies": [
-    "Hartshorne77,II.4.10"
+    "Hartshorne77,II.7.9"
   ],
   "lean": null,
   "coverage": "proof"

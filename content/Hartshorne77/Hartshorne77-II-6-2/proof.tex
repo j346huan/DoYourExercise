@@ -1,0 +1,13 @@
+Assume $\dim X\geq1$ for the degree formula and the final injectivity assertion.
+
+(a) Two local equations for $V$ differ by a unit, whose restriction to $X$ remains a unit. Hence their valuations at each $Y_i$ agree. The support is contained in the finitely many irreducible components of $V\cap X$, so $V.X$ is well defined. Extending on the free generators gives the required homomorphism.
+
+(b) If $D=(f)$ and no component of $D$ contains $X$, then, after cancelling common factors, $f$ is a quotient of homogeneous polynomials of equal degree, neither vanishing identically on $X$. Its restriction is therefore a nonzero rational function on $X$. At every prime divisor of $X$, the local equation defining $D.X$ is this restriction, up to a unit. Thus $D.X=(f|_X)$. Every class on $\mathbb P^n$ has a representative supported on a hyperplane not containing $X$, so this induces the asserted map on class groups.
+
+(c) At the generic point of $Y_i$, the ring $\mathcal O_{X,Y_i}$ is a discrete valuation ring. Therefore
+\[i(X,V;Y_i)=\operatorname{length}_{\mathcal O_{X,Y_i}}(\mathcal O_{X,Y_i}/(f_i))=v_{Y_i}(f_i)=n_i.\]
+By (I, 7.7), $\deg(V.X)=(\deg V)(\deg X)$. The formula for arbitrary $D$ follows by linearity.
+
+(d) Write $D=(g)$ with $g\in K(X)^*$. Choose an affine projective chart meeting $X$ and express $g$ as a quotient of polynomials on $X$ there. Lift them to the ambient affine space and homogenize to the same degree. This gives homogeneous polynomials $F,G$, neither vanishing identically on $X$, with $g=(F/G)|_X$. Hence $D=(F/G).X$ by (b), and (c) gives $\deg D=0$. Degree consequently descends to $\operatorname{Cl}X$, and the composite $\operatorname{Cl}\mathbb P^n\to\operatorname{Cl}X\to\mathbb Z$ is multiplication by $\deg X$ after the identification in (6.4). If $\dim X\geq1$, then $\deg X>0$, so the map on class groups is injective.
+
+For $\dim X=0$, $X$ is a point and $\operatorname{Cl}X=0$; the asserted injectivity and degree formula for hyperplane sections require $\dim X\geq1$.

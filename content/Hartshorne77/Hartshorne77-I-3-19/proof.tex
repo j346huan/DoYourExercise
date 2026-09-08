@@ -1,1 +1,9 @@
 (a) Let $\psi$ be the polynomial inverse of $\varphi$. The chain rule gives $(J_\psi\circ\varphi)J_\varphi=1$. Thus $J_\varphi$ is a unit of $k[x_1,\ldots,x_n]$, hence a nonzero constant.
+
+(b) In characteristic $p>0$, the map $(x_1,\ldots,x_n)\mapsto(x_1-x_1^p,x_2,\ldots,x_n)$ has Jacobian $1$ and takes the same value at $(0,\ldots,0)$ and $(1,0,\ldots,0)$.
+
+In characteristic zero, the converse holds for $n=1$, since a polynomial with nonzero constant derivative has degree one. For $n=3$, take $\varphi=(f_1,f_2,f_3)$, where
+\[\begin{aligned}f_1&=(1+xy)^3z+y^2(1+xy)(4+3xy),\\f_2&=y+3x(1+xy)^2z+3xy^2(4+3xy),\\f_3&=2x-3x^2y-x^3z.\end{aligned}\]
+Direct differentiation gives $J_\varphi=-2$, whereas
+\[\varphi(0,0,-1/4)=\varphi(1,-3/2,13/2)=(-1/4,0,0).\]
+Thus $\varphi$ is not an isomorphism. Adjoining identity coordinates gives counterexamples for every $n\ge3$.

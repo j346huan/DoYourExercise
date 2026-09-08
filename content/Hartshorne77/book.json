@@ -65,6 +65,22 @@
         {
           "id": "5",
           "title": "Sheaves of Modules"
+        },
+        {
+          "id": "6",
+          "title": "Divisors"
+        },
+        {
+          "id": "7",
+          "title": "Projective Morphisms"
+        },
+        {
+          "id": "8",
+          "title": "Differentials"
+        },
+        {
+          "id": "9",
+          "title": "Formal Schemes"
         }
       ]
     }

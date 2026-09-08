@@ -1,13 +1,13 @@
 {
-  "tag": "II.4.5",
+  "tag": "II.8.4",
   "chapter": "II",
-  "section": "4",
-  "number": "5",
-  "title": "",
+  "section": "8",
+  "number": "4",
+  "title": "Complete Intersections in ℙⁿ",
   "status": "solved",
   "updated": "2026-09-08",
   "dependencies": [
-    "Hartshorne77,II.4.10"
+    "Hartshorne77,I.7.2"
   ],
   "lean": null,
   "coverage": "proof"
