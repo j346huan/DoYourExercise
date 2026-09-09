@@ -1,7 +1,6 @@
 import { readdir, readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import path from 'node:path';
-import { createHash } from 'node:crypto';
-import { leanProjectDigest } from './lean-digest.mjs';
+import { leanProjectDigest, validLeanVerification } from './lean-digest.mjs';
 import { exerciseHeading } from '../lib/core.mjs';
 const escapeHtml = (text) =>
   text.replace(
@@ -23,13 +22,10 @@ const identifier = /^[A-Za-z][A-Za-z0-9]*$/;
 const part = /^[A-Za-z0-9]+$/;
 const books = [];
 const problems = [];
-const generated = [];
 const publicContent = path.join(root, 'public/content');
-const leanRoot = path.join(root, 'LeanExercises');
 // Only remove known generated directories inside this checkout.
 for (const dir of [
   publicContent,
-  leanRoot,
   path.join(root, 'public/exercises'),
 ]) {
   if (!dir.startsWith(root + path.sep)) throw Error('Unsafe output path');
@@ -145,37 +141,22 @@ for (const folder of (await readdir('content', { withFileTypes: true }))
       const leanModule = `LeanExercises.${book.id}.Ex_${tag.replaceAll('.', '_')}`;
       if (meta.lean?.module !== leanModule)
         throw Error(`${slug} must use module ${leanModule}`);
-      if (!files['translation.tex'])
-        throw Error(`${slug} needs a Lean translation`);
-      if (/\b(sorry|admit|axiom)\b/.test(files['proof.lean']))
-        throw Error(`${slug}: proof placeholders are not accepted`);
-      await write(
-        path.join(root, ...leanModule.split('.')) + '.lean',
-        files['proof.lean'],
-      );
-      generated.push(leanModule);
     }
-    if (
-      meta.status === 'formalized' &&
-      !process.argv.includes('--prepare-lean')
-    ) {
-      const evidence = await readJSON(
-        path.join(source, 'verification.json'),
-      ).catch(() => null);
-      const digest = createHash('sha256')
-        .update(files['proof.lean'] || '')
-        .digest('hex');
-      if (
-        !files['proof.lean'] ||
-        !evidence ||
-        evidence.sha256 !== digest ||
-        evidence.result !== 'passed' ||
-        evidence.projectDigest !== projectDigest
-      )
-        throw Error(
-          `${slug}: formalized requires matching verification.json from npm run lean:check`,
-        );
+    const evidence = files['proof.lean']
+      ? await readJSON(path.join(source, 'verification.json')).catch(() => null)
+      : null;
+    const verified = !!files['proof.lean'] && validLeanVerification(
+      evidence, files['proof.lean'], projectDigest,
+    );
+    if (meta.status === 'formalized' && !verified)
+      throw Error(`${slug}: formalized requires a matching external verification record`);
+    if (verified) {
+      files['verification.json'] = await readFile(path.join(source, 'verification.json'), 'utf8');
+      await write(path.join(publicContent, book.id, slug, 'verification.json'), files['verification.json']);
     }
+    meta.lean = files['proof.lean']
+      ? { module: meta.lean.module, verified, ...(verified ? { verification: evidence } : {}) }
+      : null;
     const record = {
       ...meta,
       id: `${book.id},${tag}`,
@@ -225,10 +206,6 @@ books.sort(
     ['AtiyahMcdonald69', 'Hartshorne77'].indexOf(b.id),
 );
 problems.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
-await write(
-  'LeanExercises.lean',
-  generated.map((m) => `import ${m}`).join('\n') + '\n',
-);
 await write(
   'public/catalog.json',
   JSON.stringify({ version: 1, books, problems }, null, 2),

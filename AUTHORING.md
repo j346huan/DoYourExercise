@@ -38,23 +38,30 @@ Use `\exref{1.1}` for a reference within the same book and `\exref{AtiyahMcdonal
 
 ## Lean formalizations
 
-Add `proof.lean` and its explanation in `translation.tex` to the exercise folder. Set the `lean` field to the corresponding module:
+Develop and check Lean proofs in the external workspace under `D:\lean`, following `D:\lean\README.md`. Keep temporary proofs, examples, helper projects, Lake configuration, Mathlib, and compiled files there. Add only completed `proof.lean` files and their external `verification.json` records to the exercise folder. `translation.tex` is optional.
+
+Set the `lean` field to the corresponding module:
 
 ```json
 "lean": {
-  "module": "LeanExercises.AtiyahMcdonald69.Ex_1_1",
+  "module": "LeanExercises.Hartshorne77.Ex_II_1_1",
   "verified": false
 }
 ```
 
-Import Mathlib or earlier exercise modules as needed. Generate the modules and check the proof:
+The module name is `LeanExercises.<BookID>.Ex_<tag>`, replacing dots in the exercise tag with underscores. Import Mathlib or another completed exercise with its exact module name:
 
-```sh
-npm run lean:prepare
-npm run lean:check
+```lean
+import Mathlib
+import LeanExercises.Hartshorne77.Ex_II_1_1
+import LeanExercises.AtiyahMcdonald69.Ex_1_1
 ```
 
-After a successful check, set `status` to `formalized`. The check generates `verification.json`; rerun it after editing Lean code or dependencies.
+Use a distinct namespace for each exercise and refer to its theorems by their qualified names. Imports do not create namespaces automatically. Record referenced exercises in the metadata `dependencies` as well; metadata references do not create Lean imports. Final proofs must not depend on drafts or private helper modules. Do not include proof placeholders.
+
+The external checker writes `verification.json`, containing the successful result, source and library hashes, Lean toolchain, exact Mathlib commit, commands, and time. It can also record checked declaration names and their axioms. Retain the generated record without editing it. After checking that the formalization covers the exercise, set `status` to `formalized`.
+
+The website derives `lean.verified` from the record and current sources; a metadata flag alone does not establish verification. Changing any final Lean file invalidates records for the library, so run the external verification workflow again before publishing formalized entries. Ordinary website builds only validate and display these records; they do not compile Lean or create a Lean workspace.
 
 ## Books and chapters
 

@@ -1687,6 +1687,45 @@ h1 {
   overflow: auto;
   min-height: 0;
 }
+.lean-columns.lean-source-only {
+  grid-template-columns: minmax(0, 1fr);
+}
+.lean-verification {
+  border-top: 1px solid #43434f;
+  font-size: 12px;
+  color: #acbcba;
+  flex-shrink: 0;
+}
+.lean-verification summary {
+  cursor: pointer;
+  padding: 15px 24px;
+  color: var(--primary);
+}
+.verification-details {
+  padding: 0 24px 18px;
+  max-height: 30vh;
+  overflow: auto;
+}
+.verification-details dl {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 8px 16px;
+  line-height: 1.6;
+}
+.verification-details dt {
+  color: #d1d1dc;
+}
+.verification-details dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.verification-details a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 16px;
+  color: var(--primary);
+}
 .lean-columns > section {
   min-width: 0;
   background: #202028;

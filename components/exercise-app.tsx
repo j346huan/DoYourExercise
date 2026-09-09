@@ -41,7 +41,12 @@ import {
   CommandEmpty,
 } from '@/components/ui/command';
 import { TexContent, ExerciseReference } from '@/components/tex-content';
-import type { Catalog, Problem, WorkspaceState } from '@/lib/types';
+import type {
+  Catalog,
+  LeanVerification,
+  Problem,
+  WorkspaceState,
+} from '@/lib/types';
 import {
   searchProblems,
   exerciseHeading,
@@ -298,7 +303,9 @@ export default function ExerciseApp() {
   const source = useSource(modalProblem, selectedFile),
     translation = useSource(
       modal?.kind === 'lean' ? modalProblem : null,
-      'translation.tex',
+      modalProblem?.files.includes('translation.tex')
+        ? 'translation.tex'
+        : null,
     );
   async function copy(text: string) {
     try {
@@ -773,7 +780,9 @@ export default function ExerciseApp() {
             </>
           ) : modal?.kind === 'lean' ? (
             <>
-              <div className="lean-columns">
+              <div
+                className={`lean-columns ${modalProblem?.files.includes('translation.tex') ? '' : 'lean-source-only'}`}
+              >
                 <section>
                   <div className="source-toolbar">
                     <span>Lean 4</span>
@@ -795,26 +804,34 @@ export default function ExerciseApp() {
                   </div>
                   <SourceText state={source} />
                 </section>
-                <section>
-                  <div className="source-toolbar">
-                    <span>Translation</span>
-                  </div>
-                  {translation.loading ? (
-                    <p className="source-message">Loading…</p>
-                  ) : translation.error ? (
-                    <p className="source-message">{translation.error}</p>
-                  ) : (
-                    <div className="translation-text">
-                      <TexContent
-                        text={translation.text}
-                        book={modalProblem!.book}
-                        catalog={catalog!}
-                        onNavigate={navigate}
-                      />
+                {modalProblem?.files.includes('translation.tex') && (
+                  <section>
+                    <div className="source-toolbar">
+                      <span>Translation</span>
                     </div>
-                  )}
-                </section>
+                    {translation.loading ? (
+                      <p className="source-message">Loading…</p>
+                    ) : translation.error ? (
+                      <p className="source-message">{translation.error}</p>
+                    ) : (
+                      <div className="translation-text">
+                        <TexContent
+                          text={translation.text}
+                          book={modalProblem!.book}
+                          catalog={catalog!}
+                          onNavigate={navigate}
+                        />
+                      </div>
+                    )}
+                  </section>
+                )}
               </div>
+              {modalProblem?.lean?.verification && (
+                <VerificationRecord
+                  record={modalProblem.lean.verification}
+                  sourcePath={modalProblem.sourcePath}
+                />
+              )}
               {!!modalProblem?.dependencies.length && (
                 <div className="lean-dependencies">
                   <strong>References</strong>
@@ -926,6 +943,69 @@ function TreeProblems({
     </div>
   );
 }
+function VerificationRecord({
+  record,
+  sourcePath,
+}: {
+  record: LeanVerification;
+  sourcePath: string;
+}) {
+  return (
+    <details className="lean-verification">
+      <summary>
+        Verification passed ·{' '}
+        <time dateTime={record.checkedAt}>{record.checkedAt.slice(0, 10)}</time>
+      </summary>
+      <div className="verification-details">
+        <dl>
+          <dt>Compiler result</dt>
+          <dd>Passed</dd>
+          <dt>Checked</dt>
+          <dd>
+            <time dateTime={record.checkedAt}>{record.checkedAt}</time>
+          </dd>
+          <dt>Lean toolchain</dt>
+          <dd>
+            <code>{record.toolchain}</code>
+          </dd>
+          <dt>Mathlib revision</dt>
+          <dd>
+            <code>{record.mathlib.rev}</code>
+          </dd>
+          <dt>Command</dt>
+          <dd>
+            <code>{record.checker.command}</code>
+          </dd>
+          <dt>Source SHA-256</dt>
+          <dd>
+            <code>{record.sha256}</code>
+          </dd>
+          {record.checkedDeclarations?.length ? (
+            <>
+              <dt>Declarations</dt>
+              <dd>
+                <code>{record.checkedDeclarations.join(', ')}</code>
+              </dd>
+            </>
+          ) : null}
+          {record.axioms && (
+            <>
+              <dt>Axioms</dt>
+              <dd>
+                <code>
+                  {record.axioms.length ? record.axioms.join(', ') : 'None'}
+                </code>
+              </dd>
+            </>
+          )}
+        </dl>
+        <a href={asset(`${sourcePath}/verification.json`)} download>
+          <Download size={14} /> Download verification record
+        </a>
+      </div>
+    </details>
+  );
+}
 function SourceText({
   state,
 }: {
@@ -1015,22 +1095,29 @@ function ProblemPage({
               </>
             ) : null}
           </section>
-          {p.files.includes('proof.tex') && (
+          {(p.files.includes('proof.tex') ||
+            p.files.includes('proof.lean')) && (
             <div className="proof-artifacts">
-              <button
-                className="artifact-card"
-                onClick={() => sourceModal('latex')}
-              >
-                <FileCode2 size={20} />
-                <strong>LaTeX</strong>
-              </button>
+              {p.files.includes('proof.tex') && (
+                <button
+                  className="artifact-card"
+                  onClick={() => sourceModal('latex')}
+                >
+                  <FileCode2 size={20} />
+                  <strong>LaTeX</strong>
+                </button>
+              )}
               <button
                 className="artifact-card"
                 onClick={() => sourceModal('lean')}
                 disabled={!p.files.includes('proof.lean')}
               >
                 <Code2 size={20} />
-                <strong>Lean 4 & translation</strong>
+                <strong>
+                  {p.files.includes('translation.tex')
+                    ? 'Lean 4 & translation'
+                    : 'Lean 4'}
+                </strong>
               </button>
             </div>
           )}

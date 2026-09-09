@@ -21,6 +21,17 @@ export interface Book {
     sections?: { id: string; title: string }[];
   }[];
 }
+export interface LeanVerification {
+  result: 'passed';
+  sha256: string;
+  projectDigest: string;
+  toolchain: string;
+  mathlib: { git: string; rev: string };
+  checker: { command: string };
+  checkedAt: string;
+  checkedDeclarations?: string[];
+  axioms?: string[];
+}
 export interface Problem {
   id: string;
   slug: string;
@@ -45,7 +56,11 @@ export interface Problem {
   dependencies: string[];
   files: string[];
   sourcePath: string;
-  lean: { module: string; verified: boolean } | null;
+  lean: {
+    module: string;
+    verified: boolean;
+    verification?: LeanVerification;
+  } | null;
 }
 export interface Catalog {
   version: number;
