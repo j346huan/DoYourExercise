@@ -4,11 +4,16 @@
   "section": null,
   "number": "2",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-05",
+  "status": "formalized",
+  "updated": "2026-09-10",
   "dependencies": [
     "AtiyahMcdonald69,1.1"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_1_2",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_1_2.solution"
+    ]
+  },
   "coverage": "proof"
 }

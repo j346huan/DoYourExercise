@@ -4,9 +4,14 @@
   "section": null,
   "number": "7",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-05",
+  "status": "formalized",
+  "updated": "2026-09-11",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_1_7",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_1_7.solution"
+    ]
+  },
   "coverage": "proof"
 }

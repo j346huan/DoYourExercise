@@ -1,0 +1,22 @@
+{
+  "result": "passed",
+  "sha256": "41decb98730c30d4b455a005c3be8dde2bd87b083655fff7aa2e3b15c7c40db4",
+  "projectDigest": "cb8e59e0ec784935da074a8edfa96fb121240a0b91cf7a9743f18a782d0cd883",
+  "toolchain": "leanprover/lean4:v4.24.0",
+  "mathlib": {
+    "git": "https://github.com/leanprover-community/mathlib4.git",
+    "rev": "f897ebcf72cd16f89ab4577d0c826cd14afaafc7"
+  },
+  "checker": {
+    "command": "lake build LeanExercises; lake env lean -DwarningAsError=true CheckAxioms.lean"
+  },
+  "checkedAt": "2026-09-11T06:12:41.488Z",
+  "checkedDeclarations": [
+    "AtiyahMcdonald69.Ex_1_7.solution"
+  ],
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ]
+}

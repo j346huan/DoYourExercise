@@ -4,11 +4,19 @@
   "section": null,
   "number": "3",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-05",
+  "status": "formalized",
+  "updated": "2026-09-11",
   "dependencies": [
     "AtiyahMcdonald69,1.2"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_1_3",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_1_3.part_a",
+      "AtiyahMcdonald69.Ex_1_3.part_b",
+      "AtiyahMcdonald69.Ex_1_3.part_c",
+      "AtiyahMcdonald69.Ex_1_3.part_d"
+    ]
+  },
   "coverage": "proof"
 }
