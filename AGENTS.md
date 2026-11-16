@@ -4,7 +4,9 @@ This repository displays mathematical solutions and finished Lean proofs. It is 
 
 For Lean work, read `D:/lean/DoYourExercise/AGENTS.md` and `D:/lean/README.md`. Keep the compiler, Lake files, Mathlib, draft proofs, generated import modules, compiled files, logs, and test examples under `D:/lean`.
 
-Only finished `content/<BookID>/<exercise>/proof.lean` files, their externally generated `verification.json` records, and necessary exercise metadata belong here. Never create a Lean toolchain, Lake project, `.lake` directory, or generated `LeanExercises` source tree here. Never invent verification records or mark a proof formalized without an actual successful external check and a review of its mathematical statement.
+Only finished `content/<BookID>/<exercise>/proof.lean` files, optional externally generated `verification.json` records, and necessary exercise metadata belong here. Never create a Lean toolchain, Lake project, `.lake` directory, or generated `LeanExercises` source tree here. Never invent verification records.
+
+Lean files the user supplies (for example in a zip) are already verified. Install them as given, set the exercise `status` to `formalized`, and do not re-verify them or ask for verification records. The website build does not require a record for a formalized exercise.
 
 Use the existing exercise format in `AUTHORING.md`. Preserve the user's concise mathematical style and textbook-only exercise titles. Question statements and source books remain private. Do not force-add ignored files. Preserve unrelated working changes.
 
