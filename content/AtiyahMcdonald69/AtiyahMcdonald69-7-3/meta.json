@@ -5,8 +5,16 @@
   "number": "3",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_7_3",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_7_3.exercise_7_3",
+      "AtiyahMcdonald69.Ex_7_3.primary_iff_condII",
+      "AtiyahMcdonald69.Ex_7_3.primary_iff_condIII",
+      "AtiyahMcdonald69.Ex_7_3.literal_statement_false"
+    ]
+  },
   "coverage": "proof"
 }

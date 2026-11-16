@@ -5,10 +5,23 @@
   "number": "19",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,3.1"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_19",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_19.support_nonempty",
+      "AtiyahMcdonald69.Ex_3_19.support_quotient_self",
+      "AtiyahMcdonald69.Ex_3_19.support_of_exact",
+      "AtiyahMcdonald69.Ex_3_19.support_iSup",
+      "AtiyahMcdonald69.Ex_3_19.support_eq_zeroLocus_annihilator",
+      "AtiyahMcdonald69.Ex_3_19.support_tensorProduct",
+      "AtiyahMcdonald69.Ex_3_19.support_quotient_smul_top",
+      "AtiyahMcdonald69.Ex_3_19.support_baseChange",
+      "AtiyahMcdonald69.Ex_3_19.support_baseChange_ringHom"
+    ]
+  },
   "coverage": "proof"
 }

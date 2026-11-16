@@ -5,8 +5,19 @@
   "number": "8",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_8",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_8.flat_tensorProduct",
+      "AtiyahMcdonald69.Ex_2_8.flat_of_flat_algebra",
+      "AtiyahMcdonald69.Ex_2_8.injective_rTensor_tensorProduct",
+      "AtiyahMcdonald69.Ex_2_8.injective_rTensor_of_flat_algebra",
+      "AtiyahMcdonald69.Ex_2_8.exact_tensorProduct",
+      "AtiyahMcdonald69.Ex_2_8.exact_of_flat_algebra",
+      "AtiyahMcdonald69.Ex_2_8.flat_of_flat_algebra_restrict"
+    ]
+  },
   "coverage": "proof"
 }

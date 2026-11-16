@@ -5,8 +5,15 @@
   "number": "24",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_1_24",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_1_24.solution",
+      "AtiyahMcdonald69.Ex_1_24.roundTripOrderIso",
+      "AtiyahMcdonald69.Ex_1_24.roundTripRingEquiv"
+    ]
+  },
   "coverage": "proof"
 }

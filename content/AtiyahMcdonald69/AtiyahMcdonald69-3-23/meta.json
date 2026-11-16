@@ -5,8 +5,15 @@
   "number": "23",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_23",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_23.presheafOnBasis",
+      "AtiyahMcdonald69.Ex_3_23.sectionRingEquiv",
+      "AtiyahMcdonald69.Ex_3_23.existsUnique_stalk_lift"
+    ]
+  },
   "coverage": "proof"
 }

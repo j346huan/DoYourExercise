@@ -5,8 +5,15 @@
   "number": "3",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_3",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_3.solution",
+      "AtiyahMcdonald69.Ex_5_3.tensorProductMap_isIntegral",
+      "AtiyahMcdonald69.Ex_5_3.tensorProduct_isIntegral"
+    ]
+  },
   "coverage": "proof"
 }

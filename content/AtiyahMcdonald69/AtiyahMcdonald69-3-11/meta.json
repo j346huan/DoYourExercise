@@ -5,10 +5,19 @@
   "number": "11",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,3.10"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_11",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_11.solution",
+      "AtiyahMcdonald69.Ex_3_11.solution_absolutelyFlat_iff_primes_maximal",
+      "AtiyahMcdonald69.Ex_3_11.solution_primes_maximal_iff_t1Space",
+      "AtiyahMcdonald69.Ex_3_11.solution_t1Space_iff_t2Space",
+      "AtiyahMcdonald69.Ex_3_11.solution_compact_and_totallyDisconnected"
+    ]
+  },
   "coverage": "proof"
 }

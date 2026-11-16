@@ -5,8 +5,26 @@
   "number": "2",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_11_2",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_11_2.statement_holds",
+      "AtiyahMcdonald69.Ex_11_2.ker_eq_bot_of_moduleFinite",
+      "AtiyahMcdonald69.Ex_11_2.ringKrullDim_le_ringKrullDim_quotient_ker",
+      "AtiyahMcdonald69.Ex_11_2.ringKrullDim_mvPowerSeries_le",
+      "AtiyahMcdonald69.Ex_11_2.ker_constantCoeff_eq_span_X",
+      "AtiyahMcdonald69.Ex_11_2.quotient_span_X_ringEquiv",
+      "AtiyahMcdonald69.Ex_11_2.subst",
+      "AtiyahMcdonald69.Ex_11_2.moduleFinite_mvPowerSeries_of_quotient_finite",
+      "AtiyahMcdonald69.Ex_11_2.moduleFinite_quotient_of_radical_eq",
+      "AtiyahMcdonald69.Ex_11_2.moduleFinite_quotient_maximalIdeal_pow_succ",
+      "AtiyahMcdonald69.Ex_11_2.moduleFinite_of_smul_maximalIdeal_eq_bot",
+      "AtiyahMcdonald69.Ex_11_2.surjective_of_surjective_mod_ideal",
+      "AtiyahMcdonald69.Ex_11_2.moduleFinite_of_surjective_mod_ideal",
+      "AtiyahMcdonald69.Ex_11_2.isPrecomplete_fin_pi"
+    ]
+  },
   "coverage": "proof"
 }

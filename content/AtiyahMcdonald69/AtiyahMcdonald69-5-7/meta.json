@@ -5,8 +5,15 @@
   "number": "7",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_7",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_7.solution",
+      "AtiyahMcdonald69.Ex_5_7.solution_compl",
+      "AtiyahMcdonald69.Ex_5_7.integralClosure_eq_bot"
+    ]
+  },
   "coverage": "proof"
 }

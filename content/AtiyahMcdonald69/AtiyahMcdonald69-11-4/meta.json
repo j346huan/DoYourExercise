@@ -5,10 +5,20 @@
   "number": "4",
   "title": "An example of a Noetherian domain of infinite dimension (Nagata)",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,7.9"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_11_4",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_11_4.atiyah_mcdonald_11_4",
+      "AtiyahMcdonald69.Ex_11_4.isNoetherian_localization",
+      "AtiyahMcdonald69.Ex_11_4.height_eq",
+      "AtiyahMcdonald69.Ex_11_4.height_lower",
+      "AtiyahMcdonald69.Ex_11_4.height_upper",
+      "AtiyahMcdonald69.Ex_11_4.ringKrullDim_eq_top"
+    ]
+  },
   "coverage": "proof"
 }

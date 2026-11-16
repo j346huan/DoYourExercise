@@ -5,10 +5,16 @@
   "number": "3",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,3.10"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_4_3",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_4_3.solution",
+      "AtiyahMcdonald69.Ex_4_3.isMaximal_of_isPrime_of_absolutelyFlat"
+    ]
+  },
   "coverage": "proof"
 }

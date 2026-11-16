@@ -5,10 +5,17 @@
   "number": "7",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,1.2"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_4_7",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_4_7.solution",
+      "AtiyahMcdonald69.Ex_4_7.isPPrimary_map_C",
+      "AtiyahMcdonald69.Ex_4_7.isMinimalPrime_map_C"
+    ]
+  },
   "coverage": "proof"
 }

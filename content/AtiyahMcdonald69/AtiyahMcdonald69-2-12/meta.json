@@ -5,8 +5,17 @@
   "number": "12",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_12",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_12.ker_finite",
+      "AtiyahMcdonald69.Ex_2_12.exists_section_isCompl_fin",
+      "AtiyahMcdonald69.Ex_2_12.exists_prodEquiv_fin",
+      "AtiyahMcdonald69.Ex_2_12.finite_of_finite_ker",
+      "AtiyahMcdonald69.Ex_2_12.finite_iff_ker_finite"
+    ]
+  },
   "coverage": "proof"
 }

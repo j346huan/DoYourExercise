@@ -5,8 +5,15 @@
   "number": "6",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_6",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_6.solution",
+      "AtiyahMcdonald69.Ex_3_6.exists_maximal_Sigma",
+      "AtiyahMcdonald69.Ex_3_6.maximal_iff_isMinimalPrimeCompl"
+    ]
+  },
   "coverage": "proof"
 }

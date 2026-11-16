@@ -4,13 +4,18 @@
   "section": null,
   "number": "1",
   "title": "",
-  "status": "formalized",
-  "updated": "2026-09-10",
+  "status": "solved",
+  "updated": "2026-11-16",
   "dependencies": [],
   "lean": {
     "module": "LeanExercises.AtiyahMcdonald69.Ex_1_1",
     "declarations": [
-      "AtiyahMcdonald69.Ex_1_1.solution"
+      "AtiyahMcdonald69.Ex_1_1.solution",
+      "AtiyahMcdonald69.Ex_1_1.solution_add",
+      "AtiyahMcdonald69.Ex_1_1.isUnit_one_add",
+      "AtiyahMcdonald69.Ex_1_1.isUnit_one_sub",
+      "AtiyahMcdonald69.Ex_1_1.isUnit_add_of_isNilpotent_of_isUnit",
+      "AtiyahMcdonald69.Ex_1_1.isUnit_add_of_isUnit_of_isNilpotent"
     ]
   },
   "coverage": "proof"

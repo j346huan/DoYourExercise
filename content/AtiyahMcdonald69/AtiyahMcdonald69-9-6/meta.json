@@ -5,8 +5,23 @@
   "number": "6",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_9_6",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_9_6.atiyah_macdonald_9_6",
+      "AtiyahMcdonald69.Ex_9_6.exists_decomposition",
+      "AtiyahMcdonald69.Ex_9_6.exists_pow_decomposition",
+      "AtiyahMcdonald69.Ex_9_6.length_quot_pow",
+      "AtiyahMcdonald69.Ex_9_6.length_quot_smul_top",
+      "AtiyahMcdonald69.Ex_9_6.length_quot_smul_top_model",
+      "AtiyahMcdonald69.Ex_9_6.length_quot_smul_top_congr",
+      "AtiyahMcdonald69.Ex_9_6.smul_top_pi",
+      "AtiyahMcdonald69.Ex_9_6.truncSum_sub",
+      "AtiyahMcdonald69.Ex_9_6.card_eq_of_ge",
+      "AtiyahMcdonald69.Ex_9_6.exists_equiv_of_fiber_card"
+    ]
+  },
   "coverage": "proof"
 }

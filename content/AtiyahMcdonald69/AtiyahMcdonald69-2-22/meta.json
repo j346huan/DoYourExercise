@@ -5,12 +5,21 @@
   "number": "22",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,2.19",
     "AtiyahMcdonald69,2.15",
     "AtiyahMcdonald69,2.21"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_22",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_22.DirectSystemOfRings.exercise_2_22_nilradical",
+      "AtiyahMcdonald69.Ex_2_22.DirectSystemOfRings.exercise_2_22_domain",
+      "AtiyahMcdonald69.Ex_2_22.DirectSystemOfRings.nilToColim_range",
+      "AtiyahMcdonald69.Ex_2_22.DirectSystemOfRings.emptyIndex_literal_statement_fails",
+      "AtiyahMcdonald69.Ex_2_22.DirectSystemOfRings.isEmpty_colim"
+    ]
+  },
   "coverage": "proof"
 }

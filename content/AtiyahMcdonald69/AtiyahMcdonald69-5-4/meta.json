@@ -5,8 +5,17 @@
   "number": "4",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_4",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_4.solution",
+      "AtiyahMcdonald69.Ex_5_4.not_isIntegral_algebra",
+      "AtiyahMcdonald69.Ex_5_4.B_integral",
+      "AtiyahMcdonald69.Ex_5_4.m_isMaximal",
+      "AtiyahMcdonald69.Ex_5_4.n_isMaximal"
+    ]
+  },
   "coverage": "proof"
 }

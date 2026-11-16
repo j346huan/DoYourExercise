@@ -5,10 +5,21 @@
   "number": "26",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,7.18"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_7_26",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_7_26.solution",
+      "AtiyahMcdonald69.Ex_7_26.part_a",
+      "AtiyahMcdonald69.Ex_7_26.part_b",
+      "AtiyahMcdonald69.Ex_7_26.part_c_addEquiv",
+      "AtiyahMcdonald69.Ex_7_26.part_d",
+      "AtiyahMcdonald69.Ex_7_26.mapK_gamma",
+      "AtiyahMcdonald69.Ex_7_26.mapK_comp"
+    ]
+  },
   "coverage": "proof"
 }

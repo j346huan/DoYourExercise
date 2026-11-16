@@ -5,10 +5,15 @@
   "number": "6",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,6.5"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_6_6",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_6_6.solution"
+    ]
+  },
   "coverage": "proof"
 }

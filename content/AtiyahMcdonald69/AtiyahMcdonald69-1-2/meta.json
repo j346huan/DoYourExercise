@@ -4,15 +4,25 @@
   "section": null,
   "number": "2",
   "title": "",
-  "status": "formalized",
-  "updated": "2026-09-10",
+  "status": "solved",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,1.1"
   ],
   "lean": {
     "module": "LeanExercises.AtiyahMcdonald69.Ex_1_2",
     "declarations": [
-      "AtiyahMcdonald69.Ex_1_2.solution"
+      "AtiyahMcdonald69.Ex_1_2.isUnit_iff_coeff_zero_isUnit_coeff_pos_isNilpotent",
+      "AtiyahMcdonald69.Ex_1_2.isUnit_iff_coeff_zero_isUnit_coeff_pos_isNilpotent_le",
+      "AtiyahMcdonald69.Ex_1_2.isNilpotent_iff_forall_coeff_isNilpotent",
+      "AtiyahMcdonald69.Ex_1_2.isNilpotent_iff_forall_coeff_isNilpotent_le",
+      "AtiyahMcdonald69.Ex_1_2.coeff_mul_natDegree_add_of_forall_coeff_mul_eq_zero",
+      "AtiyahMcdonald69.Ex_1_2.exists_ne_zero_C_mul_eq_zero_of_mul_eq_zero",
+      "AtiyahMcdonald69.Ex_1_2.exists_ne_zero_mul_eq_zero_iff",
+      "AtiyahMcdonald69.Ex_1_2.contentIdeal_eq_span_range_coeff",
+      "AtiyahMcdonald69.Ex_1_2.primitive_iff_contentIdeal_eq_top",
+      "AtiyahMcdonald69.Ex_1_2.primitive_one",
+      "AtiyahMcdonald69.Ex_1_2.primitive_mul_iff"
     ]
   },
   "coverage": "proof"

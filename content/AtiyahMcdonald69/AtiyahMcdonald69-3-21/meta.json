@@ -5,8 +5,20 @@
   "number": "21",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_21",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_21.homeomorphLocalizationImage",
+      "AtiyahMcdonald69.Ex_3_21.range_comap_away",
+      "AtiyahMcdonald69.Ex_3_21.part_ii",
+      "AtiyahMcdonald69.Ex_3_21.part_ii_restriction",
+      "AtiyahMcdonald69.Ex_3_21.part_iii",
+      "AtiyahMcdonald69.Ex_3_21.part_iii_restriction",
+      "AtiyahMcdonald69.Ex_3_21.fiberHomeomorph",
+      "AtiyahMcdonald69.Ex_3_21.fiberHomeomorphQuotient"
+    ]
+  },
   "coverage": "proof"
 }

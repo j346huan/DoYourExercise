@@ -5,8 +5,23 @@
   "number": "1",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_8_1",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_8_1.exists_symPow_le",
+      "AtiyahMcdonald69.Ex_8_1.eq_symPow_of_mem_minimalPrimes",
+      "AtiyahMcdonald69.Ex_8_1.symPow_injective_of_not_mem_minimalPrimes",
+      "AtiyahMcdonald69.Ex_8_1.exists_isMinimalPrimaryDecomposition_symPow",
+      "AtiyahMcdonald69.Ex_8_1.embedded_infinitely_many",
+      "AtiyahMcdonald69.Ex_8_1.exercise_8_1",
+      "AtiyahMcdonald69.Ex_8_1.map_symPow",
+      "AtiyahMcdonald69.Ex_8_1.isPrimary_symPow",
+      "AtiyahMcdonald69.Ex_8_1.radical_symPow",
+      "AtiyahMcdonald69.Ex_8_1.isMinimalPrimaryDecomposition_of_distinct",
+      "AtiyahMcdonald69.Ex_8_1.associatedPrimes_subset_radical_image"
+    ]
+  },
   "coverage": "proof"
 }

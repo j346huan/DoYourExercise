@@ -5,8 +5,15 @@
   "number": "23",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_23",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_23.solution",
+      "AtiyahMcdonald69.Ex_5_23.solution_pairwise",
+      "AtiyahMcdonald69.Ex_5_23.cond_i_iff_isJacobsonRing"
+    ]
+  },
   "coverage": "proof"
 }

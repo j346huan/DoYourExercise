@@ -5,8 +5,14 @@
   "number": "1",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_9_1",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_9_1.solution",
+      "AtiyahMcdonald69.Ex_9_1.dedekind_or_isFractionRing"
+    ]
+  },
   "coverage": "proof"
 }

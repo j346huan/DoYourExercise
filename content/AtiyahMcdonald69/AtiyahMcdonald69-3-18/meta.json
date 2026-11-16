@@ -5,10 +5,18 @@
   "number": "18",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,3.16"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_18",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_18.solution",
+      "AtiyahMcdonald69.Ex_3_18.comap_localizedMap_surjective",
+      "AtiyahMcdonald69.Ex_3_18.solution_of_eq",
+      "AtiyahMcdonald69.Ex_3_18.solution_algebra"
+    ]
+  },
   "coverage": "proof"
 }

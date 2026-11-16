@@ -5,8 +5,15 @@
   "number": "5",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_6_5",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_6_5.solution",
+      "AtiyahMcdonald69.Ex_6_5.subspace_noetherianSpace",
+      "AtiyahMcdonald69.Ex_6_5.compactSpace_of_noetherianSpace"
+    ]
+  },
   "coverage": "proof"
 }

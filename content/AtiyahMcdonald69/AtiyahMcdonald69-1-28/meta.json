@@ -5,8 +5,19 @@
   "number": "28",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_1_28",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_1_28.exercise_1_28",
+      "AtiyahMcdonald69.Ex_1_28.bijective_toAlgHom",
+      "AtiyahMcdonald69.Ex_1_28.exercise_1_28_inverses",
+      "AtiyahMcdonald69.Ex_1_28.RegMap.toAlgHom_id",
+      "AtiyahMcdonald69.Ex_1_28.RegMap.toAlgHom_comp",
+      "AtiyahMcdonald69.Ex_1_28.RegMap.evalAt_toAlgHom",
+      "AtiyahMcdonald69.Ex_1_28.RegMap.ofAlgHom_apply_eq"
+    ]
+  },
   "coverage": "proof"
 }

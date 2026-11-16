@@ -5,10 +5,18 @@
   "number": "26",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,2.24"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_26",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_26.flat_iff_fg_ideal_tensorMap_injective",
+      "AtiyahMcdonald69.Ex_2_26.flat_iff_cyclicTorOneVanishes",
+      "AtiyahMcdonald69.Ex_2_26.flat_iff_ker_idealTensorMap_eq_bot",
+      "AtiyahMcdonald69.Ex_2_26.injective_idealTensorMap_of_fg"
+    ]
+  },
   "coverage": "proof"
 }

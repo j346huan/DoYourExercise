@@ -4,8 +4,8 @@
   "section": null,
   "number": "3",
   "title": "",
-  "status": "formalized",
-  "updated": "2026-09-11",
+  "status": "solved",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,1.2"
   ],
@@ -14,7 +14,10 @@
     "declarations": [
       "AtiyahMcdonald69.Ex_1_3.part_a",
       "AtiyahMcdonald69.Ex_1_3.part_b",
+      "AtiyahMcdonald69.Ex_1_3.part_a_mathlib",
+      "AtiyahMcdonald69.Ex_1_3.part_b_mathlib",
       "AtiyahMcdonald69.Ex_1_3.part_c",
+      "AtiyahMcdonald69.Ex_1_3.part_c_coeff",
       "AtiyahMcdonald69.Ex_1_3.part_d"
     ]
   },

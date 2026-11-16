@@ -5,10 +5,19 @@
   "number": "2",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,10.1"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_10_2",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_10_2.atiyah_macdonald_10_2",
+      "AtiyahMcdonald69.Ex_10_2.atiyah_macdonald_10_2_limit_quotients",
+      "AtiyahMcdonald69.Ex_10_2.lim1Equiv",
+      "AtiyahMcdonald69.Ex_10_2.not_surjective_limMap_QF",
+      "AtiyahMcdonald69.Ex_10_2.Asub_eq_comap"
+    ]
+  },
   "coverage": "proof"
 }

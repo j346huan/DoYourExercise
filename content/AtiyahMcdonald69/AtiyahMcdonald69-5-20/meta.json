@@ -5,10 +5,21 @@
   "number": "20",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,5.16"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_20",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_20.solution",
+      "AtiyahMcdonald69.Ex_5_20.Main.solution_generic",
+      "AtiyahMcdonald69.Ex_5_20.finiteType_K_R",
+      "AtiyahMcdonald69.Ex_5_20.dilation_injective",
+      "AtiyahMcdonald69.Ex_5_20.isIntegral_of_units_mul",
+      "AtiyahMcdonald69.Ex_5_20.isIntegral_of_le",
+      "AtiyahMcdonald69.Ex_5_20.isIntegral_of_ringHom"
+    ]
+  },
   "coverage": "proof"
 }

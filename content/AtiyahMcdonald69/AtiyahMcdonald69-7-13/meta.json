@@ -5,10 +5,17 @@
   "number": "13",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,6.8"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_7_13",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_7_13.solution",
+      "AtiyahMcdonald69.Ex_7_13.fiberHomeomorph",
+      "AtiyahMcdonald69.Ex_7_13.fiberRing_isNoetherianRing"
+    ]
+  },
   "coverage": "proof"
 }

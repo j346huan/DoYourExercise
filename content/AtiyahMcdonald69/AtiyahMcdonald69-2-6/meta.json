@@ -5,8 +5,20 @@
   "number": "6",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_6",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_6.exercise_2_6",
+      "AtiyahMcdonald69.Ex_2_6.tensorEquiv",
+      "AtiyahMcdonald69.Ex_2_6.tensorEquiv'",
+      "AtiyahMcdonald69.Ex_2_6.tensorEquiv_trans_tensorEquiv'",
+      "AtiyahMcdonald69.Ex_2_6.smul_apply_eq_sum",
+      "AtiyahMcdonald69.Ex_2_6.toTensor_ofTensor",
+      "AtiyahMcdonald69.Ex_2_6.ofTensor_toTensor",
+      "AtiyahMcdonald69.Ex_2_6.instModulePolynomial"
+    ]
+  },
   "coverage": "proof"
 }

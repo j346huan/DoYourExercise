@@ -5,8 +5,16 @@
   "number": "6",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_6",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_6.solution",
+      "AtiyahMcdonald69.Ex_5_6.isIntegral_pi_iff",
+      "AtiyahMcdonald69.Ex_5_6.algebra_isIntegral_pi",
+      "AtiyahMcdonald69.Ex_5_6.algebra_isIntegral_pi_iff"
+    ]
+  },
   "coverage": "proof"
 }

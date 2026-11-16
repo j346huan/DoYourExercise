@@ -4,15 +4,21 @@
   "section": null,
   "number": "4",
   "title": "",
-  "status": "formalized",
-  "updated": "2026-09-11",
+  "status": "solved",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,1.2"
   ],
   "lean": {
     "module": "LeanExercises.AtiyahMcdonald69.Ex_1_4",
     "declarations": [
-      "AtiyahMcdonald69.Ex_1_4.solution"
+      "AtiyahMcdonald69.Ex_1_4.jacobson_bot_eq_nilradical",
+      "AtiyahMcdonald69.Ex_1_4.ring_jacobson_eq_nilradical",
+      "AtiyahMcdonald69.Ex_1_4.nilradical_le_jacobson_bot",
+      "AtiyahMcdonald69.Ex_1_4.jacobson_bot_le_nilradical",
+      "AtiyahMcdonald69.Ex_1_4.jacobson_bot_le_nilradical_of_coeff",
+      "AtiyahMcdonald69.Ex_1_4.mem_jacobson_bot_iff_isNilpotent",
+      "AtiyahMcdonald69.Ex_1_4.mem_jacobson_bot_iff_coeff_mem_nilradical"
     ]
   },
   "coverage": "proof"

@@ -5,10 +5,18 @@
   "number": "17",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,4.11"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_4_17",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_4_17.solution",
+      "AtiyahMcdonald69.Ex_4_17.solution_iInter",
+      "AtiyahMcdonald69.Ex_4_17.isPrimary_of_infIrred",
+      "AtiyahMcdonald69.Ex_4_17.saturation_isLeast_isPrimary_of_isMinimalPrime"
+    ]
+  },
   "coverage": "proof"
 }

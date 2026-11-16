@@ -5,10 +5,19 @@
   "number": "11",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,4.10"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_4_11",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_4_11.solution",
+      "AtiyahMcdonald69.Ex_4_11.part_a",
+      "AtiyahMcdonald69.Ex_4_11.part_b_iInf",
+      "AtiyahMcdonald69.Ex_4_11.part_c",
+      "AtiyahMcdonald69.Ex_4_11.part_c_associatedPrimes"
+    ]
+  },
   "coverage": "proof"
 }

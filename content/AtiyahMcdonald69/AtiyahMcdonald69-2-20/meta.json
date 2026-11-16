@@ -5,11 +5,20 @@
   "number": "20",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,2.16",
     "AtiyahMcdonald69,2.15"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_20",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_20.exercise_2_20",
+      "AtiyahMcdonald69.Ex_2_20.tensorProductDirectLimitEquiv",
+      "AtiyahMcdonald69.Ex_2_20.phi_comp_psi",
+      "AtiyahMcdonald69.Ex_2_20.psi_comp_phi",
+      "AtiyahMcdonald69.Ex_2_20.gMap_congr"
+    ]
+  },
   "coverage": "proof"
 }

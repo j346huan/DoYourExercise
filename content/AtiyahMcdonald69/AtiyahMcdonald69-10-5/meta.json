@@ -5,8 +5,17 @@
   "number": "5",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_10_5",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_10_5.solution",
+      "AtiyahMcdonald69.Ex_10_5.Phi",
+      "AtiyahMcdonald69.Ex_10_5.Psi",
+      "AtiyahMcdonald69.Ex_10_5.Phi_Psi",
+      "AtiyahMcdonald69.Ex_10_5.Psi_Phi"
+    ]
+  },
   "coverage": "proof"
 }

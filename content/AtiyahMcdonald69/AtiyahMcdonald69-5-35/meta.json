@@ -5,13 +5,20 @@
   "number": "35",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,5.3",
     "AtiyahMcdonald69,5.1",
     "AtiyahMcdonald69,5.34",
     "AtiyahMcdonald69,5.6"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_35",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_35.isClosedBaseChange_of_isIntegral",
+      "AtiyahMcdonald69.Ex_5_35.isIntegral_of_isClosedBaseChange_of_isDomain",
+      "AtiyahMcdonald69.Ex_5_35.isIntegral_of_isClosedBaseChange_of_isNoetherianRing"
+    ]
+  },
   "coverage": "proof"
 }

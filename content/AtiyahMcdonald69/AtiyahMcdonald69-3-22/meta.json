@@ -5,8 +5,15 @@
   "number": "22",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_22",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_22.solution",
+      "AtiyahMcdonald69.Ex_3_22.range_comap_algebraMap_eq_setOf_asIdeal_le",
+      "AtiyahMcdonald69.Ex_3_22.sInter_open_neighborhoods_eq_setOf_asIdeal_le"
+    ]
+  },
   "coverage": "proof"
 }

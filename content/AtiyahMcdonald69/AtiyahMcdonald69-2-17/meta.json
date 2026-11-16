@@ -5,11 +5,21 @@
   "number": "17",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,2.16",
     "AtiyahMcdonald69,2.15"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_17",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_17.Family.atiyah_mcdonald_2_17",
+      "AtiyahMcdonald69.Ex_2_17.Family.directLimitEquiv",
+      "AtiyahMcdonald69.Ex_2_17.Family.existsUnique_lift",
+      "AtiyahMcdonald69.Ex_2_17.union_eq_sum_of_pairSup",
+      "AtiyahMcdonald69.Ex_2_17.empty_union_ne_sum",
+      "AtiyahMcdonald69.Ex_2_17.directLimit_fg"
+    ]
+  },
   "coverage": "proof"
 }

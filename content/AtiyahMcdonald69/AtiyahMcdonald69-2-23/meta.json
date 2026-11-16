@@ -5,10 +5,20 @@
   "number": "23",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,2.21"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_23",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_23.main",
+      "AtiyahMcdonald69.Ex_2_23.main_algHom",
+      "AtiyahMcdonald69.Ex_2_23.main_full",
+      "AtiyahMcdonald69.Ex_2_23.lift_algHom",
+      "AtiyahMcdonald69.Ex_2_23.lift_algHom_unique",
+      "AtiyahMcdonald69.Ex_2_23.structMap_eq_of"
+    ]
+  },
   "coverage": "proof"
 }

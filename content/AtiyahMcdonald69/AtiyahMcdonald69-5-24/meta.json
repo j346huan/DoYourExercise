@@ -5,12 +5,20 @@
   "number": "24",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,5.23",
     "AtiyahMcdonald69,5.5",
     "AtiyahMcdonald69,5.22"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_24",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_24.isJacobsonRing_of_integral",
+      "AtiyahMcdonald69.Ex_5_24.isJacobsonRing_of_fg",
+      "AtiyahMcdonald69.Ex_5_24.isJacobsonRing_of_finiteType_int",
+      "AtiyahMcdonald69.Ex_5_24.isJacobsonRing_of_finiteType_field"
+    ]
+  },
   "coverage": "proof"
 }

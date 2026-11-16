@@ -5,10 +5,22 @@
   "number": "22",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,5.21"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_22",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_22.jacobson_eq_bot_of_isDomain_of_finiteType",
+      "AtiyahMcdonald69.Ex_5_22.exists_isMaximal_not_mem_of_ne_zero",
+      "AtiyahMcdonald69.Ex_5_22.exists_isMaximal_not_mem",
+      "AtiyahMcdonald69.Ex_5_22.exists_mul_eq_of_isIntegral",
+      "AtiyahMcdonald69.Ex_5_22.genLoc_finiteType",
+      "AtiyahMcdonald69.Ex_5_22.frac_intClosure",
+      "AtiyahMcdonald69.Ex_5_22.finite_quotient",
+      "AtiyahMcdonald69.Ex_5_22.algebraic_quotient"
+    ]
+  },
   "coverage": "proof"
 }

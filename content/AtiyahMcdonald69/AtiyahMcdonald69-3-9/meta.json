@@ -5,10 +5,18 @@
   "number": "9",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,3.6"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_9",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_9.solution",
+      "AtiyahMcdonald69.Ex_3_9.isGreatest_injective",
+      "AtiyahMcdonald69.Ex_3_9.isUnit_or_mem_zeroDivisors",
+      "AtiyahMcdonald69.Ex_3_9.bijective_algebraMap_of_forall_not_isUnit_mem_zeroDivisors"
+    ]
+  },
   "coverage": "proof"
 }

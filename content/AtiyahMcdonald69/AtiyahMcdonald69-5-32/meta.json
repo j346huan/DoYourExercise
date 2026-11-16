@@ -5,8 +5,18 @@
   "number": "32",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_32",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_32.primeValueSet_eq_deltaOfPrime",
+      "AtiyahMcdonald69.Ex_5_32.isIsolated_deltaOfPrime",
+      "AtiyahMcdonald69.Ex_5_32.primeSpectrumEquivIsolatedSubgroup",
+      "AtiyahMcdonald69.Ex_5_32.bijective_deltaOfPrime",
+      "AtiyahMcdonald69.Ex_5_32.valueGroup_quotient",
+      "AtiyahMcdonald69.Ex_5_32.valueGroup_localization"
+    ]
+  },
   "coverage": "proof"
 }

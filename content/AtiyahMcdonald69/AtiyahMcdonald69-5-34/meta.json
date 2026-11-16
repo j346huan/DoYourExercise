@@ -5,10 +5,16 @@
   "number": "34",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,5.27"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_34",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_34.solution",
+      "AtiyahMcdonald69.Ex_5_34.solution_algHom"
+    ]
+  },
   "coverage": "proof"
 }

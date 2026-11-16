@@ -5,10 +5,19 @@
   "number": "18",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,2.16"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_18",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_18.existsUnique_lift",
+      "AtiyahMcdonald69.Ex_2_18.Hom.existsUnique_limMap",
+      "AtiyahMcdonald69.Ex_2_18.existsUnique_limMap_of_isEmpty",
+      "AtiyahMcdonald69.Ex_2_18.existsUnique_limMap_of_universal",
+      "AtiyahMcdonald69.Ex_2_18.subsingleton_directLimit_of_isEmpty"
+    ]
+  },
   "coverage": "proof"
 }

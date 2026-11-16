@@ -5,10 +5,17 @@
   "number": "8",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,6.6"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_6_8",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_6_8.spec_noetherian",
+      "AtiyahMcdonald69.Ex_6_8.spec_noetherian_dcc",
+      "AtiyahMcdonald69.Ex_6_8.converse_false"
+    ]
+  },
   "coverage": "proof"
 }

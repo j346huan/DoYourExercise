@@ -4,13 +4,20 @@
   "section": null,
   "number": "7",
   "title": "",
-  "status": "formalized",
-  "updated": "2026-09-11",
+  "status": "solved",
+  "updated": "2026-11-16",
   "dependencies": [],
   "lean": {
     "module": "LeanExercises.AtiyahMcdonald69.Ex_1_7",
     "declarations": [
-      "AtiyahMcdonald69.Ex_1_7.solution"
+      "AtiyahMcdonald69.Ex_1_7.solution",
+      "AtiyahMcdonald69.Ex_1_7.solution_fixed",
+      "AtiyahMcdonald69.Ex_1_7.solution_fixed_exists",
+      "AtiyahMcdonald69.Ex_1_7.isMaximal_of_isPrime",
+      "AtiyahMcdonald69.Ex_1_7.isMaximal_of_isPrime_direct",
+      "AtiyahMcdonald69.Ex_1_7.isField_quotient_of_isPrime",
+      "AtiyahMcdonald69.Ex_1_7.zero_ring_case",
+      "AtiyahMcdonald69.Ex_1_7.exponent_one_not_sufficient"
     ]
   },
   "coverage": "proof"

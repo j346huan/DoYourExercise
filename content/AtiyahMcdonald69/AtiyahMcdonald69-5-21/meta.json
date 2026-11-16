@@ -5,11 +5,19 @@
   "number": "21",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,5.20",
     "AtiyahMcdonald69,5.2"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_21",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_21.solution",
+      "AtiyahMcdonald69.Ex_5_21.exists_ringHom_comp_eq_of_isIntegral",
+      "AtiyahMcdonald69.Ex_5_21.finiteType_localization_nonZeroDivisors",
+      "AtiyahMcdonald69.Ex_5_21.leadingCoeff_eq_of_map_eq_C_mul"
+    ]
+  },
   "coverage": "proof"
 }

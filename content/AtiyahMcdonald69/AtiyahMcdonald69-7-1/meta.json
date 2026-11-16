@@ -5,8 +5,16 @@
   "number": "1",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_7_1",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_7_1.exercise_7_1",
+      "AtiyahMcdonald69.Ex_7_1.exists_maximal_sigma",
+      "AtiyahMcdonald69.Ex_7_1.isPrime_of_maximal_sigma",
+      "AtiyahMcdonald69.Ex_7_1.isNoetherianRing_of_prime_ideal_fg"
+    ]
+  },
   "coverage": "proof"
 }

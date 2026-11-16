@@ -5,10 +5,20 @@
   "number": "10",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,3.26"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_10",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_10.solution",
+      "AtiyahMcdonald69.Ex_5_10.hasGoingUp_of_isClosedMap",
+      "AtiyahMcdonald69.Ex_5_10.hasGoingUp_of_quotientSurjective",
+      "AtiyahMcdonald69.Ex_5_10.hasGoingDown_of_isOpenMap",
+      "AtiyahMcdonald69.Ex_5_10.hasGoingDown_of_localizationSurjective",
+      "AtiyahMcdonald69.Ex_5_10.localizationSurjective_of_hasGoingDown"
+    ]
+  },
   "coverage": "proof"
 }

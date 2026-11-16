@@ -5,12 +5,21 @@
   "number": "4",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,3.21",
     "AtiyahMcdonald69,8.2",
     "AtiyahMcdonald69,8.3"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_8_4",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_8_4.solution",
+      "AtiyahMcdonald69.Ex_8_4.finite_fibre",
+      "AtiyahMcdonald69.Ex_8_4.fibre_discrete_iff_finite_fibreAlgebra",
+      "AtiyahMcdonald69.Ex_8_4.finrank_fibre_algebra_le",
+      "AtiyahMcdonald69.Ex_8_4.counterexample"
+    ]
+  },
   "coverage": "proof"
 }

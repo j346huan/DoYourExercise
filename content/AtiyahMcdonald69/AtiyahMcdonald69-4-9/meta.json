@@ -5,8 +5,17 @@
   "number": "9",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_4_9",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_4_9.notMem_nonZeroDivisors_iff_exists_mem_D",
+      "AtiyahMcdonald69.Ex_4_9.D_localization_eq",
+      "AtiyahMcdonald69.Ex_4_9.mem_D_localization_iff",
+      "AtiyahMcdonald69.Ex_4_9.D_eq_associatedPrimes",
+      "AtiyahMcdonald69.Ex_4_9.D_eq_associatedPrimes_of_isNoetherian"
+    ]
+  },
   "coverage": "proof"
 }

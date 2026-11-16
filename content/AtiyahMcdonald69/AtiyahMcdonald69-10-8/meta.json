@@ -5,11 +5,27 @@
   "number": "8",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,10.7",
     "AtiyahMcdonald69,3.17"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_10_8",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_10_8.solution",
+      "AtiyahMcdonald69.Ex_10_8.part_iii",
+      "AtiyahMcdonald69.Ex_10_8.faithfullyFlat_B_C",
+      "AtiyahMcdonald69.Ex_10_8.flat_A_C",
+      "AtiyahMcdonald69.Ex_10_8.flat_of_faithfullyFlat_of_flat",
+      "AtiyahMcdonald69.Ex_10_8.completionEquiv",
+      "AtiyahMcdonald69.Ex_10_8.completionAlgEquiv",
+      "AtiyahMcdonald69.Ex_10_8.faithfullyFlat_maxIdeal",
+      "AtiyahMcdonald69.Ex_10_8.isLocalRing_convPS",
+      "AtiyahMcdonald69.Ex_10_8.mem_maxIdeal_pow_iff",
+      "AtiyahMcdonald69.Ex_10_8.locToB",
+      "AtiyahMcdonald69.Ex_10_8.locToC"
+    ]
+  },
   "coverage": "proof"
 }
