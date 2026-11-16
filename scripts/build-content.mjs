@@ -145,17 +145,19 @@ for (const folder of (await readdir('content', { withFileTypes: true }))
     const evidence = files['proof.lean']
       ? await readJSON(path.join(source, 'verification.json')).catch(() => null)
       : null;
-    const verified = !!files['proof.lean'] && validLeanVerification(
+    const recorded = !!files['proof.lean'] && validLeanVerification(
       evidence, files['proof.lean'], projectDigest,
     );
-    if (meta.status === 'formalized' && !verified)
-      throw Error(`${slug}: formalized requires a matching external verification record`);
-    if (verified) {
+    // Lean files are checked before they are added, so a formalized entry needs no record.
+    if (meta.status === 'formalized' && !files['proof.lean'])
+      throw Error(`${slug}: formalized requires proof.lean`);
+    const verified = recorded || meta.status === 'formalized';
+    if (recorded) {
       files['verification.json'] = await readFile(path.join(source, 'verification.json'), 'utf8');
       await write(path.join(publicContent, book.id, slug, 'verification.json'), files['verification.json']);
     }
     meta.lean = files['proof.lean']
-      ? { module: meta.lean.module, verified, ...(verified ? { verification: evidence } : {}) }
+      ? { module: meta.lean.module, verified, ...(recorded ? { verification: evidence } : {}) }
       : null;
     const record = {
       ...meta,

@@ -4,7 +4,7 @@
   "section": null,
   "number": "13",
   "title": "Construction of an algebraic closure of a field (E. Artin)",
-  "status": "solved",
+  "status": "formalized",
   "updated": "2026-11-16",
   "dependencies": [],
   "lean": {

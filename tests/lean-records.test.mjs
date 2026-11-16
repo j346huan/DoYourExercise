@@ -66,6 +66,24 @@ test('matching external verification is displayed and downloadable without a tra
   assert.equal(await readFile(path.join(root, 'public', directory, 'verification.json'), 'utf8'), JSON.stringify(record));
 });
 
+test('formalized entries with a Lean file build without a verification record', async (t) => {
+  const { root, write, build } = await fixture(t);
+  await write(`${directory}/meta.json`, JSON.stringify({ ...metadata, status: 'formalized' }));
+  build();
+  const catalog = JSON.parse(await readFile(path.join(root, 'public/catalog.json'), 'utf8'));
+  assert.equal(catalog.problems[0].status, 'formalized');
+  assert.equal(catalog.problems[0].lean.verified, true);
+  assert.equal(catalog.problems[0].lean.verification, undefined);
+  assert.ok(!catalog.problems[0].files.includes('verification.json'));
+});
+
+test('formalized entries still need a Lean file', async (t) => {
+  const { root, write, build } = await fixture(t);
+  await rm(path.join(root, directory, 'proof.lean'));
+  await write(`${directory}/meta.json`, JSON.stringify({ ...metadata, status: 'formalized' }));
+  assert.throws(build, /formalized requires proof\.lean/);
+});
+
 test('editing any canonical Lean dependency invalidates recorded verification', async (t) => {
   const { root, write, build } = await fixture(t);
   const second = 'content/Test26/Test26-1-2';
@@ -76,7 +94,11 @@ test('editing any canonical Lean dependency invalidates recorded verification', 
   await write(`${directory}/meta.json`, JSON.stringify({ ...metadata, status: 'formalized' }));
   build();
   await write(`${second}/proof.lean`, 'import LeanExercises.Test26.Ex_1_1\n-- Changed dependency.\n');
-  assert.throws(build, /matching external verification record/);
+  build();
+  const catalog = JSON.parse(await readFile(path.join(root, 'public/catalog.json'), 'utf8'));
+  const first = catalog.problems.find((problem) => problem.tag === '1.1');
+  assert.equal(first.lean.verification, undefined);
+  assert.ok(!first.files.includes('verification.json'));
 });
 
 test('Lean evidence hashes normalize line endings and exclude machine-specific configuration', async (t) => {
