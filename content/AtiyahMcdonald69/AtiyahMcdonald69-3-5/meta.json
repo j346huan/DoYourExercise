@@ -5,8 +5,15 @@
   "number": "5",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_5",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_5.solution",
+      "AtiyahMcdonald69.Ex_3_5.reduced_of_localization_reduced",
+      "AtiyahMcdonald69.Ex_3_5.not_isDomain_of_forall_localizationAtPrime_isDomain"
+    ]
+  },
   "coverage": "proof"
 }

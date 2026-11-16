@@ -5,8 +5,16 @@
   "number": "16",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_4_16",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_4_16.solution",
+      "AtiyahMcdonald69.Ex_4_16.hasPrimaryDecomposition_of_isLocalization",
+      "AtiyahMcdonald69.Ex_4_16.isPrimary_map",
+      "AtiyahMcdonald69.Ex_4_16.hasProperPrimaryDecomposition_of_isLocalization"
+    ]
+  },
   "coverage": "proof"
 }

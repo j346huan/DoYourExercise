@@ -5,12 +5,36 @@
   "number": "27",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,3.25",
     "AtiyahMcdonald69,3.26",
     "AtiyahMcdonald69,3.21"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_27",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_27.part_i",
+      "AtiyahMcdonald69.Ex_3_27.part_ii",
+      "AtiyahMcdonald69.Ex_3_27.exists_stage_of_mem_map_iotaA",
+      "AtiyahMcdonald69.Ex_3_27.exists_stage_algebraMap_mem",
+      "AtiyahMcdonald69.Ex_3_27.comap_map_iotaA_eq_of_mem",
+      "AtiyahMcdonald69.Ex_3_27.mem_range_finT_iff",
+      "AtiyahMcdonald69.Ex_3_27.nontrivial_fibre_finT",
+      "AtiyahMcdonald69.Ex_3_27.ConstructibleTopology",
+      "AtiyahMcdonald69.Ex_3_27.ConstructibleClosed",
+      "AtiyahMcdonald69.Ex_3_27.isClosed_constructibleTopology",
+      "AtiyahMcdonald69.Ex_3_27.constructibleTopology_le_zariski",
+      "AtiyahMcdonald69.Ex_3_27.isClosed_constructible_of_isClosed_zariski",
+      "AtiyahMcdonald69.Ex_3_27.union_mem_constructibleClosed",
+      "AtiyahMcdonald69.Ex_3_27.sInter_mem_constructibleClosed",
+      "AtiyahMcdonald69.Ex_3_27.zeroLocus_mem_constructibleClosed",
+      "AtiyahMcdonald69.Ex_3_27.exists_finT_subsingleton",
+      "AtiyahMcdonald69.Ex_3_27.imageOf_finT_eq_iInter",
+      "AtiyahMcdonald69.Ex_3_27.inter_nonempty_of_fip",
+      "AtiyahMcdonald69.Ex_3_27.part_iv",
+      "AtiyahMcdonald69.Ex_3_27.isCompact_univ_constructibleTopology"
+    ]
+  },
   "coverage": "proof"
 }

@@ -5,11 +5,34 @@
   "number": "27",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,7.26",
     "AtiyahMcdonald69,7.15"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_7_27",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_7_27.part_i",
+      "AtiyahMcdonald69.Ex_7_27.part_i_spec",
+      "AtiyahMcdonald69.Ex_7_27.part_ii",
+      "AtiyahMcdonald69.Ex_7_27.part_ii_spec",
+      "AtiyahMcdonald69.Ex_7_27.part_iii",
+      "AtiyahMcdonald69.Ex_7_27.part_iv",
+      "AtiyahMcdonald69.Ex_7_27.part_v",
+      "AtiyahMcdonald69.Ex_7_27.projection_formula",
+      "AtiyahMcdonald69.Ex_7_27.projectionIsoMod",
+      "AtiyahMcdonald69.Ex_7_27.gammaA_projection",
+      "AtiyahMcdonald69.Ex_7_27.resScalarK_gammaA",
+      "AtiyahMcdonald69.Ex_7_27.restrictModEqLeft",
+      "AtiyahMcdonald69.Ex_7_27.baseChangeHom_comp",
+      "AtiyahMcdonald69.Ex_7_27.exists_ringEquiv_int",
+      "AtiyahMcdonald69.Ex_7_27.baseChangeHom_gamma",
+      "AtiyahMcdonald69.Ex_7_27.gamma_mul_gamma",
+      "AtiyahMcdonald69.Ex_7_27.smul_gamma_gammaA",
+      "AtiyahMcdonald69.Ex_7_27.instCommRing",
+      "AtiyahMcdonald69.Ex_7_27.instModule"
+    ]
+  },
   "coverage": "proof"
 }

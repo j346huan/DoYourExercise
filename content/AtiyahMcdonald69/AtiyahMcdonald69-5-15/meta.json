@@ -5,11 +5,26 @@
   "number": "15",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,5.13",
     "AtiyahMcdonald69,5.14"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_15",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_15.atiyah_macdonald_5_15",
+      "AtiyahMcdonald69.Ex_5_15.atiyah_macdonald_5_15_separable",
+      "AtiyahMcdonald69.Ex_5_15.atiyah_macdonald_5_15_purelyInseparable",
+      "AtiyahMcdonald69.Ex_5_15.finite_primesOver_of_isGalois",
+      "AtiyahMcdonald69.Ex_5_15.finite_primesOver_of_algHom_isGalois",
+      "AtiyahMcdonald69.Ex_5_15.finite_primesOver_finiteDimensional",
+      "AtiyahMcdonald69.Ex_5_15.finite_primesOver_of_isSeparable",
+      "AtiyahMcdonald69.Ex_5_15.finite_primesOver_of_isPurelyInseparable",
+      "AtiyahMcdonald69.Ex_5_15.eq_primesOver_of_isPurelyInseparable",
+      "AtiyahMcdonald69.Ex_5_15.primesOver_lift_unique",
+      "AtiyahMcdonald69.Ex_5_15.isInvariant_integralClosure"
+    ]
+  },
   "coverage": "proof"
 }

@@ -5,8 +5,17 @@
   "number": "9",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_9",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_9.exercise_2_9",
+      "AtiyahMcdonald69.Ex_2_9.module_finite_of_short_exact",
+      "AtiyahMcdonald69.Ex_2_9.module_finite_of_exact",
+      "AtiyahMcdonald69.Ex_2_9.span_union_lifts_eq_top",
+      "AtiyahMcdonald69.Ex_2_9.converse_of_exercise_fails"
+    ]
+  },
   "coverage": "proof"
 }

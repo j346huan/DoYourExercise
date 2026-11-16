@@ -5,8 +5,36 @@
   "number": "5",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_11_5",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_11_5.cls_four",
+      "AtiyahMcdonald69.Ex_11_5.K_lift",
+      "AtiyahMcdonald69.Ex_11_5.LData",
+      "AtiyahMcdonald69.Ex_11_5.isFgOver_LData",
+      "AtiyahMcdonald69.Ex_11_5.inGen_LData",
+      "AtiyahMcdonald69.Ex_11_5.cokerSub_self",
+      "AtiyahMcdonald69.Ex_11_5.cokerSub_le_comap",
+      "AtiyahMcdonald69.Ex_11_5.hseries_coef",
+      "AtiyahMcdonald69.Ex_11_5.hilbert_serre_step",
+      "AtiyahMcdonald69.Ex_11_5.hilbert_serre_KM",
+      "AtiyahMcdonald69.Ex_11_5.hilbert_serre",
+      "AtiyahMcdonald69.Ex_11_5.hilbert_serre_additive",
+      "AtiyahMcdonald69.Ex_11_5.hilbert_serre_classical",
+      "AtiyahMcdonald69.Ex_11_5.noethInput_of_noetherian",
+      "AtiyahMcdonald69.Ex_11_5.inGen_KData",
+      "AtiyahMcdonald69.Ex_11_5.noetherianGraded_of_injective",
+      "AtiyahMcdonald69.Ex_11_5.prodFin_map",
+      "AtiyahMcdonald69.Ex_11_5.cls_of_linearEquiv",
+      "AtiyahMcdonald69.Ex_11_5.IsPoly.prodFin",
+      "AtiyahMcdonald69.Ex_11_5.isPoly_zero",
+      "AtiyahMcdonald69.Ex_11_5.genSub_le_of",
+      "AtiyahMcdonald69.Ex_11_5.cls_eq_zero_of_subsingleton",
+      "AtiyahMcdonald69.Ex_11_5.LData_x_mk",
+      "AtiyahMcdonald69.Ex_11_5.LData_mk_x_last"
+    ]
+  },
   "coverage": "proof"
 }

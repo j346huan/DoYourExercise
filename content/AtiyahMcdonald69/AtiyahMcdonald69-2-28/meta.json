@@ -5,10 +5,21 @@
   "number": "28",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,2.27"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_28",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_28.absolutelyFlat_iff_principalIdealIdempotent",
+      "AtiyahMcdonald69.Ex_2_28.absolutelyFlat_of_booleanRing",
+      "AtiyahMcdonald69.Ex_2_28.absolutelyFlat_of_pow_eq_self",
+      "AtiyahMcdonald69.Ex_2_28.absolutelyFlat_of_surjective",
+      "AtiyahMcdonald69.Ex_2_28.absolutelyFlat_quotient",
+      "AtiyahMcdonald69.Ex_2_28.isField_of_absolutelyFlat_of_isLocalRing",
+      "AtiyahMcdonald69.Ex_2_28.exists_mul_eq_zero_of_not_isUnit"
+    ]
+  },
   "coverage": "proof"
 }

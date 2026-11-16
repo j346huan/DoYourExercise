@@ -5,10 +5,17 @@
   "number": "18",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,5.16"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_18",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_18.solution",
+      "AtiyahMcdonald69.Ex_5_18.solution_is_extension",
+      "AtiyahMcdonald69.Ex_5_18.solution_of_single_generator"
+    ]
+  },
   "coverage": "proof"
 }

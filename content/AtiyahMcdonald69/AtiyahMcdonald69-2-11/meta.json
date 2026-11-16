@@ -5,8 +5,17 @@
   "number": "11",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_11",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_11.exercise_2_11",
+      "AtiyahMcdonald69.Ex_2_11.eq_of_linearEquiv",
+      "AtiyahMcdonald69.Ex_2_11.le_of_surjective",
+      "AtiyahMcdonald69.Ex_2_11.le_of_injective",
+      "AtiyahMcdonald69.Ex_2_11.false_of_injective_coordinate"
+    ]
+  },
   "coverage": "proof"
 }

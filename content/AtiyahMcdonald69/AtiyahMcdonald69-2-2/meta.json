@@ -5,8 +5,17 @@
   "number": "2",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_2",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_2.tensorQuotientEquiv",
+      "AtiyahMcdonald69.Ex_2_2.idealSMul_eq_span",
+      "AtiyahMcdonald69.Ex_2_2.exact_idealTensor",
+      "AtiyahMcdonald69.Ex_2_2.ker_tensorMkOne",
+      "AtiyahMcdonald69.Ex_2_2.tensorQuotientEquiv_natural"
+    ]
+  },
   "coverage": "proof"
 }

@@ -5,8 +5,17 @@
   "number": "24",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_24",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_24.solution",
+      "AtiyahMcdonald69.Ex_3_24.existsUnique_glue",
+      "AtiyahMcdonald69.Ex_3_24.existsUnique_of_fintype",
+      "AtiyahMcdonald69.Ex_3_24.existsUnique_of_span_eq_top",
+      "AtiyahMcdonald69.Ex_3_24.existsUnique_of_sum_eq_one"
+    ]
+  },
   "coverage": "proof"
 }

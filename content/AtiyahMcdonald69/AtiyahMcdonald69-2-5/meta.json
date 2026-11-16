@@ -5,10 +5,18 @@
   "number": "5",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,2.4"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_5",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_5.exercise_2_5",
+      "AtiyahMcdonald69.Ex_2_5.polynomial_isInternal",
+      "AtiyahMcdonald69.Ex_2_5.polynomialEquivDirectSum",
+      "AtiyahMcdonald69.Ex_2_5.rTensor_polynomial_injective"
+    ]
+  },
   "coverage": "proof"
 }

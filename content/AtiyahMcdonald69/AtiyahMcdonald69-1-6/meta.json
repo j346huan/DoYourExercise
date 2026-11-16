@@ -4,13 +4,17 @@
   "section": null,
   "number": "6",
   "title": "",
-  "status": "formalized",
-  "updated": "2026-09-11",
+  "status": "solved",
+  "updated": "2026-11-16",
   "dependencies": [],
   "lean": {
     "module": "LeanExercises.AtiyahMcdonald69.Ex_1_6",
     "declarations": [
-      "AtiyahMcdonald69.Ex_1_6.solution"
+      "AtiyahMcdonald69.Ex_1_6.nilradical_eq_jacobson",
+      "AtiyahMcdonald69.Ex_1_6.nilradical_eq_ringJacobson",
+      "AtiyahMcdonald69.Ex_1_6.nilradical_eq_jacobson_eq_bot_of_mul_self",
+      "AtiyahMcdonald69.Ex_1_6.nilradical_eq_jacobson_eq_bot_of_booleanRing",
+      "AtiyahMcdonald69.Ex_1_6.exists_idempotent_of_not_le_radical_of_mul_self"
     ]
   },
   "coverage": "proof"

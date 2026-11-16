@@ -5,8 +5,22 @@
   "number": "1",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_10_1",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_10_1.alpha_injective",
+      "AtiyahMcdonald69.Ex_10_1.pCompl_A_bijective",
+      "AtiyahMcdonald69.Ex_10_1.pComplAEquiv",
+      "AtiyahMcdonald69.Ex_10_1.exercise_A_complete",
+      "AtiyahMcdonald69.Ex_10_1.exercise_induced_completion_is_product",
+      "AtiyahMcdonald69.Ex_10_1.quotCompl",
+      "AtiyahMcdonald69.Ex_10_1.pComplMap_quot_xi",
+      "AtiyahMcdonald69.Ex_10_1.of_alpha_ne_xi",
+      "AtiyahMcdonald69.Ex_10_1.completed_not_exact",
+      "AtiyahMcdonald69.Ex_10_1.p_adic_completion_not_right_exact"
+    ]
+  },
   "coverage": "proof"
 }

@@ -5,12 +5,18 @@
   "number": "23",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,7.20",
     "AtiyahMcdonald69,7.21",
     "AtiyahMcdonald69,5.21"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_7_23",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_7_23.solution",
+      "AtiyahMcdonald69.Ex_7_23.solution_finiteUnion"
+    ]
+  },
   "coverage": "proof"
 }

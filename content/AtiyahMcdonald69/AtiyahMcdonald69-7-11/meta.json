@@ -5,10 +5,17 @@
   "number": "11",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,1.12"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_7_11",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_7_11.solution",
+      "AtiyahMcdonald69.Ex_7_11.not_forall_localizations_noetherian",
+      "AtiyahMcdonald69.Ex_7_11.equivZMod2"
+    ]
+  },
   "coverage": "proof"
 }

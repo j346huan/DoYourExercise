@@ -5,10 +5,17 @@
   "number": "1",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,1.20"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_4_1",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_4_1.solution",
+      "AtiyahMcdonald69.Ex_4_1.finite_irreducibleComponents_zeroLocus",
+      "AtiyahMcdonald69.Ex_4_1.finite_minimalPrimes_of_primary_decomposition"
+    ]
+  },
   "coverage": "proof"
 }

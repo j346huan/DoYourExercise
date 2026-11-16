@@ -5,11 +5,18 @@
   "number": "19",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,5.17",
     "AtiyahMcdonald69,5.18"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_19",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_19.exercise_5_19",
+      "AtiyahMcdonald69.Ex_5_19.exercise_5_19_isMaximal_iff",
+      "AtiyahMcdonald69.Ex_5_19.exercise_5_19_weak_nullstellensatz"
+    ]
+  },
   "coverage": "proof"
 }

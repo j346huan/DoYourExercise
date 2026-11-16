@@ -5,10 +5,20 @@
   "number": "26",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,5.23"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_26",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_26.jacobson_tfae",
+      "AtiyahMcdonald69.Ex_5_26.veryDense_tfae",
+      "AtiyahMcdonald69.Ex_5_26.isJacobsonRing_iff_prime_eq_sInf_maximal",
+      "AtiyahMcdonald69.Ex_5_26.veryDense_maxPoints_iff_jacobsonSpace",
+      "AtiyahMcdonald69.Ex_5_26.isJacobsonRing_iff_veryDense_maxPoints",
+      "AtiyahMcdonald69.Ex_5_26.isJacobsonRing_iff_locallyClosedSingletonsClosed"
+    ]
+  },
   "coverage": "proof"
 }

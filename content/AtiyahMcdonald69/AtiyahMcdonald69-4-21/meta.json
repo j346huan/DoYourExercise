@@ -5,10 +5,18 @@
   "number": "21",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,4.20"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_4_21",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_4_21.solution",
+      "AtiyahMcdonald69.Ex_4_21.colon_univ_isPrimary",
+      "AtiyahMcdonald69.Ex_4_21.radicalInM_isPrime",
+      "AtiyahMcdonald69.Ex_4_21.iInf_isPrimary"
+    ]
+  },
   "coverage": "proof"
 }

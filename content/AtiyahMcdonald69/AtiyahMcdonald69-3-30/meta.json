@@ -5,11 +5,21 @@
   "number": "30",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,3.28",
     "AtiyahMcdonald69,3.11"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_30",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_30.solution",
+      "AtiyahMcdonald69.Ex_3_30.zariski_eq_constructible_iff_absolutelyFlat",
+      "AtiyahMcdonald69.Ex_3_30.zariski_eq_constructible_iff",
+      "AtiyahMcdonald69.Ex_3_30.isAbsolutelyFlat_iff_vnr",
+      "AtiyahMcdonald69.Ex_3_30.vnr_quotient_nilradical_iff",
+      "AtiyahMcdonald69.Ex_3_30.exists_notMem_mul_pow_eq_zero"
+    ]
+  },
   "coverage": "proof"
 }

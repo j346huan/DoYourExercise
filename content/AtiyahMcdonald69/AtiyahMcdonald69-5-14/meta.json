@@ -5,8 +5,16 @@
   "number": "14",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_14",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_14.solution",
+      "AtiyahMcdonald69.Ex_5_14.image_integralClosure",
+      "AtiyahMcdonald69.Ex_5_14.range_algebraMap_eq_fixed",
+      "AtiyahMcdonald69.Ex_5_14.galoisActionHom"
+    ]
+  },
   "coverage": "proof"
 }

@@ -5,8 +5,18 @@
   "number": "12",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_4_12",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_4_12.solution",
+      "AtiyahMcdonald69.Ex_4_12.saturation_inf",
+      "AtiyahMcdonald69.Ex_4_12.saturation_radical",
+      "AtiyahMcdonald69.Ex_4_12.saturation_eq_top_iff",
+      "AtiyahMcdonald69.Ex_4_12.saturation_saturation",
+      "AtiyahMcdonald69.Ex_4_12.finite_saturations"
+    ]
+  },
   "coverage": "proof"
 }

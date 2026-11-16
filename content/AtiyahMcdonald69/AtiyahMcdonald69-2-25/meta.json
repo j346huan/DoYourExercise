@@ -5,10 +5,18 @@
   "number": "25",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,2.24"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_25",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_25.flat_iff_flat_of_exact",
+      "AtiyahMcdonald69.Ex_2_25.flat_of_flat_of_flat_coker",
+      "AtiyahMcdonald69.Ex_2_25.flat_of_flat_of_flat_quotient",
+      "AtiyahMcdonald69.Ex_2_25.rTensor_injective_of_flat_coker"
+    ]
+  },
   "coverage": "proof"
 }

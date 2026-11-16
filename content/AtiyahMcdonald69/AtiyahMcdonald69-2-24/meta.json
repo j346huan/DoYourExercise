@@ -5,8 +5,16 @@
   "number": "24",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_24",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_24.atiyah_macdonald_2_24",
+      "AtiyahMcdonald69.Ex_2_24.flat_imp_torVanishes",
+      "AtiyahMcdonald69.Ex_2_24.torVanishes_zero_imp_flat",
+      "AtiyahMcdonald69.Ex_2_24.flat_iff_torOne"
+    ]
+  },
   "coverage": "proof"
 }

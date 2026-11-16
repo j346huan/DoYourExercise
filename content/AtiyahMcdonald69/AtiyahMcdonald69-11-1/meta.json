@@ -5,8 +5,23 @@
   "number": "1",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_11_1",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_11_1.ex_11_1",
+      "AtiyahMcdonald69.Ex_11_1.ex_11_1'",
+      "AtiyahMcdonald69.Ex_11_1.ex_11_1_of_ne_zero",
+      "AtiyahMcdonald69.Ex_11_1.isRegularLocalRing_of_exists_pderiv_ne_zero",
+      "AtiyahMcdonald69.Ex_11_1.not_isRegularLocalRing_of_forall_pderiv_eq_zero",
+      "AtiyahMcdonald69.Ex_11_1.ringKrullDim_LocRing",
+      "AtiyahMcdonald69.Ex_11_1.le_spanFinrank_maximalIdeal",
+      "AtiyahMcdonald69.Ex_11_1.deriv_eq_zero_of_kills_span",
+      "AtiyahMcdonald69.Ex_11_1.spanFinrank_maximalIdeal_le",
+      "AtiyahMcdonald69.Ex_11_1.mIdeal_isMaximal",
+      "AtiyahMcdonald69.Ex_11_1.card_le_of_span_eq"
+    ]
+  },
   "coverage": "proof"
 }

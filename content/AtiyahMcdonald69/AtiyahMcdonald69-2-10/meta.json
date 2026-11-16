@@ -5,10 +5,19 @@
   "number": "10",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,2.2"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_10",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_10.exercise_2_10",
+      "AtiyahMcdonald69.Ex_2_10.exercise_2_10_direct",
+      "AtiyahMcdonald69.Ex_2_10.exercise_2_10_tensor",
+      "AtiyahMcdonald69.Ex_2_10.inducedMap_surjective_iff",
+      "AtiyahMcdonald69.Ex_2_10.counterexample_finite_generation"
+    ]
+  },
   "coverage": "proof"
 }

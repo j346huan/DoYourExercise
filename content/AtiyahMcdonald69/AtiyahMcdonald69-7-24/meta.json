@@ -5,13 +5,19 @@
   "number": "24",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,5.10",
     "AtiyahMcdonald69,7.23",
     "AtiyahMcdonald69,7.20",
     "AtiyahMcdonald69,7.22"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_7_24",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_7_24.solution",
+      "AtiyahMcdonald69.Ex_7_24.solution_ringHom"
+    ]
+  },
   "coverage": "proof"
 }

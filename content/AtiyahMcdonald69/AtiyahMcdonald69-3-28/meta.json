@@ -5,10 +5,24 @@
   "number": "28",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,3.27"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_28",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_28.solution",
+      "AtiyahMcdonald69.Ex_3_28.Xg_isClopen",
+      "AtiyahMcdonald69.Ex_3_28.t2Space_C'",
+      "AtiyahMcdonald69.Ex_3_28.topologyC_eq_topologyC'",
+      "AtiyahMcdonald69.Ex_3_28.identityHomeomorph",
+      "AtiyahMcdonald69.Ex_3_28.imageFamily_iff_isClosed",
+      "AtiyahMcdonald69.Ex_3_28.isClosed_topologyC_iff",
+      "AtiyahMcdonald69.Ex_3_28.compactSpace_C'",
+      "AtiyahMcdonald69.Ex_3_28.le_topologyC'_of_isClopen",
+      "AtiyahMcdonald69.Ex_3_28.isGreatest_topologyC'"
+    ]
+  },
   "coverage": "proof"
 }

@@ -5,11 +5,19 @@
   "number": "27",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,2.2",
     "AtiyahMcdonald69,2.26"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_27",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_27.tfae",
+      "AtiyahMcdonald69.Ex_2_27.absolutelyFlat_iff_principalIdempotent",
+      "AtiyahMcdonald69.Ex_2_27.principalIdempotent_iff_fgDirectSummand",
+      "AtiyahMcdonald69.Ex_2_27.fgDirectSummand_iff_absolutelyFlat"
+    ]
+  },
   "coverage": "proof"
 }

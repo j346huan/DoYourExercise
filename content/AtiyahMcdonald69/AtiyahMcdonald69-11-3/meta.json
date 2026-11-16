@@ -5,10 +5,21 @@
   "number": "3",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,5.16"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_11_3",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_11_3.solution",
+      "AtiyahMcdonald69.Ex_11_3.local_height_eq_trdeg",
+      "AtiyahMcdonald69.Ex_11_3.ringKrullDim_eq_trdeg",
+      "AtiyahMcdonald69.Ex_11_3.local_dim_eq_dim",
+      "AtiyahMcdonald69.Ex_11_3.local_ringKrullDim_eq_trdeg_fractionRing",
+      "AtiyahMcdonald69.Ex_11_3.ringKrullDim_eq_trdeg_fractionRing",
+      "AtiyahMcdonald69.Ex_11_3.height_eq_of_isMaximal_mvPolynomial"
+    ]
+  },
   "coverage": "proof"
 }

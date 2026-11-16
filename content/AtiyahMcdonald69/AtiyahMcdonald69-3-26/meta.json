@@ -5,10 +5,19 @@
   "number": "26",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,3.21"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_26",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_26.solution",
+      "AtiyahMcdonald69.Ex_3_26.solution_induced",
+      "AtiyahMcdonald69.Ex_3_26.range_comap_algebraMap_eq_iInter",
+      "AtiyahMcdonald69.Ex_3_26.nontrivial_tensor_lim",
+      "AtiyahMcdonald69.Ex_3_26.tensorToTLim"
+    ]
+  },
   "coverage": "proof"
 }

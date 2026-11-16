@@ -5,8 +5,23 @@
   "number": "3",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_10_3",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_10_3.powersInter_eq_iInf_pos",
+      "AtiyahMcdonald69.Ex_10_3.mem_powersInter_iff",
+      "AtiyahMcdonald69.Ex_10_3.powersInter_eq_maxLocalizationInter",
+      "AtiyahMcdonald69.Ex_10_3.adicCompletion_subsingleton_iff_support",
+      "AtiyahMcdonald69.Ex_10_3.adicCompletion_subsingleton_iff_forall_localized",
+      "AtiyahMcdonald69.Ex_10_3.smul_top_eq_top_iff_support",
+      "AtiyahMcdonald69.Ex_10_3.smul_top_eq_top_iff_forall_localized",
+      "AtiyahMcdonald69.Ex_10_3.smul_top_eq_top_iff_sup_annihilator",
+      "AtiyahMcdonald69.Ex_10_3.support_inter_zeroLocus_eq_empty_iff",
+      "AtiyahMcdonald69.Ex_10_3.subsingleton_adicCompletion_iff",
+      "AtiyahMcdonald69.Ex_10_3.powersInter_eq_top_iff_smul_top"
+    ]
+  },
   "coverage": "proof"
 }

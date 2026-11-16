@@ -5,8 +5,14 @@
   "number": "27",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_27",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_27.solution",
+      "AtiyahMcdonald69.Ex_5_27.maximal_iff_isValuationRingOf"
+    ]
+  },
   "coverage": "proof"
 }

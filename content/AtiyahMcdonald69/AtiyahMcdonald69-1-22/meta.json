@@ -5,10 +5,18 @@
   "number": "22",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,1.12"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_1_22",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_1_22.spec_pi_decomposition",
+      "AtiyahMcdonald69.Ex_1_22.spec_pi_homeomorph_sigma",
+      "AtiyahMcdonald69.Ex_1_22.disconnected_iff_prod",
+      "AtiyahMcdonald69.Ex_1_22.localRing_primeSpectrum_connected"
+    ]
+  },
   "coverage": "proof"
 }

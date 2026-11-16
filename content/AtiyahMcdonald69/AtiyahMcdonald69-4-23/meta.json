@@ -5,11 +5,23 @@
   "number": "23",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,4.20",
     "AtiyahMcdonald69,4.22"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_4_23",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_4_23.prop_4_6",
+      "AtiyahMcdonald69.Ex_4_23.prop_4_7",
+      "AtiyahMcdonald69.Ex_4_23.prop_4_8_i",
+      "AtiyahMcdonald69.Ex_4_23.prop_4_8_iii'",
+      "AtiyahMcdonald69.Ex_4_23.prop_4_9",
+      "AtiyahMcdonald69.Ex_4_23.prop_4_9_localized",
+      "AtiyahMcdonald69.Ex_4_23.prop_4_10",
+      "AtiyahMcdonald69.Ex_4_23.prop_4_11"
+    ]
+  },
   "coverage": "proof"
 }

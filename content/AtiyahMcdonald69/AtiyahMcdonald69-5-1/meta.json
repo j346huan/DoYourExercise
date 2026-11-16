@@ -5,8 +5,16 @@
   "number": "1",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_1",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_1.solution",
+      "AtiyahMcdonald69.Ex_5_1.image_zeroLocus_eq",
+      "AtiyahMcdonald69.Ex_5_1.isClosedMap_iff_hasGoingUp",
+      "AtiyahMcdonald69.Ex_5_1.solution_algebra"
+    ]
+  },
   "coverage": "proof"
 }

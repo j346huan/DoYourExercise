@@ -5,8 +5,17 @@
   "number": "5",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_4_5",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_4_5.solution",
+      "AtiyahMcdonald69.Ex_4_5.a_eq_inter",
+      "AtiyahMcdonald69.Ex_4_5.minimalPrimes_eq",
+      "AtiyahMcdonald69.Ex_4_5.associatedPrimes_eq",
+      "AtiyahMcdonald69.Ex_4_5.isMinimalPrimaryDecomposition"
+    ]
+  },
   "coverage": "proof"
 }

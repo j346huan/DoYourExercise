@@ -5,10 +5,18 @@
   "number": "19",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,2.15"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_19",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_19.exact_directLimit",
+      "AtiyahMcdonald69.Ex_2_19.functionExact_directLimit",
+      "AtiyahMcdonald69.Ex_2_19.shortExact_directLimit",
+      "AtiyahMcdonald69.Ex_2_19.converse_of_exact_directLimit_fails"
+    ]
+  },
   "coverage": "proof"
 }

@@ -5,8 +5,15 @@
   "number": "2",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_4_2",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_4_2.solution",
+      "AtiyahMcdonald69.Ex_4_2.no_embedded_primes",
+      "AtiyahMcdonald69.Ex_4_2.associatedPrimes_eq_minimalPrimes"
+    ]
+  },
   "coverage": "proof"
 }

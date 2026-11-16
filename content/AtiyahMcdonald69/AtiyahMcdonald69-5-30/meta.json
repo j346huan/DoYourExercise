@@ -5,8 +5,19 @@
   "number": "30",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_30",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_30.valuation_eq_one_iff",
+      "AtiyahMcdonald69.Ex_5_30.valuation_surjective",
+      "AtiyahMcdonald69.Ex_5_30.valuation_le_valuation_iff",
+      "AtiyahMcdonald69.Ex_5_30.linearOrder",
+      "AtiyahMcdonald69.Ex_5_30.isOrderedMonoid",
+      "AtiyahMcdonald69.Ex_5_30.valuation_add_ge_min",
+      "AtiyahMcdonald69.Ex_5_30.valuationWithTop_add_ge_min"
+    ]
+  },
   "coverage": "proof"
 }

@@ -5,12 +5,17 @@
   "number": "10",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,3.19",
     "AtiyahMcdonald69,6.4",
     "AtiyahMcdonald69,6.8"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_6_10",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_6_10.solution"
+    ]
+  },
   "coverage": "proof"
 }

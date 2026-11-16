@@ -5,8 +5,13 @@
   "number": "3",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_6_3",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_6_3.solution"
+    ]
+  },
   "coverage": "proof"
 }

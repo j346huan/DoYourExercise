@@ -5,10 +5,20 @@
   "number": "2",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,3.1"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_2",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_2.solution",
+      "AtiyahMcdonald69.Ex_3_2.map_oneAdd_le_jacobson",
+      "AtiyahMcdonald69.Ex_3_2.eq_bot_of_le_smul_of_le_jacobson",
+      "AtiyahMcdonald69.Ex_3_2.subsingleton_localized_iff",
+      "AtiyahMcdonald69.Ex_3_2.exists_oneAdd_forall_smul_eq_zero",
+      "AtiyahMcdonald69.Ex_3_2.nakayama"
+    ]
+  },
   "coverage": "proof"
 }

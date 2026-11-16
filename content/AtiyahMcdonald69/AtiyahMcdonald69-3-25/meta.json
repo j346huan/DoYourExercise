@@ -5,10 +5,16 @@
   "number": "25",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,3.21"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_3_25",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_3_25.solution",
+      "AtiyahMcdonald69.Ex_3_25.range_comap_tensorProduct"
+    ]
+  },
   "coverage": "proof"
 }

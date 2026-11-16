@@ -5,11 +5,19 @@
   "number": "7",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,2.5",
     "AtiyahMcdonald69,2.6"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_7",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_7.exercise_2_7",
+      "AtiyahMcdonald69.Ex_2_7.isPrime_polyIdeal",
+      "AtiyahMcdonald69.Ex_2_7.not_isMaximal_polyIdeal",
+      "AtiyahMcdonald69.Ex_2_7.quotientEquivQuotientPolyIdeal"
+    ]
+  },
   "coverage": "proof"
 }

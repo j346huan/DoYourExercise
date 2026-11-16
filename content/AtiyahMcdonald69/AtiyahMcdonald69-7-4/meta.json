@@ -5,8 +5,29 @@
   "number": "4",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_7_4",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_7_4.part_i_isNoetherian",
+      "AtiyahMcdonald69.Ex_7_4.part_i_localization_isNoetherian",
+      "AtiyahMcdonald69.Ex_7_4.isNoetherian_noPoleOnCircle",
+      "AtiyahMcdonald69.Ex_7_4.locToFrac_range",
+      "AtiyahMcdonald69.Ex_7_4.eval_value_independent",
+      "AtiyahMcdonald69.Ex_7_4.evalOnCircle_eq",
+      "AtiyahMcdonald69.Ex_7_4.evalOnCircle_algebraMap",
+      "AtiyahMcdonald69.Ex_7_4.inv_X_sub_one_not_mem",
+      "AtiyahMcdonald69.Ex_7_4.noPoleOnCircle_ne_top",
+      "AtiyahMcdonald69.Ex_7_4.part_ii_isNoetherian",
+      "AtiyahMcdonald69.Ex_7_4.part_ii_mem_iff",
+      "AtiyahMcdonald69.Ex_7_4.part_iii_not_isNoetherian",
+      "AtiyahMcdonald69.Ex_7_4.part_iii_mem_iff",
+      "AtiyahMcdonald69.Ex_7_4.part_iv_isNoetherian",
+      "AtiyahMcdonald69.Ex_7_4.part_v_not_isNoetherian",
+      "AtiyahMcdonald69.Ex_7_4.isNoetherian_convSubring",
+      "AtiyahMcdonald69.Ex_7_4.conv_ideal_principal"
+    ]
+  },
   "coverage": "proof"
 }

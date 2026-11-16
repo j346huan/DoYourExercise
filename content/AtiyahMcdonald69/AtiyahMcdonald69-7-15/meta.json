@@ -5,8 +5,17 @@
   "number": "15",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_7_15",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_7_15.exercise_7_15",
+      "AtiyahMcdonald69.Ex_7_15.exercise_7_15_iff",
+      "AtiyahMcdonald69.Ex_7_15.torOne_eq_bot_iff_lTensor_ker",
+      "AtiyahMcdonald69.Ex_7_15.torOne_eq_bot_iff_lTensor_ker_subtype",
+      "AtiyahMcdonald69.Ex_7_15.free_of_torOne_eq_bot_via_hint"
+    ]
+  },
   "coverage": "proof"
 }

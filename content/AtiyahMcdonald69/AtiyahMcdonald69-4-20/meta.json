@@ -5,8 +5,16 @@
   "number": "20",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_4_20",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_4_20.solution",
+      "AtiyahMcdonald69.Ex_4_20.rM_prime_pow_smul_top_eq",
+      "AtiyahMcdonald69.Ex_4_20.rMset_eq_radical",
+      "AtiyahMcdonald69.Ex_4_20.not_radical_add_eq"
+    ]
+  },
   "coverage": "proof"
 }

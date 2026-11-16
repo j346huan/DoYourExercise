@@ -5,10 +5,16 @@
   "number": "9",
   "title": "Chinese Remainder Theorem",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,9.8"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_9_9",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_9_9.solution",
+      "AtiyahMcdonald69.Ex_9_9.solution_fin"
+    ]
+  },
   "coverage": "proof"
 }

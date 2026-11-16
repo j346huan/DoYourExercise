@@ -5,11 +5,22 @@
   "number": "18",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,4.15",
     "AtiyahMcdonald69,4.17"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_4_18",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_4_18.solution",
+      "AtiyahMcdonald69.Ex_4_18.solution_isLasker",
+      "AtiyahMcdonald69.Ex_4_18.conditionL1_of_isLasker",
+      "AtiyahMcdonald69.Ex_4_18.conditionL2_of_isLasker",
+      "AtiyahMcdonald69.Ex_4_18.isLasker_of_conditions",
+      "AtiyahMcdonald69.Ex_4_18.saturation_Sfun_eq",
+      "AtiyahMcdonald69.Ex_4_18.exists_mem_Sfun"
+    ]
+  },
   "coverage": "proof"
 }

@@ -5,8 +5,18 @@
   "number": "14",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_14",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_14.solution",
+      "AtiyahMcdonald69.Ex_2_14.exists_directLimit",
+      "AtiyahMcdonald69.Ex_2_14.proj_compat",
+      "AtiyahMcdonald69.Ex_2_14.proj_compat_comp",
+      "AtiyahMcdonald69.Ex_2_14.proj_eq_iff",
+      "AtiyahMcdonald69.Ex_2_14.DirectSystem.toLimit_compat"
+    ]
+  },
   "coverage": "proof"
 }

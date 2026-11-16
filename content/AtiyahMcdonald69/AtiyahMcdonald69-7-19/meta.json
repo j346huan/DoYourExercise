@@ -5,10 +5,21 @@
   "number": "19",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,7.17"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_7_19",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_7_19.ex_7_19",
+      "AtiyahMcdonald69.Ex_7_19.ex_7_19_ideal",
+      "AtiyahMcdonald69.Ex_7_19.ex_7_19_module",
+      "AtiyahMcdonald69.Ex_7_19.multiplicity_eq",
+      "AtiyahMcdonald69.Ex_7_19.card_eq",
+      "AtiyahMcdonald69.Ex_7_19.card_eq_of_infIrred_decomposition",
+      "AtiyahMcdonald69.Ex_7_19.cumulative_card_eq"
+    ]
+  },
   "coverage": "proof"
 }

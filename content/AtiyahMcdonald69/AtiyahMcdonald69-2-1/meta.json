@@ -5,8 +5,16 @@
   "number": "1",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_2_1",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_2_1.zmod_tensor_zmod_subsingleton",
+      "AtiyahMcdonald69.Ex_2_1.zmod_tensor_zmod_one_eq_zero",
+      "AtiyahMcdonald69.Ex_2_1.zmod_tensor_zmod_subsingleton_iff",
+      "AtiyahMcdonald69.Ex_2_1.zmod_two_tensor_zmod_four_not_subsingleton"
+    ]
+  },
   "coverage": "proof"
 }

@@ -5,10 +5,19 @@
   "number": "13",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,5.12"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_13",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_13.solution",
+      "AtiyahMcdonald69.Ex_5_13.solution_book",
+      "AtiyahMcdonald69.Ex_5_13.solution'",
+      "AtiyahMcdonald69.Ex_5_13.solution_comap",
+      "AtiyahMcdonald69.Ex_5_13.ncard_primesOver_le"
+    ]
+  },
   "coverage": "proof"
 }

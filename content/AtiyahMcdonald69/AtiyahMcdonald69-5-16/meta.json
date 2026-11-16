@@ -5,10 +5,17 @@
   "number": "16",
   "title": "",
   "status": "solved",
-  "updated": "2026-09-05",
+  "updated": "2026-11-16",
   "dependencies": [
     "AtiyahMcdonald69,5.2"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.AtiyahMcdonald69.Ex_5_16",
+    "declarations": [
+      "AtiyahMcdonald69.Ex_5_16.noether_normalization",
+      "AtiyahMcdonald69.Ex_5_16.exists_algIndep_isIntegral",
+      "AtiyahMcdonald69.Ex_5_16.exists_algIndep_isIntegral_of_adjoin_eq_top"
+    ]
+  },
   "coverage": "proof"
 }
