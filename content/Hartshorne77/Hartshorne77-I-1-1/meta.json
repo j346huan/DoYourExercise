@@ -4,9 +4,21 @@
   "section": "1",
   "number": "1",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_1_1",
+    "declarations": [
+      "Hartshorne77.Ex_I_1_1.part_a",
+      "Hartshorne77.Ex_I_1_1.part_b",
+      "Hartshorne77.Ex_I_1_1.quad_factor",
+      "Hartshorne77.Ex_I_1_1.quotEquiv_normalA",
+      "Hartshorne77.Ex_I_1_1.quotEquiv_normalB",
+      "Hartshorne77.Ex_I_1_1.part_c_of_distinct",
+      "Hartshorne77.Ex_I_1_1.part_c_of_repeated",
+      "Hartshorne77.Ex_I_1_1.part_c"
+    ]
+  },
   "coverage": "proof"
 }

@@ -4,11 +4,35 @@
   "section": "2",
   "number": "8",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [
     "Hartshorne77,I.2.6"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_2_8",
+    "declarations": [
+      "Hartshorne77.Ex_I_2_8.hartshorne_exercise_I_2_8",
+      "Hartshorne77.Ex_I_2_8.hartshorne_exercise_I_2_8_sub",
+      "Hartshorne77.Ex_I_2_8.exists_irreducible_homogeneous_of_projDim",
+      "Hartshorne77.Ex_I_2_8.Proj.projDim_zeroSet",
+      "Hartshorne77.Ex_I_2_8.Proj.irrChainDim_cone_zeroSet",
+      "Hartshorne77.Ex_I_2_8.Proj.cone_zeroSet",
+      "Hartshorne77.Ex_I_2_8.Proj.varietyDim_cone_zeroSet",
+      "Hartshorne77.Ex_I_2_8.Proj.ringKrullDim_mvPolynomial",
+      "Hartshorne77.Ex_I_2_8.homogeneousComponent_mul_totalDegree",
+      "Hartshorne77.Ex_I_2_8.homogeneousComponent_totalDegree_ne_zero",
+      "Hartshorne77.Ex_I_2_8.coneDim_eq_projDim_add_one",
+      "Hartshorne77.Ex_I_2_8.Proj.cone_eq_zeroLocus",
+      "Hartshorne77.Ex_I_2_8.Proj.vanishingIdeal_isPrime_of_isIrreducible",
+      "Hartshorne77.Ex_I_2_8.hartshorne_exercise_I_1_8",
+      "Hartshorne77.Ex_I_2_8.ringKrullDim_quotient_add_one_eq_of_mem_minimalPrimes",
+      "Hartshorne77.Ex_I_2_8.Ideal.height_eq_one_of_mem_minimalPrimes",
+      "Hartshorne77.Ex_I_2_8.MvPolynomial.ringKrullDim_quotient_span_singleton",
+      "UniqueFactorizationMonoid.isPrincipal_of_height_eq_one",
+      "Hartshorne77.Ex_I_2_8.irrChainDim_add_one_le",
+      "Hartshorne77.Ex_I_2_8.varietyDim_zeroLocus"
+    ]
+  },
   "coverage": "proof"
 }

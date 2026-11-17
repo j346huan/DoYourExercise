@@ -4,9 +4,23 @@
   "section": "3",
   "number": "3",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_3_3",
+    "declarations": [
+      "Hartshorne77.Ex_I_3_3.stalkMap_mem_maxIdeal",
+      "Hartshorne77.Ex_I_3_3.existsUnique_isMaximal",
+      "Hartshorne77.Ex_I_3_3.maximalIdeal_eq",
+      "Hartshorne77.Ex_I_3_3.isIso_iff_homeomorph_and_stalkMap_bijective",
+      "Hartshorne77.Ex_I_3_3.stalkMap_injective_of_denseRange",
+      "Hartshorne77.Ex_I_3_3.isMorphism_const",
+      "Hartshorne77.Ex_I_3_3.stalkMap_surjective_of_isIso",
+      "Hartshorne77.Ex_I_3_3.isMorphism_symm",
+      "Hartshorne77.Ex_I_3_3.affineVariety",
+      "Hartshorne77.Ex_I_3_3.affReg_fibre_isClosed"
+    ]
+  },
   "coverage": "proof"
 }

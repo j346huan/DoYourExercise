@@ -4,11 +4,32 @@
   "section": "2",
   "number": "15",
   "title": "The Quadric Surface in ℙ³",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [
     "Hartshorne77,I.2.14"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_2_15",
+    "declarations": [
+      "Hartshorne77.Ex_I_2_15.P.hartshorne_I_2_15_complete",
+      "Hartshorne77.Ex_I_2_15.P.hartshorne_I_2_15",
+      "Hartshorne77.Ex_I_2_15.P.quadric_isVarietyOfDimTwo",
+      "Hartshorne77.Ex_I_2_15.P.isIrreducible_quadric",
+      "Hartshorne77.Ex_I_2_15.P.dimEq_quadric",
+      "Hartshorne77.Ex_I_2_15.P.hasChainIn_quadric_two",
+      "Hartshorne77.Ex_I_2_15.P.conic_ne_quadric",
+      "Hartshorne77.Ex_I_2_15.P.image_quadric",
+      "Hartshorne77.Ex_I_2_15.P.isPrime_span_quadForm",
+      "Hartshorne77.Ex_I_2_15.P.prime_quadForm",
+      "Hartshorne77.Ex_I_2_15.P.irreducible_quadForm",
+      "Hartshorne77.Ex_I_2_15.P.isClosed_image_toProj_iff",
+      "Hartshorne77.Ex_I_2_15.P.isIrreducible_image_toProj_iff",
+      "Hartshorne77.Ex_I_2_15.P.hasChainIn_le_irrChainDim",
+      "Hartshorne77.Ex_I_2_15.P.range_segre",
+      "Hartshorne77.Ex_I_2_15.P.dim_conic",
+      "Hartshorne77.Ex_I_2_15.P.not_homeomorph_product"
+    ]
+  },
   "coverage": "proof"
 }

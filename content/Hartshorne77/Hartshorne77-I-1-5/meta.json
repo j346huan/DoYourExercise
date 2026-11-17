@@ -4,9 +4,25 @@
   "section": "1",
   "number": "5",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_1_5",
+    "declarations": [
+      "Hartshorne77.Ex_I_1_5.isClosed_iff_exists_zeroLocusSet",
+      "Hartshorne77.Ex_I_1_5.finiteType_coordinateRing",
+      "Hartshorne77.Ex_I_1_5.isRadical_vanishingIdeal",
+      "Hartshorne77.Ex_I_1_5.isReduced_coordinateRing",
+      "Hartshorne77.Ex_I_1_5.vanishingIdeal_zeroLocus_vanishingIdeal",
+      "Hartshorne77.Ex_I_1_5.exists_isClosed_algEquiv",
+      "Hartshorne77.Ex_I_1_5.hartshorne_I_1_5",
+      "Hartshorne77.Ex_I_1_5.isIrreducible_zeroLocus_of_isPrime",
+      "Hartshorne77.Ex_I_1_5.isDomain_coordinateRing",
+      "Hartshorne77.Ex_I_1_5.exists_irreducible_algEquiv",
+      "Hartshorne77.Ex_I_1_5.ker_polyEval",
+      "Hartshorne77.Ex_I_1_5.coordinateRingAlgEquivPolynomialFunctions"
+    ]
+  },
   "coverage": "proof"
 }

@@ -4,9 +4,31 @@
   "section": "1",
   "number": "7",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_1_7",
+    "declarations": [
+      "Hartshorne77.Ex_I_1_7.exists_strictAnti_of_forall_exists_ssubset",
+      "Hartshorne77.Ex_I_1_7.exists_strictMono_of_forall_exists_ssubset",
+      "Hartshorne77.Ex_I_1_7.finiteUnion_mem_insert",
+      "Hartshorne77.Ex_I_1_7.dcc_iff_minimal_closed",
+      "Hartshorne77.Ex_I_1_7.acc_iff_maximal_open",
+      "Hartshorne77.Ex_I_1_7.dcc_iff_acc",
+      "Hartshorne77.Ex_I_1_7.minimal_closed_iff_maximal_open",
+      "Hartshorne77.Ex_I_1_7.dcc_iff_maximal_open",
+      "Hartshorne77.Ex_I_1_7.exercise_a",
+      "Hartshorne77.Ex_I_1_7.isCompact_of_dcc",
+      "Hartshorne77.Ex_I_1_7.exercise_b",
+      "Hartshorne77.Ex_I_1_7.minimal_closed_subspace",
+      "Hartshorne77.Ex_I_1_7.exercise_c",
+      "Hartshorne77.Ex_I_1_7.exercise_d",
+      "Hartshorne77.Ex_I_1_7.dcc_iff_noetherianSpace",
+      "Hartshorne77.Ex_I_1_7.crosscheck_b",
+      "Hartshorne77.Ex_I_1_7.crosscheck_c",
+      "Hartshorne77.Ex_I_1_7.crosscheck_d"
+    ]
+  },
   "coverage": "proof"
 }

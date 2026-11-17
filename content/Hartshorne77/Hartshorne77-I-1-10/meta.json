@@ -4,11 +4,22 @@
   "section": "1",
   "number": "10",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [
     "Hartshorne77,I.1.6"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_1_10",
+    "declarations": [
+      "Hartshorne77.Ex_I_1_10.hartshorne_ex_1_10",
+      "Hartshorne77.Ex_I_1_10.dim_eq_iSup_chain",
+      "Hartshorne77.Ex_I_1_10.dim_subtype_le",
+      "Hartshorne77.Ex_I_1_10.dim_eq_iSup_of_isOpen_cover",
+      "Hartshorne77.Ex_I_1_10.eq_univ_of_isClosed_of_dim_eq",
+      "Hartshorne77.Ex_I_1_10.TwoPoint.part_c",
+      "Hartshorne77.Ex_I_1_10.NatChain.noetherian_and_dim_top"
+    ]
+  },
   "coverage": "proof"
 }

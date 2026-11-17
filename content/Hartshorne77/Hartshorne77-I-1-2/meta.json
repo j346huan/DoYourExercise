@@ -4,9 +4,22 @@
   "section": "1",
   "number": "2",
   "title": "The Twisted Cubic Curve",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_1_2",
+    "declarations": [
+      "Hartshorne77.Ex_I_1_2.twistedCubic_eq_range",
+      "Hartshorne77.Ex_I_1_2.vanishingIdeal_twistedCubic",
+      "Hartshorne77.Ex_I_1_2.twistedCubicIdeal_isPrime",
+      "Hartshorne77.Ex_I_1_2.coordinateRingEquiv",
+      "Hartshorne77.Ex_I_1_2.ringKrullDim_coordinateRing",
+      "Hartshorne77.Ex_I_1_2.twistedCubic_irreducible",
+      "Hartshorne77.Ex_I_1_2.topologicalKrullDim_twistedCubic",
+      "Hartshorne77.Ex_I_1_2.twistedCubic_isAffineVariety",
+      "Hartshorne77.Ex_I_1_2.hartshorne_I_1_2"
+    ]
+  },
   "coverage": "proof"
 }

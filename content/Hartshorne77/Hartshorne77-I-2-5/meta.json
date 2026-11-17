@@ -4,11 +4,34 @@
   "section": "2",
   "number": "5",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [
     "Hartshorne77,I.2.3"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_2_5",
+    "declarations": [
+      "Hartshorne77.Ex_I_2_5.P.mk_eq_mk_iff",
+      "Hartshorne77.Ex_I_2_5.P.equivLine",
+      "Hartshorne77.Ex_I_2_5.P.eval_smul_of_isHomogeneous",
+      "Hartshorne77.Ex_I_2_5.P.mem_zeroLocus_iff",
+      "Hartshorne77.Ex_I_2_5.P.isClosed_iff_exists_zeroLocus",
+      "Hartshorne77.Ex_I_2_5.P.zeroLocus_vanishingIdeal_eq",
+      "Hartshorne77.Ex_I_2_5.P.zeroLocus_vanishingIdeal_eq_closure",
+      "Hartshorne77.Ex_I_2_5.P.cone_zeroLocus",
+      "Hartshorne77.Ex_I_2_5.P.chartEquiv",
+      "Hartshorne77.Ex_I_2_5.P.isOpen_chart",
+      "Hartshorne77.Ex_I_2_5.P.dcc_closed",
+      "Hartshorne77.Ex_I_2_5.P.noetherianSpace",
+      "Hartshorne77.Ex_I_2_5.exists_finite_irred_cover",
+      "Hartshorne77.Ex_I_2_5.exists_irredDecomposition",
+      "Hartshorne77.Ex_I_2_5.irredDecomposition_unique",
+      "Hartshorne77.Ex_I_2_5.P.existsUnique_irredDecomposition_forall",
+      "Hartshorne77.Ex_I_2_5.P.eq_irredComponents",
+      "Hartshorne77.Ex_I_2_5.P.hartshorne_I_2_5",
+      "Hartshorne77.Ex_I_2_5.P.hartshorne_I_2_5_algClosed"
+    ]
+  },
   "coverage": "proof"
 }

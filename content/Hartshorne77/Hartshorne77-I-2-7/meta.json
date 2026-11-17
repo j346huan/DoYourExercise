@@ -4,12 +4,23 @@
   "section": "2",
   "number": "7",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [
     "Hartshorne77,I.2.6",
     "Hartshorne77,I.1.10"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_2_7",
+    "declarations": [
+      "Hartshorne77.Ex_I_2_7.exercise_2_7",
+      "Hartshorne77.Ex_I_2_7.topologicalKrullDim_closure_eq_of_isQuasiProjective",
+      "Hartshorne77.Ex_I_2_7.dimTop_projective_space",
+      "Hartshorne77.Ex_I_2_7.IntrinsicOpen.dim_open_of_open_zloc",
+      "Hartshorne77.Ex_I_2_7.IntrinsicOpen.topologicalKrullDim_subset_iSup_open",
+      "Hartshorne77.Ex_I_2_7.AwayDim.ringKrullDim_away_eq",
+      "Hartshorne77.Ex_I_2_7.topologicalKrullDim_zloc"
+    ]
+  },
   "coverage": "proof"
 }

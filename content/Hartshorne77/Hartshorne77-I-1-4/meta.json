@@ -4,9 +4,34 @@
   "section": "1",
   "number": "4",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_1_4",
+    "declarations": [
+      "Hartshorne77.Ex_I_1_4.isClosed_zar1_iff",
+      "Hartshorne77.Ex_I_1_4.isClosed_zar2_iff",
+      "Hartshorne77.Ex_I_1_4.finite_compl_of_isOpen_zar1",
+      "Hartshorne77.Ex_I_1_4.nonempty_inter_of_isOpen_zar1",
+      "Hartshorne77.Ex_I_1_4.continuous_fst_zar2",
+      "Hartshorne77.Ex_I_1_4.continuous_snd_zar2",
+      "Hartshorne77.Ex_I_1_4.zar2_le_prodTop",
+      "Hartshorne77.Ex_I_1_4.isClosed_zar2_diag",
+      "Hartshorne77.Ex_I_1_4.not_isClosed_prodTop_diag",
+      "Hartshorne77.Ex_I_1_4.zariski_ne_productTop",
+      "Hartshorne77.Ex_I_1_4.zar2_lt_prodTop",
+      "Hartshorne77.Ex_I_1_4.zariski_ne_productTop_of_isAlgClosed",
+      "Hartshorne77.Ex_I_1_4.isOpen_zar2_of_isOpen_prodTop",
+      "Hartshorne77.Ex_I_1_4.continuous_id_zar2_prodTop",
+      "Hartshorne77.Ex_I_1_4.exists_isClosed_zar2_not_isClosed_prodTop",
+      "Hartshorne77.Ex_I_1_4.exists_zeroLocus_of_isOpen_zar2",
+      "Hartshorne77.Ex_I_1_4.isClosed_zar2_finite",
+      "Hartshorne77.Ex_I_1_4.zar1_eq_bot_of_finite",
+      "Hartshorne77.Ex_I_1_4.zar2_eq_bot_of_finite",
+      "Hartshorne77.Ex_I_1_4.prodTop_eq_bot_of_finite",
+      "Hartshorne77.Ex_I_1_4.zar2_eq_prodTop_of_finite"
+    ]
+  },
   "coverage": "proof"
 }

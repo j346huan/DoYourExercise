@@ -4,9 +4,22 @@
   "section": "3",
   "number": "4",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_3_4",
+    "declarations": [
+      "Hartshorne77.Ex_I_3_4.Proj.hartshorne_I_3_4",
+      "Hartshorne77.Ex_I_3_4.Proj.rho_isMorphism",
+      "Hartshorne77.Ex_I_3_4.Proj.psi_isMorphism",
+      "Hartshorne77.Ex_I_3_4.Proj.rho_injective",
+      "Hartshorne77.Ex_I_3_4.Proj.psi_rho",
+      "Hartshorne77.Ex_I_3_4.Proj.rho_psi",
+      "Hartshorne77.Ex_I_3_4.Proj.rho_continuous",
+      "Hartshorne77.Ex_I_3_4.Proj.chartCoord_rho",
+      "Hartshorne77.Ex_I_3_4.Proj.psi_eval_ratio"
+    ]
+  },
   "coverage": "proof"
 }

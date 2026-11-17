@@ -4,9 +4,24 @@
   "section": "2",
   "number": "13",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_2_13",
+    "declarations": [
+      "Hartshorne77.Ex_I_2_13.V_injective",
+      "Hartshorne77.Ex_I_2_13.exists_theta_sq",
+      "Hartshorne77.Ex_I_2_13.image_closed",
+      "Hartshorne77.Ex_I_2_13.irrChainDim_preimage_V",
+      "Hartshorne77.Ex_I_2_13.projDim_preimage_V",
+      "Hartshorne77.Ex_I_2_13.split_lowest",
+      "Hartshorne77.Ex_I_2_13.split_highest",
+      "Hartshorne77.Ex_I_2_13.exists_prime_homog_divisor",
+      "Hartshorne77.Ex_I_2_13.I28.exists_irreducible_homogeneous_of_projDim",
+      "Hartshorne77.Ex_I_2_13.I28.hartshorne_exercise_I_2_8_sub",
+      "Hartshorne77.Ex_I_2_13.hartshorne_exercise_I_2_13"
+    ]
+  },
   "coverage": "proof"
 }

@@ -4,12 +4,24 @@
   "section": "2",
   "number": "10",
   "title": "The Cone Over a Projective Variety",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [
     "Hartshorne77,I.2.4",
     "Hartshorne77,I.2.6"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_2_10",
+    "declarations": [
+      "Hartshorne77.Ex_I_2_10.hartshorne_exercise_I_2_10",
+      "Hartshorne77.Ex_I_2_10.coneDim_eq_projDim_add_one",
+      "Hartshorne77.Ex_I_2_10.coneDim_eq_projDim_add_one_irreducible",
+      "Hartshorne77.Ex_I_2_10.projDim_add_one_le_coneDim",
+      "Hartshorne77.Ex_I_2_10.Proj.cone_eq_zeroLocus",
+      "Hartshorne77.Ex_I_2_10.Proj.isIrreducible_cone_iff_isPrime",
+      "Hartshorne77.Ex_I_2_10.Proj.isIrreducible_cone_iff'",
+      "Hartshorne77.Ex_I_2_10.Proj.vanishingIdeal_isPrime_iff"
+    ]
+  },
   "coverage": "proof"
 }

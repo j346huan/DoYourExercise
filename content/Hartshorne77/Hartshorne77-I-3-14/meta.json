@@ -4,9 +4,19 @@
   "section": "3",
   "number": "14",
   "title": "Projection from a Point",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_3_14",
+    "declarations": [
+      "Hartshorne77.Ex_I_3_14.Plane.hartshorne_I_3_14",
+      "Hartshorne77.Ex_I_3_14.induced_isMorphism",
+      "Hartshorne77.Ex_I_3_14.projection_isMorphism",
+      "Hartshorne77.Ex_I_3_14.Plane.vanishes_iff_mem_projectedImage",
+      "Hartshorne77.Ex_I_3_14.Plane.projection_eq_tail",
+      "Hartshorne77.Ex_I_3_14.Plane.cubic_isHomogeneous"
+    ]
+  },
   "coverage": "proof"
 }

@@ -4,11 +4,18 @@
   "section": "1",
   "number": "9",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [
     "Hartshorne77,I.1.8"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_1_9",
+    "declarations": [
+      "Hartshorne77.Ex_I_1_9.topologicalKrullDim_Z",
+      "Hartshorne77.Ex_I_1_9.topologicalKrullDim_affineSpace",
+      "Hartshorne77.Ex_I_1_9.krullDim_Irr"
+    ]
+  },
   "coverage": "proof"
 }
