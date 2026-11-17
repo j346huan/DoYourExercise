@@ -4,12 +4,22 @@
   "section": "2",
   "number": "4",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [
     "Hartshorne77,I.2.3",
     "Hartshorne77,I.2.2"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_2_4",
+    "declarations": [
+      "Hartshorne77.Ex_I_2_4.Z_I_eq",
+      "Hartshorne77.Ex_I_2_4.I_Z_eq",
+      "Hartshorne77.Ex_I_2_4.part_b",
+      "Hartshorne77.Ex_I_2_4.part_c",
+      "Hartshorne77.Ex_I_2_4.I_univ",
+      "Hartshorne77.Ex_I_2_4.isRadical_I"
+    ]
+  },
   "coverage": "proof"
 }

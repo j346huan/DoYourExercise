@@ -4,14 +4,43 @@
   "section": "3",
   "number": "7",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [
     "Hartshorne77,I.2.8",
     "Hartshorne77,I.1.9",
     "Hartshorne77,I.3.5",
     "Hartshorne77,I.3.1"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_3_7",
+    "declarations": [
+      "Hartshorne77.Ex_I_3_7.hartshorne_I_3_7_a",
+      "Hartshorne77.Ex_I_3_7.hartshorne_I_3_7_a_curves",
+      "Hartshorne77.Ex_I_3_7.hartshorne_I_3_7_b",
+      "Hartshorne77.Ex_I_3_7.hartshorne_I_3_7_b_hypersurface",
+      "Hartshorne77.Ex_I_3_7.part_b_core",
+      "Hartshorne77.Ex_I_3_7.exists_smul_of_mem_Bd_one",
+      "Hartshorne77.Ex_I_3_7.pow_mem_Bd_one",
+      "Hartshorne77.Ex_I_3_7.Bd_le_span_mk",
+      "Hartshorne77.Ex_I_3_7.mk_eq_zero_of_sum_eq_zero",
+      "Hartshorne77.Ex_I_3_7.div_step",
+      "Hartshorne77.Ex_I_3_7.exists_div_pow",
+      "Hartshorne77.Ex_I_3_7.mem_zeroLocus_of_forall_eval_eq_zero",
+      "Hartshorne77.Ex_I_3_7.mem_of_isHomogeneous_of_forall_X_pow_mem",
+      "Hartshorne77.Ex_I_3_7.krullDimLE_zero_quotient",
+      "Hartshorne77.Ex_I_3_7.m0_le_radical_of_zeroLocus_subset",
+      "Hartshorne77.Ex_I_3_7.exists_X_pow_mem",
+      "Hartshorne77.Ex_I_3_7.algebraic_imp_mem",
+      "Hartshorne77.Ex_I_3_7.exists_minor_ne_zero",
+      "Hartshorne77.Ex_I_3_7.two_points_of_one_le_topologicalKrullDim",
+      "Hartshorne77.Ex_I_3_7.P.substLine_coeff",
+      "Hartshorne77.Ex_I_3_7.P.eval_homogeneousComponent_eq_zero_of_eval_line",
+      "Hartshorne77.Ex_I_3_7.P.formVanishesAt_iff_forall_homogeneousComponent",
+      "Hartshorne77.Ex_I_3_7.P.isClosed_formVanishesAt",
+      "Hartshorne77.Ex_I_3_7.P.formVanishesAt_mul",
+      "Hartshorne77.Ex_I_3_7.P.isPrime_vanishOnIdeal"
+    ]
+  },
   "coverage": "proof"
 }

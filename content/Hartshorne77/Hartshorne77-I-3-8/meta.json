@@ -4,9 +4,28 @@
   "section": "3",
   "number": "8",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_3_8",
+    "declarations": [
+      "Hartshorne77.Ex_I_3_8.lineSubst_eval",
+      "Hartshorne77.Ex_I_3_8.prod_split",
+      "Hartshorne77.Ex_I_3_8.clearDenom_eval",
+      "Hartshorne77.Ex_I_3_8.clearDenom_coeff_eq_zero",
+      "Hartshorne77.Ex_I_3_8.eq_zero_of_forall_eval_eq_zero_on_basic",
+      "Hartshorne77.Ex_I_3_8.ideal_eq_top_of_no_common_zero",
+      "Hartshorne77.Ex_I_3_8.exists_poly_of_locally_ratio",
+      "Hartshorne77.Ex_I_3_8.exists_poly_on_chart",
+      "Hartshorne77.Ex_I_3_8.chartInv_chart_chart_coord_ne_zero",
+      "Hartshorne77.Ex_I_3_8.chart_poly_const",
+      "Hartshorne77.Ex_I_3_8.isOpen_twoHypCompl",
+      "Hartshorne77.Ex_I_3_8.isRegular_const",
+      "Hartshorne77.Ex_I_3_8.IsRegularOn.mono",
+      "Hartshorne77.Ex_I_3_8.hartshorne_I_3_8",
+      "Hartshorne77.Ex_I_3_8.regular_proj_const"
+    ]
+  },
   "coverage": "proof"
 }

@@ -4,11 +4,30 @@
   "section": "2",
   "number": "2",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [
     "Hartshorne77,I.2.1"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_2_2",
+    "declarations": [
+      "Hartshorne77.Ex_I_2_2.hartshorne_I_2_2",
+      "Hartshorne77.Ex_I_2_2.projVanishesSet_eq_projZeroLocus",
+      "Hartshorne77.Ex_I_2_2.aeval_smul_of_isHomogeneous",
+      "Hartshorne77.Ex_I_2_2.aeval_eq_zero_iff_of_mem_proj",
+      "Hartshorne77.Ex_I_2_2.exists_unit_smul_eq_of_mem_of_ne_zero",
+      "Hartshorne77.Ex_I_2_2.exists_mem_proj_of_ne_zero",
+      "Hartshorne77.Ex_I_2_2.Splus_eq_vanishingIdeal_zero",
+      "Hartshorne77.Ex_I_2_2.isMaximal_Splus",
+      "Hartshorne77.Ex_I_2_2.projZeroLocus_empty_iff_zeroLocus_subset",
+      "Hartshorne77.Ex_I_2_2.zeroLocus_subset_iff_radical",
+      "Hartshorne77.Ex_I_2_2.radical_iff_gradedPiece",
+      "Hartshorne77.Ex_I_2_2.gradedPiece_subset_of_X_pow_mem",
+      "Hartshorne77.Ex_I_2_2.gradedPiece_subset_imp_projZeroLocus_empty",
+      "Hartshorne77.Ex_I_2_2.exists_le_of_degree_eq",
+      "Hartshorne77.Ex_I_2_2.homogeneousSubmodule_mem_idealOfVars_pow"
+    ]
+  },
   "coverage": "proof"
 }

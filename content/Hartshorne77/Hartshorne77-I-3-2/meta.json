@@ -4,9 +4,35 @@
   "section": "3",
   "number": "2",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_3_2",
+    "declarations": [
+      "Hartshorne77.Ex_I_3_2.hartshorne_I_3_2_a",
+      "Hartshorne77.Ex_I_3_2.hartshorne_I_3_2_b",
+      "Hartshorne77.Ex_I_3_2.cuspPhi_not_isIso",
+      "Hartshorne77.Ex_I_3_2.frobPhi_not_isIso",
+      "Hartshorne77.Ex_I_3_2.cuspPhi_bicontinuous",
+      "Hartshorne77.Ex_I_3_2.frobPhi_bicontinuous",
+      "Hartshorne77.Ex_I_3_2.isMorphism_cuspPhi",
+      "Hartshorne77.Ex_I_3_2.isMorphism_frobPhi",
+      "Hartshorne77.Ex_I_3_2.coeff_one_cuspSubstPoly",
+      "Hartshorne77.Ex_I_3_2.coeff_one_frobSubstPoly",
+      "Hartshorne77.Ex_I_3_2.cuspInv_not_isMorphism",
+      "Hartshorne77.Ex_I_3_2.isRegular_cuspInv_away",
+      "Hartshorne77.Ex_I_3_2.cuspPhi_bijective",
+      "Hartshorne77.Ex_I_3_2.frobPhi_bijective",
+      "Hartshorne77.Ex_I_3_2.continuous_cuspPhi",
+      "Hartshorne77.Ex_I_3_2.continuous_frobPhi",
+      "Hartshorne77.Ex_I_3_2.continuous_cuspInv",
+      "Hartshorne77.Ex_I_3_2.cuspInv_left",
+      "Hartshorne77.Ex_I_3_2.cuspInv_right",
+      "Hartshorne77.Ex_I_3_2.eval_cuspSubst",
+      "Hartshorne77.Ex_I_3_2.eval_frobSubst",
+      "Hartshorne77.Ex_I_3_2.isRegular_coord"
+    ]
+  },
   "coverage": "proof"
 }

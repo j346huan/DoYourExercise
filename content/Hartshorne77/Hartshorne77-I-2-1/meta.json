@@ -4,9 +4,20 @@
   "section": "2",
   "number": "1",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_2_1",
+    "declarations": [
+      "Hartshorne77.Ex_I_2_1.homogeneous_nullstellensatz",
+      "Hartshorne77.Ex_I_2_1.homogeneous_nullstellensatz_aux",
+      "Hartshorne77.Ex_I_2_1.eval_smul_of_isHomogeneous",
+      "Hartshorne77.Ex_I_2_1.mem_V_iff_exists_cone",
+      "Hartshorne77.Ex_I_2_1.V_mul",
+      "Hartshorne77.Ex_I_2_1.isClosed_V",
+      "Hartshorne77.Ex_I_2_1.deg_pos_needed"
+    ]
+  },
   "coverage": "proof"
 }

@@ -4,9 +4,21 @@
   "section": "1",
   "number": "8",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_1_8",
+    "declarations": [
+      "Hartshorne77.Ex_I_1_8.hartshorne_exercise_I_1_8",
+      "Hartshorne77.Ex_I_1_8.ringKrullDim_quotient_add_one_eq_of_mem_minimalPrimes",
+      "Hartshorne77.Ex_I_1_8.varietyDim_zeroLocus",
+      "Hartshorne77.Ex_I_1_8.MvPolynomial.ringKrullDim_quotient_span_singleton",
+      "Hartshorne77.Ex_I_1_8.vanishingIdeal_isPrime",
+      "Hartshorne77.Ex_I_1_8.ringKrullDim_eq_of_integral_injective",
+      "Hartshorne77.Ex_I_1_8.zeroLocus_irreducible",
+      "Hartshorne77.Ex_I_1_8.vanishingIdeal_singleton_height"
+    ]
+  },
   "coverage": "proof"
 }

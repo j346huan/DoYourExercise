@@ -4,9 +4,32 @@
   "section": "1",
   "number": "12",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_1_12",
+    "declarations": [
+      "Hartshorne77.Ex_I_1_12.irreducible_X_sq_add_C",
+      "Hartshorne77.Ex_I_1_12.sq_sub_one_sq_not_neg_sq",
+      "Hartshorne77.Ex_I_1_12.irreducible_f",
+      "Hartshorne77.Ex_I_1_12.AffineSpace.zeroLocus_iSup",
+      "Hartshorne77.Ex_I_1_12.AffineSpace.zeroLocus_inf",
+      "Hartshorne77.Ex_I_1_12.AffineSpace.sInter_mem_closedSets",
+      "Hartshorne77.Ex_I_1_12.AffineSpace.isClosed_iff_exists_zeroLocus",
+      "Hartshorne77.Ex_I_1_12.AffineSpace.isClosed_iff_exists_V",
+      "Hartshorne77.Ex_I_1_12.AffineSpace.isClosed_singleton",
+      "Hartshorne77.Ex_I_1_12.AffineSpace.not_isIrreducible_pair",
+      "Hartshorne77.Ex_I_1_12.V_f",
+      "Hartshorne77.Ex_I_1_12.V_f_nonempty",
+      "Hartshorne77.Ex_I_1_12.V_f_not_irreducible",
+      "Hartshorne77.Ex_I_1_12.hartshorne_ex_1_12",
+      "Hartshorne77.Ex_I_1_12.hartshorne_ex_1_12_explicit",
+      "Hartshorne77.Ex_I_1_12.irreducible_x_sq_add_y_sq_add_one",
+      "Hartshorne77.Ex_I_1_12.V_x_sq_add_y_sq_add_one",
+      "Hartshorne77.Ex_I_1_12.hartshorne_ex_1_12_empty",
+      "Hartshorne77.Ex_I_1_12.isIrreducible_V_of_isAlgClosed"
+    ]
+  },
   "coverage": "proof"
 }

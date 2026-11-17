@@ -4,11 +4,26 @@
   "section": "2",
   "number": "9",
   "title": "Projective Closure of an Affine Variety",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [
     "Hartshorne77,I.1.2"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_2_9",
+    "declarations": [
+      "Hartshorne77.Ex_I_2_9.ProjPoint.vanishingIdeal_twistedCubic",
+      "Hartshorne77.Ex_I_2_9.ProjPoint.homogenize_dehom",
+      "Hartshorne77.Ex_I_2_9.ProjPoint.projVanishingIdeal_projectiveClosure",
+      "Hartshorne77.Ex_I_2_9.ProjPoint.dehom_homogenize_eq",
+      "Hartshorne77.Ex_I_2_9.ProjPoint.homogenize_shift",
+      "Hartshorne77.Ex_I_2_9.ProjPoint.cubicTheta_monomial",
+      "Hartshorne77.Ex_I_2_9.ProjPoint.separation",
+      "Hartshorne77.Ex_I_2_9.ProjPoint.ker_cubicTheta_le",
+      "Hartshorne77.Ex_I_2_9.ProjPoint.projVanishingIdeal_projTwistedCubic",
+      "Hartshorne77.Ex_I_2_9.ProjPoint.homogenized_affine_generators_not_generate",
+      "Hartshorne77.Ex_I_2_9.ProjPoint.hartshorne_ex_I_2_9"
+    ]
+  },
   "coverage": "proof"
 }

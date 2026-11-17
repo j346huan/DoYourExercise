@@ -4,11 +4,42 @@
   "section": "2",
   "number": "6",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [
     "Hartshorne77,I.1.10"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_2_6",
+    "declarations": [
+      "Hartshorne77.Ex_I_2_6.hartshorne_exercise_I_2_10",
+      "Hartshorne77.Ex_I_2_6.coneDim_eq_projDim_add_one",
+      "Hartshorne77.Ex_I_2_6.coneDim_eq_projDim_add_one_irreducible",
+      "Hartshorne77.Ex_I_2_6.projDim_add_one_le_coneDim",
+      "Hartshorne77.Ex_I_2_6.Proj.cone_eq_zeroLocus",
+      "Hartshorne77.Ex_I_2_6.Proj.isIrreducible_cone_iff_isPrime",
+      "Hartshorne77.Ex_I_2_6.Proj.isIrreducible_cone_iff'",
+      "Hartshorne77.Ex_I_2_6.Proj.vanishingIdeal_isPrime_iff",
+      "Hartshorne77.Ex_I_2_6.hartshorne_exercise_I_2_6",
+      "Hartshorne77.Ex_I_2_6.dim_homogeneousCoordinateRing",
+      "Hartshorne77.Ex_I_2_6.varietyDim_affinePiece",
+      "Hartshorne77.Ex_I_2_6.varietyDim_slice_add_one",
+      "Hartshorne77.Ex_I_2_6.affinePiece_eq_zeroLocus",
+      "Hartshorne77.Ex_I_2_6.ringKrullDim_dehomIdeal",
+      "Hartshorne77.Ex_I_2_6.dehomQuotientEquiv",
+      "Hartshorne77.Ex_I_2_6.dehomQuotMap_injective",
+      "Hartshorne77.Ex_I_2_6.dehomQuotMap_surjective",
+      "Hartshorne77.Ex_I_2_6.eval_dehom",
+      "Hartshorne77.Ex_I_2_6.ker_dehom",
+      "Hartshorne77.Ex_I_2_6.sub_homIncl_dehom_mem",
+      "Hartshorne77.Ex_I_2_6.mem_dehomIdeal_zeroLocus_iff",
+      "Hartshorne77.Ex_I_2_6.Proj.vanishingIdeal_isPrime_of_isIrreducible",
+      "Hartshorne77.Ex_I_2_6.hartshorne_exercise_I_1_8",
+      "Hartshorne77.Ex_I_2_6.varietyDim_zeroLocus",
+      "Hartshorne77.Ex_I_2_6.chartMap_image_affinePiece",
+      "Hartshorne77.Ex_I_2_6.chartMap_chartCoord",
+      "Hartshorne77.Ex_I_2_6.chartCoord_chartMap"
+    ]
+  },
   "coverage": "proof"
 }

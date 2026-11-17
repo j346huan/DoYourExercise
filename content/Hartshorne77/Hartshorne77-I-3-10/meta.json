@@ -4,9 +4,18 @@
   "section": "3",
   "number": "10",
   "title": "Subvarieties",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_3_10",
+    "declarations": [
+      "Hartshorne77.Ex_I_3_10.hartshorne_I_3_10",
+      "Hartshorne77.Ex_I_3_10.isMorphism_restrict_affine",
+      "Hartshorne77.Ex_I_3_10.Proj.isMorphism_restrict_projective",
+      "Hartshorne77.Ex_I_3_10.locallyClosed_iff_open_in_closure",
+      "Hartshorne77.Ex_I_3_10.Proj.ratio_mk"
+    ]
+  },
   "coverage": "proof"
 }

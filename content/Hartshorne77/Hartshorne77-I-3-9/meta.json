@@ -4,11 +4,26 @@
   "section": "3",
   "number": "9",
   "title": "",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [
     "Hartshorne77,I.3.4"
   ],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_3_9",
+    "declarations": [
+      "Hartshorne77.Ex_I_3_9.SY_quotient_equiv",
+      "Hartshorne77.Ex_I_3_9.irreducible_st",
+      "Hartshorne77.Ex_I_3_9.irreducible_s2",
+      "Hartshorne77.Ex_I_3_9.irreducible_t2",
+      "Hartshorne77.Ex_I_3_9.two_distinct_factorizations",
+      "Hartshorne77.Ex_I_3_9.not_prime_st",
+      "Hartshorne77.Ex_I_3_9.not_isUFD_SY",
+      "Hartshorne77.Ex_I_3_9.no_ringEquiv",
+      "Hartshorne77.Ex_I_3_9.isUFD_SX",
+      "Hartshorne77.Ex_I_3_9.pairwise_nonassociated",
+      "Hartshorne77.Ex_I_3_9.hartshorne_I_3_9"
+    ]
+  },
   "coverage": "proof"
 }

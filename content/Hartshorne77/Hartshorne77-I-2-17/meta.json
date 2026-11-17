@@ -4,13 +4,36 @@
   "section": "2",
   "number": "17",
   "title": "Complete intersections",
-  "status": "unsolved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [
     "Hartshorne77,I.1.9",
     "Hartshorne77,I.2.10",
     "Hartshorne77,I.2.9"
   ],
-  "lean": null,
-  "coverage": "partial"
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_2_17",
+    "declarations": [
+      "Hartshorne77.Ex_I_2_17.hartshorne_exercise_I_2_17_a",
+      "Hartshorne77.Ex_I_2_17.hartshorne_exercise_I_2_17_c",
+      "Hartshorne77.Ex_I_2_17.exists_two_hypersurfaces",
+      "Hartshorne77.Ex_I_2_17.tcIdeal_not_two_generated",
+      "Hartshorne77.Ex_I_2_17.mem_span_components_of_two_generated",
+      "Hartshorne77.Ex_I_2_17.tcIdeal_deg_one",
+      "Hartshorne77.Ex_I_2_17.linearIndependent_Q",
+      "Hartshorne77.Ex_I_2_17.eq_span_of_le_span_add",
+      "Hartshorne77.Ex_I_2_17.le_span_add_Splus_mul_finset",
+      "Hartshorne77.Ex_I_2_17.le_span_of_mem_span_cover",
+      "Hartshorne77.Ex_I_2_17.homogeneousComponent_mul_range",
+      "Hartshorne77.Ex_I_2_17.exists_isHomogeneous_of_mul",
+      "Hartshorne77.Ex_I_2_17.exists_irreducible_isHomogeneous_dvd_of_mem_prime",
+      "Hartshorne77.Ex_I_2_17.zeroLocus_range_eq_of_vanishingIdeal_eq",
+      "Hartshorne77.Ex_I_2_17.hartshorne_exercise_I_2_17_b",
+      "Hartshorne77.Ex_I_2_17.hartshorne_exercise_I_2_17_b_strict",
+      "Hartshorne77.Ex_I_2_17.hartshorne_exercise_I_2_17_a_b",
+      "Hartshorne77.Ex_I_2_17.setTheoretic_of_strict",
+      "Hartshorne77.Ex_I_2_17.isSetTheoreticCompleteIntersection_of_isStrictCompleteIntersection"
+    ]
+  },
+  "coverage": "proof"
 }

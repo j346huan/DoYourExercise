@@ -4,9 +4,32 @@
   "section": "2",
   "number": "11",
   "title": "Linear Varieties in ℙⁿ",
-  "status": "solved",
-  "updated": "2026-09-08",
+  "status": "formalized",
+  "updated": "2026-11-17",
   "dependencies": [],
-  "lean": null,
+  "lean": {
+    "module": "LeanExercises.Hartshorne77.Ex_I_2_11",
+    "declarations": [
+      "Hartshorne77.Ex_I_2_11.hartshorne_exercise_I_2_10",
+      "Hartshorne77.Ex_I_2_11.coneDim_eq_projDim_add_one",
+      "Hartshorne77.Ex_I_2_11.coneDim_eq_projDim_add_one_irreducible",
+      "Hartshorne77.Ex_I_2_11.projDim_add_one_le_coneDim",
+      "Hartshorne77.Ex_I_2_11.Proj.cone_eq_zeroLocus",
+      "Hartshorne77.Ex_I_2_11.Proj.isIrreducible_cone_iff_isPrime",
+      "Hartshorne77.Ex_I_2_11.Proj.isIrreducible_cone_iff'",
+      "Hartshorne77.Ex_I_2_11.Proj.vanishingIdeal_isPrime_iff",
+      "Hartshorne77.Ex_I_2_11.hartshorne_exercise_I_2_11",
+      "Hartshorne77.Ex_I_2_11.clause_a",
+      "Hartshorne77.Ex_I_2_11.clause_b",
+      "Hartshorne77.Ex_I_2_11.clause_c",
+      "Hartshorne77.Ex_I_2_11.linSpaceIdeal_isPrime_and_dim",
+      "Hartshorne77.Ex_I_2_11.projDim_linZeroLocus",
+      "Hartshorne77.Ex_I_2_11.vanishingIdeal_linZeroLocus",
+      "Hartshorne77.Ex_I_2_11.exists_linearIndependent_generators",
+      "Hartshorne77.Ex_I_2_11.exists_linearIndependent_linearForm_span",
+      "Hartshorne77.Ex_I_2_11.coeffSub_finrank",
+      "Hartshorne77.Ex_I_2_11.finrank_of_projDim"
+    ]
+  },
   "coverage": "proof"
 }
